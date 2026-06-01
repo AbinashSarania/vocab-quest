@@ -95,14 +95,14 @@
     "antonyms": ["separation"],
     "difficulty": "hard"
   },
-  {
-    "word": "barefit",
-    "meaning": "Without shoes",
-    "example": "He walked barefoot on grass.",
-    "synonyms": ["barefoot"],
-    "antonyms": ["shod"],
-    "difficulty": "easy"
-  },
+ {
+  "word": "bereft",
+  "meaning": "deprived of something or someone; left empty or lacking",
+  "example": "He was bereft of hope after the results.",
+  "synonyms": ["deprived", "stripped", "robbed", "lacking"],
+  "antonyms": ["possessed", "provided", "fulfilled"],
+  "difficulty": "medium"
+},
   {
     "word": "incontrovertible",
     "meaning": "Impossible to deny",
