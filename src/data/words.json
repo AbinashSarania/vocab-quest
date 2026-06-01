@@ -1,0 +1,346 @@
+[
+  {
+    "word": "SANGFROID",
+    "meaning": "Calmness under pressure",
+    "example": "He handled the crisis with complete sangfroid.",
+    "synonyms": ["composure", "poise"],
+    "antonyms": ["panic", "agitation"],
+    "difficulty": "hard"
+  },
+  {
+    "word": "moribund",
+    "meaning": "At the point of dying or ending",
+    "example": "The company was moribund after years of losses.",
+    "synonyms": ["dying", "ailing"],
+    "antonyms": ["thriving", "flourishing"],
+    "difficulty": "hard"
+  },
+  {
+    "word": "ambiguous",
+    "meaning": "Open to more than one interpretation",
+    "example": "His statement was ambiguous.",
+    "synonyms": ["unclear", "vague"],
+    "antonyms": ["clear", "definite"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "amorous",
+    "meaning": "Showing romantic desire",
+    "example": "He wrote amorous letters.",
+    "synonyms": ["romantic", "loving"],
+    "antonyms": ["cold", "unloving"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "profusion",
+    "meaning": "An abundance",
+    "example": "A profusion of flowers bloomed.",
+    "synonyms": ["abundance", "overflow"],
+    "antonyms": ["scarcity", "lack"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "feisty",
+    "meaning": "Lively and aggressive",
+    "example": "The feisty child argued back.",
+    "synonyms": ["spirited", "lively"],
+    "antonyms": ["calm", "docile"],
+    "difficulty": "easy"
+  },
+  {
+    "word": "infamy",
+    "meaning": "Being famous for bad reasons",
+    "example": "He achieved infamy for the crime.",
+    "synonyms": ["notoriety", "disgrace"],
+    "antonyms": ["honor", "respect"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "plunging",
+    "meaning": "Falling rapidly downward",
+    "example": "Stock prices were plunging.",
+    "synonyms": ["dropping", "falling"],
+    "antonyms": ["rising"],
+    "difficulty": "easy"
+  },
+  {
+    "word": "riveting",
+    "meaning": "Extremely engaging",
+    "example": "The movie was riveting.",
+    "synonyms": ["captivating", "absorbing"],
+    "antonyms": ["boring"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "bedlam",
+    "meaning": "Chaos and confusion",
+    "example": "The room was bedlam.",
+    "synonyms": ["chaos", "mayhem"],
+    "antonyms": ["order", "calm"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "babble",
+    "meaning": "To talk nonsense",
+    "example": "The baby began to babble.",
+    "synonyms": ["mutter", "chatter"],
+    "antonyms": ["silence"],
+    "difficulty": "easy"
+  },
+  {
+    "word": "coalescence",
+    "meaning": "Coming together",
+    "example": "The coalescence of ideas formed a plan.",
+    "synonyms": ["fusion", "merging"],
+    "antonyms": ["separation"],
+    "difficulty": "hard"
+  },
+  {
+    "word": "barefit",
+    "meaning": "Without shoes",
+    "example": "He walked barefoot on grass.",
+    "synonyms": ["barefoot"],
+    "antonyms": ["shod"],
+    "difficulty": "easy"
+  },
+  {
+    "word": "incontrovertible",
+    "meaning": "Impossible to deny",
+    "example": "The evidence was incontrovertible.",
+    "synonyms": ["undeniable", "irrefutable"],
+    "antonyms": ["doubtful"],
+    "difficulty": "hard"
+  },
+  {
+    "word": "desolate",
+    "meaning": "Empty and lonely",
+    "example": "The town looked desolate.",
+    "synonyms": ["abandoned", "empty"],
+    "antonyms": ["lively"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "supercilious",
+    "meaning": "Arrogant behavior",
+    "example": "He gave a supercilious glance.",
+    "synonyms": ["arrogant", "haughty"],
+    "antonyms": ["humble"],
+    "difficulty": "hard"
+  },
+  {
+    "word": "crestfallen",
+    "meaning": "Sad and disappointed",
+    "example": "She looked crestfallen.",
+    "synonyms": ["dejected", "downcast"],
+    "antonyms": ["happy"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "trepidation",
+    "meaning": "Fear or anxiety",
+    "example": "He entered with trepidation.",
+    "synonyms": ["fear", "anxiety"],
+    "antonyms": ["confidence"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "dipsomania",
+    "meaning": "Alcohol addiction",
+    "example": "He suffered from dipsomania.",
+    "synonyms": ["alcoholism"],
+    "antonyms": [],
+    "difficulty": "hard"
+  },
+  {
+    "word": "belied",
+    "meaning": "Gave a false impression",
+    "example": "Her smile belied sadness.",
+    "synonyms": ["contradicted"],
+    "antonyms": [],
+    "difficulty": "hard"
+  },
+  {
+    "word": "circumspot",
+    "meaning": "To look around carefully",
+    "example": "He circumspotted the area before entering.",
+    "synonyms": ["scan", "inspect"],
+    "antonyms": [],
+    "difficulty": "hard"
+  },
+  {
+    "word": "avenge",
+    "meaning": "To take revenge",
+    "example": "He vowed to avenge his loss.",
+    "synonyms": ["retaliate", "punish"],
+    "antonyms": ["forgive"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "quintessential",
+    "meaning": "Perfect example",
+    "example": "She is the quintessential leader.",
+    "synonyms": ["ideal", "typical"],
+    "antonyms": ["atypical"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "fiduciaries",
+    "meaning": "People responsible for managing trust",
+    "example": "The fiduciaries handled the estate.",
+    "synonyms": ["trustees"],
+    "antonyms": [],
+    "difficulty": "hard"
+  },
+  {
+    "word": "onerous",
+    "meaning": "Difficult and burdensome",
+    "example": "The task was onerous.",
+    "synonyms": ["burdensome", "hard"],
+    "antonyms": ["easy"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "galled",
+    "meaning": "Irritated or annoyed",
+    "example": "He was galled by the insult.",
+    "synonyms": ["irritated", "annoyed"],
+    "antonyms": ["pleased"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "snugly",
+    "meaning": "Comfortably tight",
+    "example": "The baby slept snugly.",
+    "synonyms": ["cozily"],
+    "antonyms": ["loosely"],
+    "difficulty": "easy"
+  },
+  {
+    "word": "defunct",
+    "meaning": "No longer existing",
+    "example": "The company is defunct.",
+    "synonyms": ["inactive", "dead"],
+    "antonyms": ["active"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "inextricably",
+    "meaning": "Impossible to separate",
+    "example": "Their lives are inextricably linked.",
+    "synonyms": ["inseparably"],
+    "antonyms": [],
+    "difficulty": "hard"
+  },
+  {
+    "word": "proximate",
+    "meaning": "Nearest in space or time",
+    "example": "The proximate cause of the issue was clear.",
+    "synonyms": ["near", "immediate"],
+    "antonyms": ["distant"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "threshold",
+    "meaning": "Point of beginning",
+    "example": "He stood at the threshold of success.",
+    "synonyms": ["entry", "start"],
+    "antonyms": ["end"],
+    "difficulty": "easy"
+  },
+  {
+    "word": "auspices",
+    "meaning": "Support or protection",
+    "example": "The event was under the auspices of the government.",
+    "synonyms": ["support", "guidance"],
+    "antonyms": [],
+    "difficulty": "hard"
+  },
+  {
+    "word": "attrition",
+    "meaning": "Gradual reduction",
+    "example": "Attrition reduced the workforce.",
+    "synonyms": ["reduction", "decrease"],
+    "antonyms": ["increase"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "bourgeois",
+    "meaning": "Middle-class society",
+    "example": "He criticized bourgeois values.",
+    "synonyms": ["middle-class"],
+    "antonyms": ["proletariat"],
+    "difficulty": "hard"
+  },
+  {
+    "word": "incorrigible",
+    "meaning": "Impossible to correct",
+    "example": "He is an incorrigible liar.",
+    "synonyms": ["uncontrollable"],
+    "antonyms": ["reformable"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "proletarian",
+    "meaning": "Working class",
+    "example": "Proletarian movements grew.",
+    "synonyms": ["worker class"],
+    "antonyms": ["bourgeois"],
+    "difficulty": "hard"
+  },
+  {
+    "word": "bravura",
+    "meaning": "Brilliant skill",
+    "example": "She performed with bravura.",
+    "synonyms": ["flair", "skill"],
+    "antonyms": ["mediocrity"],
+    "difficulty": "hard"
+  },
+  {
+    "word": "clandestine",
+    "meaning": "Secret",
+    "example": "They held a clandestine meeting.",
+    "synonyms": ["hidden", "covert"],
+    "antonyms": ["open"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "grotesque",
+    "meaning": "Ugly or distorted",
+    "example": "The statue looked grotesque.",
+    "synonyms": ["distorted", "ugly"],
+    "antonyms": ["beautiful"],
+    "difficulty": "medium"
+  },
+  {
+    "word": "for net",
+    "meaning": "Unclear / possible typo",
+    "example": "Not clearly defined word from input list.",
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": "easy"
+  },
+  {
+    "word": "lugubrious",
+    "meaning": "Looking sad and gloomy",
+    "example": "He had a lugubrious expression.",
+    "synonyms": ["gloomy", "mournful"],
+    "antonyms": ["happy"],
+    "difficulty": "hard"
+  },
+  {
+    "word": "rasping",
+    "meaning": "Harsh sound",
+    "example": "He spoke in a rasping voice.",
+    "synonyms": ["harsh", "grating"],
+    "antonyms": ["soft"],
+    "difficulty": "easy"
+  },
+  {
+    "word": "seduction",
+    "meaning": "Attraction or temptation",
+    "example": "The seduction of power is strong.",
+    "synonyms": ["temptation"],
+    "antonyms": ["repulsion"],
+    "difficulty": "medium"
+  }
+]
