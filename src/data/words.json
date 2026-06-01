@@ -1,6 +1,6 @@
 [
   {
-    "word": "SANGFROID",
+    "word": "sangfroid",
     "meaning": "Calmness under pressure",
     "example": "He handled the crisis with complete sangfroid.",
     "synonyms": ["composure", "poise"],
@@ -310,14 +310,6 @@
     "synonyms": ["distorted", "ugly"],
     "antonyms": ["beautiful"],
     "difficulty": "medium"
-  },
-  {
-    "word": "for net",
-    "meaning": "Unclear / possible typo",
-    "example": "Not clearly defined word from input list.",
-    "synonyms": [],
-    "antonyms": [],
-    "difficulty": "easy"
   },
   {
     "word": "lugubrious",

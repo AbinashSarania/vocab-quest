@@ -1,11 +1,11 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import wordsData from "../data/words.json";
 
 /* =========================
    HELPERS
 ========================= */
 
-function getRandomOptions(correct, pool) {
+function getOptions(correct, pool) {
   const wrong = pool
     .filter((w) => w.meaning !== correct.meaning)
     .sort(() => Math.random() - 0.5)
@@ -15,23 +15,8 @@ function getRandomOptions(correct, pool) {
   return [...wrong, correct.meaning].sort(() => Math.random() - 0.5);
 }
 
-function buildWeightedPool(words, stats) {
-  let pool = [];
-
-  words.forEach((w) => {
-    const record = stats[w.word] || { correct: 0, wrong: 0 };
-
-    let weight = 1;
-
-    if (record.wrong > record.correct) weight = 3;
-    if (record.correct > 3) weight = 1;
-
-    for (let i = 0; i < weight; i++) {
-      pool.push(w);
-    }
-  });
-
-  return pool;
+function shuffle(arr) {
+  return [...arr].sort(() => Math.random() - 0.5);
 }
 
 /* =========================
@@ -40,84 +25,112 @@ function buildWeightedPool(words, stats) {
 
 function BattleScreen({ limit = 10, onBackToMenu, onFinish }) {
   const [index, setIndex] = useState(0);
+
+  const [correctCount, setCorrectCount] = useState(0);
+  const [wrongCount, setWrongCount] = useState(0);
+
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const [xp, setXp] = useState(0);
 
-  const [showHint, setShowHint] = useState(false);
-  const [stats, setStats] = useState({});
+  const [selected, setSelected] = useState(null);
+  const [isCorrect, setIsCorrect] = useState(null);
 
-  // 🔥 VISUAL RESULT STATE
-  const [result, setResult] = useState(null);
+  const [showHint, setShowHint] = useState(false);
+
+  const wordQueueRef = useRef(shuffle(wordsData));
+
+  const [currentWord, setCurrentWord] = useState(
+    wordQueueRef.current[0]
+  );
 
   /* =========================
-     POOL (RANDOM + ADAPTIVE)
+     MINIMAL ANIMATION CONTROL
   ========================= */
 
-  const pool = useMemo(() => {
-    const weighted = buildWeightedPool(wordsData, stats);
-    return [...weighted].sort(() => Math.random() - 0.5);
-  }, [stats]);
+  const [animate, setAnimate] = useState(false);
 
-  const currentWord = pool[index % pool.length];
+  useEffect(() => {
+    setAnimate(false);
+
+    const t = requestAnimationFrame(() => {
+      setAnimate(true);
+    });
+
+    return () => cancelAnimationFrame(t);
+  }, [currentWord]);
 
   /* =========================
      OPTIONS
   ========================= */
 
   const options = useMemo(() => {
-    if (!currentWord) return [];
-    return getRandomOptions(currentWord, wordsData);
-  }, [currentWord, index]);
+    return getOptions(currentWord, wordsData);
+  }, [currentWord]);
 
   /* =========================
-     ANSWER HANDLER
+     ANSWER
   ========================= */
 
-  const handleAnswer = (option) => {
-    const isCorrect = option === currentWord.meaning;
+  const handleAnswer = (opt) => {
+    if (selected) return;
 
-    const prev = stats[currentWord.word] || {
-      correct: 0,
-      wrong: 0,
-    };
+    const correct = opt === currentWord.meaning;
 
-    setStats({
-      ...stats,
-      [currentWord.word]: {
-        correct: prev.correct + (isCorrect ? 1 : 0),
-        wrong: prev.wrong + (isCorrect ? 0 : 1),
-      },
-    });
+    setSelected(opt);
+    setIsCorrect(correct);
 
-    // 🔥 SHOW VISUAL RESULT INSTANTLY
-    setResult({
-      type: isCorrect ? "correct" : "wrong",
-      correctAnswer: currentWord.meaning,
-    });
-
-    if (isCorrect) {
+    if (correct) {
+      setCorrectCount((c) => c + 1);
       const newStreak = streak + 1;
       setStreak(newStreak);
-
       setScore((s) => s + 1);
       setXp((x) => x + 10 * newStreak);
     } else {
+      setWrongCount((w) => w + 1);
       setStreak(0);
     }
+  };
 
+  /* =========================
+     NEXT
+  ========================= */
+
+  const goNext = () => {
+    if (index + 1 >= limit) {
+      onFinish(score, xp);
+      return;
+    }
+
+    const nextIndex = index + 1;
+    setIndex(nextIndex);
+
+    setCurrentWord(
+      wordQueueRef.current[nextIndex % wordQueueRef.current.length]
+    );
+
+    setSelected(null);
+    setIsCorrect(null);
     setShowHint(false);
+  };
 
-    // ⏱ auto move next after short delay
-    setTimeout(() => {
-      setResult(null);
+  /* =========================
+     PREV
+  ========================= */
 
-      if (index < limit - 1) {
-        setIndex((i) => i + 1);
-      } else {
-        onFinish(score + (isCorrect ? 1 : 0), xp);
-      }
-    }, 700);
+  const goPrev = () => {
+    if (index === 0) return;
+
+    const prevIndex = index - 1;
+    setIndex(prevIndex);
+
+    setCurrentWord(
+      wordQueueRef.current[prevIndex % wordQueueRef.current.length]
+    );
+
+    setSelected(null);
+    setIsCorrect(null);
+    setShowHint(false);
   };
 
   /* =========================
@@ -127,15 +140,13 @@ function BattleScreen({ limit = 10, onBackToMenu, onFinish }) {
   return (
     <div className="min-h-screen bg-white text-black flex flex-col items-center justify-center px-6 text-center relative">
 
-      {/* TOP HUD */}
+      {/* TOP */}
       <div className="absolute top-6 text-xs tracking-widest text-gray-600 flex gap-6">
         <span>Q {index + 1}/{limit}</span>
-        <span>Score {score}</span>
-        <span>Streak {streak}</span>
-        <span>XP {xp}</span>
+        <span>Correct: {correctCount}</span>
+        <span>Wrong: {wrongCount}</span>
       </div>
 
-      {/* MENU BUTTON */}
       <button
         onClick={onBackToMenu}
         className="absolute top-6 left-6 text-xs border border-black px-3 py-1 hover:bg-black hover:text-white"
@@ -143,77 +154,90 @@ function BattleScreen({ limit = 10, onBackToMenu, onFinish }) {
         Menu
       </button>
 
-      {/* WORD */}
-      <h1 className="text-5xl font-bold tracking-[0.3em]">
+      {/* WORD (MINIMAL SMOOTH ANIMATION + RESPONSIVE FIX) */}
+      <h1
+        className={`
+          font-bold tracking-[0.25em] text-center px-4 break-words
+          transition-all duration-500 ease-out
+
+          text-3xl sm:text-4xl md:text-5xl lg:text-6xl
+
+          ${animate
+            ? "opacity-100 translate-y-0 scale-100"
+            : "opacity-0 translate-y-3 scale-[0.98]"
+          }
+        `}
+      >
         {currentWord?.word}
       </h1>
 
       <p className="mt-4 text-sm text-gray-600">
-        Select the correct meaning
+        Choose the correct meaning
       </p>
 
       {/* OPTIONS */}
       <div className="mt-10 w-full max-w-md space-y-3">
-        {options.map((opt, i) => (
-          <button
-            key={i}
-            onClick={() => handleAnswer(opt)}
-            className="w-full border border-black py-3 text-sm hover:bg-black hover:text-white transition"
-          >
-            {opt}
-          </button>
-        ))}
+        {options.map((opt, i) => {
+          let style =
+            "w-full border border-black py-3 text-sm transition duration-200";
+
+          if (selected) {
+            if (opt === currentWord.meaning) {
+              style += " bg-green-100 border-green-500";
+            } else if (opt === selected && !isCorrect) {
+              style += " bg-red-100 border-red-500";
+            }
+          }
+
+          return (
+            <button
+              key={i}
+              disabled={!!selected}
+              onClick={() => handleAnswer(opt)}
+              className={style}
+            >
+              {opt}
+            </button>
+          );
+        })}
       </div>
 
       {/* HINT */}
       <button
-        onClick={() => setShowHint(!showHint)}
-        className="mt-8 text-xs uppercase tracking-widest underline text-gray-600"
+        onClick={() => setShowHint((h) => !h)}
+        className="mt-8 text-xs underline tracking-widest text-gray-600"
       >
-        {showHint ? "Hide Notes" : "Show Notes"}
+        {showHint ? "Hide Hint" : "Show Hint"}
       </button>
 
       {showHint && (
-        <div className="mt-6 text-sm text-gray-700 space-y-2 max-w-md">
+        <div className="mt-6 text-sm text-gray-700 max-w-md space-y-2">
           <p className="italic">"{currentWord?.example}"</p>
           <p>
             <b>Synonyms:</b> {currentWord?.synonyms?.join(", ")}
           </p>
-          <p>
-            <b>Antonyms:</b> {currentWord?.antonyms?.join(", ")}
-          </p>
         </div>
       )}
 
-      {/* 🔥 VISUAL RESULT OVERLAY */}
-      {result && (
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-white">
+      {/* NAV */}
+      <div className="mt-8 flex gap-4">
 
-          {result.type === "correct" ? (
-            <>
-              <h1 className="text-6xl font-bold text-black tracking-widest">
-                CORRECT
-              </h1>
-              <p className="mt-4 text-gray-600 text-sm">
-                Good memory
-              </p>
-            </>
-          ) : (
-            <>
-              <h1 className="text-6xl font-bold text-black tracking-widest">
-                WRONG
-              </h1>
-              <p className="mt-4 text-gray-600 text-sm">
-                Correct Answer:
-              </p>
-              <p className="mt-2 text-lg font-bold">
-                {result.correctAnswer}
-              </p>
-            </>
-          )}
+        <button
+          onClick={goPrev}
+          disabled={index === 0}
+          className="border border-black px-5 py-2 text-sm tracking-widest uppercase hover:bg-black hover:text-white disabled:opacity-30"
+        >
+          Prev
+        </button>
 
-        </div>
-      )}
+        <button
+          onClick={goNext}
+          className="border border-black px-5 py-2 text-sm tracking-widest uppercase hover:bg-black hover:text-white"
+        >
+          Next
+        </button>
+
+      </div>
 
     </div>
   );
