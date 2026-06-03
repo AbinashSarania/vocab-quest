@@ -122,21 +122,44 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
 
           {/* DATE RANGE - Fixed Mobile Overflow */}
           {dateMode === "Date Range" && (
-            <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 mt-2 animate-[fadeIn_0.2s_ease]">
-              <input
-                type="date"
-                value={fromDate}
-                onChange={(e) => setFromDate(e.target.value)}
-                className="w-full border border-black/20 p-2.5 text-sm bg-transparent focus:outline-none focus:border-black/60 hover:border-black/40 transition-colors"
-                aria-label="From Date"
-              />
-              <input
-                type="date"
-                value={toDate}
-                onChange={(e) => setToDate(e.target.value)}
-                className="w-full border border-black/20 p-2.5 text-sm bg-transparent focus:outline-none focus:border-black/60 hover:border-black/40 transition-colors"
-                aria-label="To Date"
-              />
+            <div className="grid grid-cols-2 gap-2 mt-2 animate-[fadeIn_0.2s_ease]">
+              {/* FROM DATE */}
+              <div className="relative">
+                <button
+                  onClick={() =>
+                    document.getElementById("fromDatePicker")?.showPicker?.()
+                  }
+                  className="w-full border border-black/20 py-2.5 px-2 sm:px-3 text-xs sm:text-sm text-center sm:text-left bg-transparent hover:border-black/40 transition-colors focus:outline-none focus:border-black/60 truncate"
+                >
+                  {fromDate || "From Date"}
+                </button>
+                <input
+                  id="fromDatePicker"
+                  type="date"
+                  value={fromDate}
+                  onChange={(e) => setFromDate(e.target.value)}
+                  className="absolute top-0 left-0 w-full h-full opacity-0 pointer-events-none"
+                />
+              </div>
+
+              {/* TO DATE */}
+              <div className="relative">
+                <button
+                  onClick={() =>
+                    document.getElementById("toDatePicker")?.showPicker?.()
+                  }
+                  className="w-full border border-black/20 py-2.5 px-2 sm:px-3 text-xs sm:text-sm text-center sm:text-left bg-transparent hover:border-black/40 transition-colors focus:outline-none focus:border-black/60 truncate"
+                >
+                  {toDate || "To Date"}
+                </button>
+                <input
+                  id="toDatePicker"
+                  type="date"
+                  value={toDate}
+                  onChange={(e) => setToDate(e.target.value)}
+                  className="absolute top-0 left-0 w-full h-full opacity-0 pointer-events-none"
+                />
+              </div>
             </div>
           )}
         </div>
