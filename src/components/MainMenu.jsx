@@ -105,9 +105,10 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
               type="date"
               value={singleDate}
               onChange={(e) => setSingleDate(e.target.value)}
-              className="w-full min-w-0 max-w-full border border-black/20 bg-transparent py-2.5 px-3 text-sm focus:outline-none focus:border-black/60 box-border mt-2"
+              className="w-full bg-transparent text-xs text-black/50 focus:outline-none mt-2"
             />
           )}
+
           {/* DATE RANGE */}
           {dateMode === "Date Range" && (
             <div className="flex flex-col sm:grid sm:grid-cols-2 gap-2 mt-2 animate-[fadeIn_0.2s_ease]">
@@ -115,14 +116,14 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
                 type="date"
                 value={fromDate}
                 onChange={(e) => setFromDate(e.target.value)}
-                className="w-full min-w-0 max-w-full border border-black/20 bg-transparent py-2.5 px-3 text-sm focus:outline-none focus:border-black/60 box-border"
+                className="w-full bg-transparent text-xs text-black/50 focus:outline-none"
               />
 
               <input
                 type="date"
                 value={toDate}
                 onChange={(e) => setToDate(e.target.value)}
-                className="w-full min-w-0 max-w-full border border-black/20 bg-transparent py-2.5 px-3 text-sm focus:outline-none focus:border-black/60 box-border"
+                className="w-full bg-transparent text-xs text-black/50 focus:outline-none"
               />
             </div>
           )}
