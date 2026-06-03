@@ -99,21 +99,26 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
           </div>
 
           {dateMode === "Single Date" && (
-            <input
-              type="date"
-              value={singleDate}
-              onChange={(e) => setSingleDate(e.target.value)}
-              className="
-      w-full
-      min-w-0
-      border border-black/20
-      bg-transparent
-      p-3
-      text-sm
-      overflow-hidden
-      box-border
-    "
-            />
+            <div className="w-full">
+              <input
+                type="date"
+                value={singleDate}
+                onChange={(e) => setSingleDate(e.target.value)}
+                className="
+        block
+        w-full
+        max-w-full
+        min-w-0
+        border
+        border-black/20
+        bg-transparent
+        p-2
+        text-xs
+        box-border
+      "
+                style={{ width: "100%" }}
+              />
+            </div>
           )}
 
           {dateMode === "Date Range" && (
