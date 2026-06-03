@@ -11,31 +11,19 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
   const [fromDate, setFromDate] = useState("");
   const [toDate, setToDate] = useState("");
 
-  /* =========================
-     FILTER LOGIC
-  ========================= */
-
   const filteredWords = useMemo(() => {
     let result = [...words];
 
-    // ALL DATES
-    if (dateMode === "All Dates") {
-      return result;
-    }
-
-    // SINGLE DATE
     if (dateMode === "Single Date" && singleDate) {
       result = result.filter((w) => w.date === singleDate);
     }
 
-    // RANGE DATE
     if (dateMode === "Date Range" && fromDate && toDate) {
       const from = new Date(fromDate);
       const to = new Date(toDate);
 
       result = result.filter((w) => {
         if (!w.date) return false;
-
         const d = new Date(w.date);
         return d >= from && d <= to;
       });
@@ -47,94 +35,102 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
   const availableWords = filteredWords.length;
   const sessionLimit = Math.min(limit, availableWords || 0);
 
-  /* =========================
-     START GAME
-  ========================= */
-
   const handleStart = () => {
     if (!availableWords) return;
 
-    const shuffled = [...filteredWords].sort(() => Math.random() - 0.5);
-
-    const sessionWords = shuffled.slice(0, sessionLimit);
+    const sessionWords = [...filteredWords]
+      .sort(() => Math.random() - 0.5)
+      .slice(0, sessionLimit);
 
     onStartGame(sessionWords);
   };
 
   return (
-    <div className="min-h-screen bg-white text-black px-4 py-8 flex flex-col">
-      <div className="w-full max-w-md mx-auto flex-1 flex flex-col justify-center">
+    <div className="min-h-screen bg-[#f6f3ed] flex items-center justify-center px-4 text-black">
+      {/* MAIN CARD */}
+      <div className="w-full max-w-md space-y-6 animate-[fadeIn_0.5s_ease]">
         {/* TITLE */}
-        <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-[0.3em]">VOCAB QUEST</h1>
-
-          <div className="w-20 h-[2px] bg-black mx-auto mt-4 mb-4"></div>
-
-          <p className="text-xs tracking-widest text-gray-500 uppercase">
-            Training System
+        <div className="text-center space-y-2">
+          <h1 className="text-3xl tracking-[0.35em] font-semibold">
+            VOCAB QUEST
+          </h1>
+          <div className="w-16 h-[1px] bg-black/40 mx-auto"></div>
+          <p className="text-[10px] tracking-[0.3em] text-black/50 uppercase">
+            training system
           </p>
         </div>
 
-        {/* WORD COUNT */}
-        <div className="mt-6 border border-black p-5 text-center">
-          <p className="text-xs uppercase text-gray-500">Available Words</p>
-          <h2 className="text-3xl font-bold mt-2">{availableWords}</h2>
+        {/* STATS */}
+        <div className="border border-black/10 bg-white/40 backdrop-blur-sm p-4 text-center">
+          <p className="text-[10px] tracking-widest text-black/50 uppercase">
+            available words
+          </p>
+          <h2 className="text-3xl font-light mt-1">{availableWords}</h2>
         </div>
 
         {/* DATE MODE */}
-        <div className="mt-5 border border-black p-5">
-          <p className="text-xs uppercase text-gray-500 mb-3">Date Mode</p>
+        <div className="border border-black/10 bg-white/30 p-4 space-y-3">
+          <p className="text-[10px] tracking-widest text-black/50 uppercase">
+            time filter
+          </p>
 
           <div className="grid grid-cols-3 gap-2">
-            {["All Dates", "Single Date", "Date Range"].map((mode) => (
+            {["All", "Single", "Range"].map((m) => (
               <button
-                key={mode}
-                onClick={() => setDateMode(mode)}
-                className={`text-xs py-2 border ${
-                  dateMode === mode
+                key={m}
+                onClick={() =>
+                  setDateMode(
+                    m === "All"
+                      ? "All Dates"
+                      : m === "Single"
+                        ? "Single Date"
+                        : "Date Range",
+                  )
+                }
+                className={`text-[10px] py-2 border transition ${
+                  dateMode.includes(m)
                     ? "bg-black text-white"
                     : "hover:bg-black hover:text-white"
                 }`}
               >
-                {mode}
+                {m}
               </button>
             ))}
           </div>
 
-          {/* SINGLE DATE */}
           {dateMode === "Single Date" && (
             <input
               type="date"
               value={singleDate}
               onChange={(e) => setSingleDate(e.target.value)}
-              className="mt-3 w-full border border-black p-2 text-sm"
+              className="w-full border border-black/20 p-2 text-sm bg-transparent"
             />
           )}
 
-          {/* RANGE */}
           {dateMode === "Date Range" && (
-            <div className="mt-3 grid grid-cols-2 gap-2">
+            <div className="grid grid-cols-2 gap-2">
               <input
                 type="date"
                 value={fromDate}
                 onChange={(e) => setFromDate(e.target.value)}
-                className="border border-black p-2 text-sm"
+                className="border border-black/20 p-2 text-sm bg-transparent"
               />
               <input
                 type="date"
                 value={toDate}
                 onChange={(e) => setToDate(e.target.value)}
-                className="border border-black p-2 text-sm"
+                className="border border-black/20 p-2 text-sm bg-transparent"
               />
             </div>
           )}
         </div>
 
-        {/* SESSION SIZE */}
-        <div className="mt-5 border border-black p-5">
-          <p className="text-xs uppercase text-gray-500">
-            Session Size: {sessionLimit}
-          </p>
+        {/* SESSION CONTROL */}
+        <div className="border border-black/10 bg-white/30 p-4 space-y-3">
+          <div className="flex justify-between text-[10px] uppercase tracking-widest text-black/50">
+            <span>session size</span>
+            <span>{sessionLimit}</span>
+          </div>
 
           <input
             type="range"
@@ -142,37 +138,37 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
             max={Math.max(availableWords, 1)}
             value={sessionLimit}
             onChange={(e) => setLimit(Number(e.target.value))}
-            className="w-full mt-3 accent-black"
+            className="w-full accent-black"
           />
         </div>
 
-        {/* BUTTONS */}
-        <div className="mt-6 space-y-3">
+        {/* ACTIONS */}
+        <div className="space-y-3 pt-2">
           <button
             onClick={handleStart}
             disabled={!availableWords}
-            className="w-full bg-black text-white py-4 text-sm uppercase tracking-widest disabled:opacity-40"
+            className="w-full bg-black text-white py-3 text-xs tracking-[0.25em] uppercase hover:scale-[1.01] active:scale-95 transition"
           >
-            Start Training
+            start training
           </button>
 
           <button
             onClick={onOpenLibrary}
-            className="w-full border border-black py-3 text-sm uppercase hover:bg-black hover:text-white"
+            className="w-full border border-black/20 py-3 text-xs tracking-widest uppercase hover:bg-black hover:text-white transition"
           >
-            Word Library
+            word library
           </button>
 
           <button
             onClick={() => setShowAbout(true)}
-            className="w-full border border-black py-3 text-sm uppercase hover:bg-black hover:text-white"
+            className="w-full text-xs tracking-widest uppercase text-black/60 hover:text-black transition"
           >
-            About
+            about
           </button>
         </div>
       </div>
 
-      {/* ABOUT */}
+      {/* ABOUT MODAL */}
       {showAbout && (
         <div className="absolute inset-0 bg-black/20 backdrop-blur-sm flex items-center justify-center px-4">
           <div className="w-full max-w-md bg-white border border-black p-5 sm:p-6 text-center shadow-xl">

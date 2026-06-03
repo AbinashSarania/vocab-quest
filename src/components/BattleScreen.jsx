@@ -160,7 +160,7 @@ function BattleScreen({ words = [], onBackToMenu, onFinish }) {
   ========================= */
 
   return (
-    <div className="min-h-screen bg-white text-black flex flex-col items-center justify-center px-6 text-center relative">
+    <div className="min-h-screen bg-[#f6f3ed] text-black flex flex-col items-center justify-center px-6 text-center relative">
       {/* TOP */}
       <div className="absolute top-6 text-xs tracking-widest text-gray-600 flex gap-6">
         <span>

@@ -75,7 +75,7 @@ function WordLibrary({ onBack }) {
   ========================= */
 
   return (
-    <div className="min-h-screen bg-white text-black px-4 sm:px-6 py-8 sm:py-10 relative">
+    <div className="min-h-screen bg-[#f6f3ed] text-black px-4 sm:px-6 py-8 sm:py-10 relative">
       {/* HEADER */}
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl sm:text-3xl font-bold tracking-[0.25em]">

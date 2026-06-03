@@ -14,7 +14,7 @@ function SplashScreen({ onStart }) {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white text-black flex items-center justify-center px-4 sm:px-6">
+    <div className="min-h-screen bg-[#f6f3ed] text-black flex items-center justify-center px-4 sm:px-6">
 
       {/* WRAPPER */}
       <div
