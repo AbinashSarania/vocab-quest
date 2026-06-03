@@ -100,67 +100,48 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
 
           {/* SINGLE DATE */}
           {dateMode === "Single Date" && (
-            <div className="relative mt-2 animate-[fadeIn_0.2s_ease]">
-              <button
-                onClick={() =>
-                  document.getElementById("singleDatePicker")?.showPicker?.()
-                }
-                className="w-full border border-black/20 py-2.5 px-3 text-sm text-left bg-transparent hover:border-black/40 transition-colors focus:outline-none focus:border-black/60 truncate"
-              >
+            <div className="relative overflow-hidden w-full border border-black/20 hover:border-black/40 transition-colors focus-within:border-black/60 mt-2 animate-[fadeIn_0.2s_ease]">
+              <div className="py-2.5 px-3 text-sm text-left truncate bg-transparent pointer-events-none">
                 {singleDate || "Select Date..."}
-              </button>
-
+              </div>
               <input
-                id="singleDatePicker"
                 type="date"
                 value={singleDate}
                 onChange={(e) => setSingleDate(e.target.value)}
-                // Fixed: Zero width/height prevents mobile minimum-width constraints
-                className="absolute opacity-0 pointer-events-none w-0 h-0"
+                onClick={(e) => e.target.showPicker?.()} // Forces calendar open on PC
+                className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
               />
             </div>
           )}
 
-          {/* DATE RANGE - Fixed Mobile Overflow */}
+          {/* DATE RANGE */}
           {dateMode === "Date Range" && (
             <div className="grid grid-cols-2 gap-2 mt-2 animate-[fadeIn_0.2s_ease]">
               {/* FROM DATE */}
-              <div className="relative">
-                <button
-                  onClick={() =>
-                    document.getElementById("fromDatePicker")?.showPicker?.()
-                  }
-                  className="w-full border border-black/20 py-2.5 px-2 sm:px-3 text-xs sm:text-sm text-center sm:text-left bg-transparent hover:border-black/40 transition-colors focus:outline-none focus:border-black/60 truncate"
-                >
+              <div className="relative overflow-hidden w-full border border-black/20 hover:border-black/40 transition-colors focus-within:border-black/60">
+                <div className="py-2.5 px-2 sm:px-3 text-xs sm:text-sm text-center sm:text-left truncate bg-transparent pointer-events-none">
                   {fromDate || "From Date"}
-                </button>
+                </div>
                 <input
-                  id="fromDatePicker"
                   type="date"
                   value={fromDate}
                   onChange={(e) => setFromDate(e.target.value)}
-                  // Fixed: Zero width/height prevents mobile minimum-width constraints
-                  className="absolute opacity-0 pointer-events-none w-0 h-0"
+                  onClick={(e) => e.target.showPicker?.()} // Forces calendar open on PC
+                  className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
                 />
               </div>
 
               {/* TO DATE */}
-              <div className="relative">
-                <button
-                  onClick={() =>
-                    document.getElementById("toDatePicker")?.showPicker?.()
-                  }
-                  className="w-full border border-black/20 py-2.5 px-2 sm:px-3 text-xs sm:text-sm text-center sm:text-left bg-transparent hover:border-black/40 transition-colors focus:outline-none focus:border-black/60 truncate"
-                >
+              <div className="relative overflow-hidden w-full border border-black/20 hover:border-black/40 transition-colors focus-within:border-black/60">
+                <div className="py-2.5 px-2 sm:px-3 text-xs sm:text-sm text-center sm:text-left truncate bg-transparent pointer-events-none">
                   {toDate || "To Date"}
-                </button>
+                </div>
                 <input
-                  id="toDatePicker"
                   type="date"
                   value={toDate}
                   onChange={(e) => setToDate(e.target.value)}
-                  // Fixed: Zero width/height prevents mobile minimum-width constraints
-                  className="absolute opacity-0 pointer-events-none w-0 h-0"
+                  onClick={(e) => e.target.showPicker?.()} // Forces calendar open on PC
+                  className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
                 />
               </div>
             </div>
