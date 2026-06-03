@@ -99,29 +99,30 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
             ))}
           </div>
 
+          {/* SINGLE DATE */}
           {dateMode === "Single Date" && (
             <input
               type="date"
               value={singleDate}
               onChange={(e) => setSingleDate(e.target.value)}
-              className="w-full min-w-0 box-border border border-black/20 bg-transparent py-2.5 px-3 text-sm focus:outline-none focus:border-black/60"
+              className="w-full min-w-0 max-w-full border border-black/20 bg-transparent py-2.5 px-3 text-sm focus:outline-none focus:border-black/60 box-border mt-2"
             />
           )}
-
+          {/* DATE RANGE */}
           {dateMode === "Date Range" && (
-            <div className="grid grid-cols-2 gap-2">
+            <div className="flex flex-col sm:grid sm:grid-cols-2 gap-2 mt-2 animate-[fadeIn_0.2s_ease]">
               <input
                 type="date"
                 value={fromDate}
                 onChange={(e) => setFromDate(e.target.value)}
-                className="w-full min-w-0 box-border border border-black/20 bg-transparent py-2.5 px-2 sm:px-3 text-xs sm:text-sm focus:outline-none focus:border-black/60"
+                className="w-full min-w-0 max-w-full border border-black/20 bg-transparent py-2.5 px-3 text-sm focus:outline-none focus:border-black/60 box-border"
               />
 
               <input
                 type="date"
                 value={toDate}
                 onChange={(e) => setToDate(e.target.value)}
-                className="w-full min-w-0 box-border border border-black/20 bg-transparent py-2.5 px-2 sm:px-3 text-xs sm:text-sm focus:outline-none focus:border-black/60"
+                className="w-full min-w-0 max-w-full border border-black/20 bg-transparent py-2.5 px-3 text-sm focus:outline-none focus:border-black/60 box-border"
               />
             </div>
           )}
