@@ -102,7 +102,16 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
           {dateMode === "Single Date" && (
             <div className="relative overflow-hidden mt-2 animate-[fadeIn_0.2s_ease]">
               <button
-                onClick={() => document.getElementById("singleDatePicker")?.showPicker?.()}
+                type="button"
+                onClick={() => {
+                  const input = document.getElementById("singleDatePicker");
+                  if (input?.showPicker) {
+                    input.showPicker();
+                  } else {
+                    input?.focus();
+                    input?.click();
+                  }
+                }}
                 className="w-full border border-black/20 py-2.5 px-3 text-sm text-left bg-transparent hover:border-black/40 transition-colors focus:outline-none focus:border-black/60 truncate"
               >
                 {singleDate || "Select Date..."}
@@ -113,7 +122,7 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
                 type="date"
                 value={singleDate}
                 onChange={(e) => setSingleDate(e.target.value)}
-                className="absolute top-0 left-0 opacity-0 pointer-events-none"
+                className="absolute top-0 left-0 w-px h-px opacity-0"
               />
             </div>
           )}
@@ -124,34 +133,54 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
               {/* FROM DATE */}
               <div className="relative overflow-hidden">
                 <button
-                  onClick={() => document.getElementById("fromDatePicker")?.showPicker?.()}
+                  type="button"
+                  onClick={() => {
+                    const input = document.getElementById("fromDatePicker");
+                    if (input?.showPicker) {
+                      input.showPicker();
+                    } else {
+                      input?.focus();
+                      input?.click();
+                    }
+                  }}
                   className="w-full border border-black/20 py-2.5 px-2 sm:px-3 text-xs sm:text-sm text-center sm:text-left bg-transparent hover:border-black/40 transition-colors focus:outline-none focus:border-black/60 truncate"
                 >
                   {fromDate || "From Date"}
                 </button>
+
                 <input
                   id="fromDatePicker"
                   type="date"
                   value={fromDate}
                   onChange={(e) => setFromDate(e.target.value)}
-                  className="absolute top-0 left-0 opacity-0 pointer-events-none"
+                  className="absolute top-0 left-0 w-px h-px opacity-0"
                 />
               </div>
 
               {/* TO DATE */}
               <div className="relative overflow-hidden">
                 <button
-                  onClick={() => document.getElementById("toDatePicker")?.showPicker?.()}
+                  type="button"
+                  onClick={() => {
+                    const input = document.getElementById("toDatePicker");
+                    if (input?.showPicker) {
+                      input.showPicker();
+                    } else {
+                      input?.focus();
+                      input?.click();
+                    }
+                  }}
                   className="w-full border border-black/20 py-2.5 px-2 sm:px-3 text-xs sm:text-sm text-center sm:text-left bg-transparent hover:border-black/40 transition-colors focus:outline-none focus:border-black/60 truncate"
                 >
                   {toDate || "To Date"}
                 </button>
+
                 <input
                   id="toDatePicker"
                   type="date"
                   value={toDate}
                   onChange={(e) => setToDate(e.target.value)}
-                  className="absolute top-0 left-0 opacity-0 pointer-events-none"
+                  className="absolute top-0 left-0 w-px h-px opacity-0"
                 />
               </div>
             </div>
