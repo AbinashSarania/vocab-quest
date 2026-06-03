@@ -105,7 +105,7 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
                 onClick={() =>
                   document.getElementById("singleDatePicker")?.showPicker?.()
                 }
-                className="w-full border border-black/20 py-2.5 px-3 text-sm text-left bg-transparent hover:border-black/40 transition-colors focus:outline-none focus:border-black/60"
+                className="w-full border border-black/20 py-2.5 px-3 text-sm text-left bg-transparent hover:border-black/40 transition-colors focus:outline-none focus:border-black/60 truncate"
               >
                 {singleDate || "Select Date..."}
               </button>
@@ -115,7 +115,8 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
                 type="date"
                 value={singleDate}
                 onChange={(e) => setSingleDate(e.target.value)}
-                className="absolute top-0 left-0 w-full h-full opacity-0 pointer-events-none"
+                // Fixed: Zero width/height prevents mobile minimum-width constraints
+                className="absolute opacity-0 pointer-events-none w-0 h-0"
               />
             </div>
           )}
@@ -138,7 +139,8 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
                   type="date"
                   value={fromDate}
                   onChange={(e) => setFromDate(e.target.value)}
-                  className="absolute top-0 left-0 w-full h-full opacity-0 pointer-events-none"
+                  // Fixed: Zero width/height prevents mobile minimum-width constraints
+                  className="absolute opacity-0 pointer-events-none w-0 h-0"
                 />
               </div>
 
@@ -157,7 +159,8 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
                   type="date"
                   value={toDate}
                   onChange={(e) => setToDate(e.target.value)}
-                  className="absolute top-0 left-0 w-full h-full opacity-0 pointer-events-none"
+                  // Fixed: Zero width/height prevents mobile minimum-width constraints
+                  className="absolute opacity-0 pointer-events-none w-0 h-0"
                 />
               </div>
             </div>
