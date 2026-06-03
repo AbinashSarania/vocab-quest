@@ -46,106 +46,135 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
   };
 
   return (
-    <div className="min-h-screen bg-[#f6f3ed] flex items-center justify-center px-4 text-black">
-      {/* MAIN CARD */}
-      <div className="w-full max-w-md space-y-6 animate-[fadeIn_0.5s_ease]">
-        {/* TITLE */}
-        <div className="text-center space-y-2">
-          <h1 className="text-3xl tracking-[0.35em] font-semibold">
+    <div className="min-h-screen bg-[#f6f3ed] text-black px-5 py-10 flex items-center justify-center">
+      <div className="w-full max-w-md">
+        {/* HEADER */}
+        <div className="text-center mb-8">
+          <h1
+            className="
+    text-4xl
+    tracking-[0.35em]
+    font-semibold
+    animate-pulse
+  "
+          >
             VOCAB QUEST
           </h1>
-          <div className="w-16 h-[1px] bg-black/40 mx-auto"></div>
-          <p className="text-[10px] tracking-[0.3em] text-black/50 uppercase">
-            training system
+
+          <div className="w-20 h-[1px] bg-black mx-auto mt-4 mb-3"></div>
+
+          <p className="text-[10px] uppercase tracking-[0.3em] text-black/50">
+            Vocabulary Training System
           </p>
         </div>
 
-        {/* STATS */}
-        <div className="border border-black/10 bg-white/40 backdrop-blur-sm p-4 text-center">
-          <p className="text-[10px] tracking-widest text-black/50 uppercase">
-            available words
+        {/* WORD COUNT */}
+        <div className="border border-black p-5 text-center">
+          <p className="text-[10px] uppercase tracking-[0.25em] text-black/50">
+            Available Words
           </p>
-          <h2 className="text-3xl font-light mt-1">{availableWords}</h2>
+
+          <h2 className="text-4xl font-light mt-2">{availableWords}</h2>
         </div>
 
-        {/* DATE MODE */}
-        <div className="border border-black/10 bg-white/30 p-4 space-y-3">
-          <p className="text-[10px] tracking-widest text-black/50 uppercase">
-            time filter
+        {/* FILTERS */}
+        <div className="border border-black mt-4 p-5">
+          <p className="text-[10px] uppercase tracking-[0.25em] text-black/50 mb-4">
+            Word Selection
           </p>
 
-          <div className="grid grid-cols-3 gap-2">
-            {["All", "Single", "Range"].map((m) => (
-              <button
-                key={m}
-                onClick={() =>
-                  setDateMode(
-                    m === "All"
-                      ? "All Dates"
-                      : m === "Single"
-                        ? "Single Date"
-                        : "Date Range",
-                  )
-                }
-                className={`text-[10px] py-2 border transition ${
-                  dateMode.includes(m)
-                    ? "bg-black text-white"
-                    : "hover:bg-black hover:text-white"
-                }`}
-              >
-                {m}
-              </button>
-            ))}
-          </div>
+          <div className="space-y-2">
+            <button
+              onClick={() => setDateMode("All Dates")}
+              className={`w-full border py-3 text-xs uppercase tracking-widest transition ${
+                dateMode === "All Dates"
+                  ? "bg-black text-white border-black"
+                  : "border-black hover:bg-black hover:text-white"
+              }`}
+            >
+              All Words
+            </button>
 
-          {dateMode === "Single Date" && (
-            <div className="mt-2">
-              <button
-                onClick={() =>
-                  document.getElementById("singleDatePicker")?.showPicker?.()
-                }
-                className="
-        w-full border border-black/20
-        py-2 px-3 text-sm text-left
-        bg-transparent
-      "
-              >
-                {singleDate || "Select Date"}
-              </button>
+            <button
+              onClick={() => setDateMode("Single Date")}
+              className={`w-full border py-3 text-xs uppercase tracking-widest transition ${
+                dateMode === "Single Date"
+                  ? "bg-black text-white border-black"
+                  : "border-black hover:bg-black hover:text-white"
+              }`}
+            >
+              Single Day
+            </button>
 
+            {dateMode === "Single Date" && (
               <input
-                id="singleDatePicker"
                 type="date"
                 value={singleDate}
                 onChange={(e) => setSingleDate(e.target.value)}
-                className="absolute opacity-0 pointer-events-none"
+                className="
+                  w-full mt-2
+                  border border-black
+                  px-3 py-3
+                  text-sm
+                  bg-transparent
+                  box-border
+                "
               />
-            </div>
-          )}
+            )}
 
-          {dateMode === "Date Range" && (
-            <div className="grid grid-cols-2 gap-2">
-              <input
-                type="date"
-                value={fromDate}
-                onChange={(e) => setFromDate(e.target.value)}
-                className="border border-black/20 p-2 text-sm bg-transparent"
-              />
-              <input
-                type="date"
-                value={toDate}
-                onChange={(e) => setToDate(e.target.value)}
-                className="border border-black/20 p-2 text-sm bg-transparent"
-              />
-            </div>
-          )}
+            <button
+              onClick={() => setDateMode("Date Range")}
+              className={`w-full border py-3 text-xs uppercase tracking-widest transition ${
+                dateMode === "Date Range"
+                  ? "bg-black text-white border-black"
+                  : "border-black hover:bg-black hover:text-white"
+              }`}
+            >
+              Date Range
+            </button>
+
+            {dateMode === "Date Range" && (
+              <div className="grid grid-cols-2 gap-2 mt-2">
+                <input
+                  type="date"
+                  value={fromDate}
+                  onChange={(e) => setFromDate(e.target.value)}
+                  className="
+                    w-full
+                    border border-black
+                    px-2 py-3
+                    text-sm
+                    bg-transparent
+                    box-border
+                  "
+                />
+
+                <input
+                  type="date"
+                  value={toDate}
+                  onChange={(e) => setToDate(e.target.value)}
+                  className="
+                    w-full
+                    border border-black
+                    px-2 py-3
+                    text-sm
+                    bg-transparent
+                    box-border
+                  "
+                />
+              </div>
+            )}
+          </div>
         </div>
 
-        {/* SESSION CONTROL */}
-        <div className="border border-black/10 bg-white/30 p-4 space-y-3">
-          <div className="flex justify-between text-[10px] uppercase tracking-widest text-black/50">
-            <span>session size</span>
-            <span>{sessionLimit}</span>
+        {/* SESSION SIZE */}
+        <div className="border border-black mt-4 p-5">
+          <div className="flex justify-between mb-3">
+            <span className="text-[10px] uppercase tracking-[0.25em] text-black/50">
+              Session Size
+            </span>
+
+            <span className="text-sm">{sessionLimit}</span>
           </div>
 
           <input
@@ -158,61 +187,89 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
           />
         </div>
 
-        {/* ACTIONS */}
-        <div className="space-y-3 pt-2">
+        {/* BUTTONS */}
+        <div className="mt-5 space-y-3">
           <button
             onClick={handleStart}
             disabled={!availableWords}
-            className="w-full bg-black text-white py-3 text-xs tracking-[0.25em] uppercase hover:scale-[1.01] active:scale-95 transition"
+            className="
+              w-full
+              bg-black
+              text-white
+              py-4
+              text-xs
+              uppercase
+              tracking-[0.3em]
+              transition
+              hover:opacity-90
+              disabled:opacity-40
+            "
           >
-            start training
+            Start Training
           </button>
 
           <button
             onClick={onOpenLibrary}
-            className="w-full border border-black/20 py-3 text-xs tracking-widest uppercase hover:bg-black hover:text-white transition"
+            className="
+              w-full
+              border border-black
+              py-3
+              text-xs
+              uppercase
+              tracking-widest
+              hover:bg-black
+              hover:text-white
+              transition
+            "
           >
-            word library
+            Word Library
           </button>
 
           <button
             onClick={() => setShowAbout(true)}
-            className="w-full text-xs tracking-widest uppercase text-black/60 hover:text-black transition"
+            className="
+              w-full
+              border border-black
+              py-3
+              text-xs
+              uppercase
+              tracking-widest
+              hover:bg-black
+              hover:text-white
+              transition
+            "
           >
-            about
+            About
           </button>
         </div>
       </div>
 
       {/* ABOUT MODAL */}
       {showAbout && (
-        <div className="absolute inset-0 bg-black/20 backdrop-blur-sm flex items-center justify-center px-4">
-          <div className="w-full max-w-md bg-white border border-black p-5 sm:p-6 text-center shadow-xl">
-            <h2 className="text-xl sm:text-2xl font-bold tracking-widest">
-              ABOUT
-            </h2>
+        <div className="fixed inset-0 bg-black/20 backdrop-blur-sm flex items-center justify-center px-4">
+          <div className="w-full max-w-md bg-[#f6f3ed] border border-black p-6 text-center">
+            <h2 className="text-2xl tracking-[0.25em] font-semibold">ABOUT</h2>
 
-            <div className="w-16 sm:w-20 h-[2px] bg-black my-4 mx-auto"></div>
+            <div className="w-20 h-[1px] bg-black mx-auto my-4"></div>
 
-            <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
+            <p className="text-sm text-black/70 leading-relaxed">
               I built this because reading vocabulary from PDFs felt boring and
               didn’t stick. So I turned it into an active recall system where
               you actually test yourself instead of just reading.
             </p>
 
-            <p className="mt-4 text-[11px] sm:text-xs text-gray-500">
-              Built for memory, retention, and real exam prep.
+            <p className="mt-4 text-xs tracking-widest text-black/50 uppercase">
+              Built for memory, retention and exam preparation
             </p>
 
-            {/* EMAIL */}
-            <div className="mt-5 border-t border-black pt-4">
-              <p className="text-[10px] sm:text-xs tracking-widest text-gray-600">
-                SUGGESTIONS
+            <div className="border-t border-black mt-5 pt-5">
+              <p className="text-[10px] tracking-[0.25em] uppercase text-black/50">
+                Suggestions
               </p>
 
               <a
                 href="mailto:abinashsarania@gmail.com"
-                className="text-sm font-bold underline mt-1 inline-block"
+                className="inline-block mt-2 underline"
               >
                 abinashsarania@gmail.com
               </a>
@@ -221,11 +278,17 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
             <button
               onClick={() => setShowAbout(false)}
               className="
-          mt-6 w-full border border-black
-          py-2 text-xs tracking-widest uppercase
-          active:scale-95 transition
-          hover:bg-black hover:text-white
-        "
+                w-full
+                border border-black
+                py-3
+                mt-6
+                text-xs
+                uppercase
+                tracking-widest
+                hover:bg-black
+                hover:text-white
+                transition
+              "
             >
               Close
             </button>
