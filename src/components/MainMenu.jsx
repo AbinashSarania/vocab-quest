@@ -99,24 +99,26 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
           </div>
 
           {dateMode === "Single Date" && (
-            <div className="w-full">
+            <div className="mt-2">
+              <button
+                onClick={() =>
+                  document.getElementById("singleDatePicker")?.showPicker?.()
+                }
+                className="
+        w-full border border-black/20
+        py-2 px-3 text-sm text-left
+        bg-transparent
+      "
+              >
+                {singleDate || "Select Date"}
+              </button>
+
               <input
+                id="singleDatePicker"
                 type="date"
                 value={singleDate}
                 onChange={(e) => setSingleDate(e.target.value)}
-                className="
-        block
-        w-full
-        max-w-full
-        min-w-0
-        border
-        border-black/20
-        bg-transparent
-        p-2
-        text-xs
-        box-border
-      "
-                style={{ width: "100%" }}
+                className="absolute opacity-0 pointer-events-none"
               />
             </div>
           )}
