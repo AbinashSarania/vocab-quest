@@ -69,6 +69,7 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
         </div>
 
         {/* DATE MODE */}
+        {/* DATE MODE */}
         <div className="border border-black/10 bg-white/30 p-4 sm:p-5 space-y-4">
           <p className="text-[10px] tracking-widest text-black/50 uppercase text-center sm:text-left">
             time filter
@@ -98,91 +99,30 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
             ))}
           </div>
 
-          {/* SINGLE DATE */}
           {dateMode === "Single Date" && (
-            <div className="relative overflow-hidden mt-2 animate-[fadeIn_0.2s_ease]">
-              <button
-                type="button"
-                onClick={() => {
-                  const input = document.getElementById("singleDatePicker");
-                  if (input?.showPicker) {
-                    input.showPicker();
-                  } else {
-                    input?.focus();
-                    input?.click();
-                  }
-                }}
-                className="w-full border border-black/20 py-2.5 px-3 text-sm text-left bg-transparent hover:border-black/40 transition-colors focus:outline-none focus:border-black/60 truncate"
-              >
-                {singleDate || "Select Date..."}
-              </button>
-
-              <input
-                id="singleDatePicker"
-                type="date"
-                value={singleDate}
-                onChange={(e) => setSingleDate(e.target.value)}
-                className="absolute top-0 left-0 w-px h-px opacity-0"
-              />
-            </div>
+            <input
+              type="date"
+              value={singleDate}
+              onChange={(e) => setSingleDate(e.target.value)}
+              className="w-full border border-black/20 bg-transparent py-2.5 px-3 text-sm focus:outline-none focus:border-black/60"
+            />
           )}
 
-          {/* DATE RANGE */}
           {dateMode === "Date Range" && (
-            <div className="grid grid-cols-2 gap-2 mt-2 animate-[fadeIn_0.2s_ease]">
-              {/* FROM DATE */}
-              <div className="relative overflow-hidden">
-                <button
-                  type="button"
-                  onClick={() => {
-                    const input = document.getElementById("fromDatePicker");
-                    if (input?.showPicker) {
-                      input.showPicker();
-                    } else {
-                      input?.focus();
-                      input?.click();
-                    }
-                  }}
-                  className="w-full border border-black/20 py-2.5 px-2 sm:px-3 text-xs sm:text-sm text-center sm:text-left bg-transparent hover:border-black/40 transition-colors focus:outline-none focus:border-black/60 truncate"
-                >
-                  {fromDate || "From Date"}
-                </button>
+            <div className="grid grid-cols-2 gap-2">
+              <input
+                type="date"
+                value={fromDate}
+                onChange={(e) => setFromDate(e.target.value)}
+                className="w-full border border-black/20 bg-transparent py-2.5 px-2 sm:px-3 text-xs sm:text-sm focus:outline-none focus:border-black/60"
+              />
 
-                <input
-                  id="fromDatePicker"
-                  type="date"
-                  value={fromDate}
-                  onChange={(e) => setFromDate(e.target.value)}
-                  className="absolute top-0 left-0 w-px h-px opacity-0"
-                />
-              </div>
-
-              {/* TO DATE */}
-              <div className="relative overflow-hidden">
-                <button
-                  type="button"
-                  onClick={() => {
-                    const input = document.getElementById("toDatePicker");
-                    if (input?.showPicker) {
-                      input.showPicker();
-                    } else {
-                      input?.focus();
-                      input?.click();
-                    }
-                  }}
-                  className="w-full border border-black/20 py-2.5 px-2 sm:px-3 text-xs sm:text-sm text-center sm:text-left bg-transparent hover:border-black/40 transition-colors focus:outline-none focus:border-black/60 truncate"
-                >
-                  {toDate || "To Date"}
-                </button>
-
-                <input
-                  id="toDatePicker"
-                  type="date"
-                  value={toDate}
-                  onChange={(e) => setToDate(e.target.value)}
-                  className="absolute top-0 left-0 w-px h-px opacity-0"
-                />
-              </div>
+              <input
+                type="date"
+                value={toDate}
+                onChange={(e) => setToDate(e.target.value)}
+                className="w-full border border-black/20 bg-transparent py-2.5 px-2 sm:px-3 text-xs sm:text-sm focus:outline-none focus:border-black/60"
+              />
             </div>
           )}
         </div>
