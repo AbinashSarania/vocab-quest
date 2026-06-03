@@ -105,7 +105,7 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
               type="date"
               value={singleDate}
               onChange={(e) => setSingleDate(e.target.value)}
-              className="w-full bg-transparent text-xs text-black/50 focus:outline-none mt-2"
+              className="w-full bg-transparent text-sm text-black sm:text-black/50 focus:outline-none mt-2"
             />
           )}
 
@@ -116,14 +116,14 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
                 type="date"
                 value={fromDate}
                 onChange={(e) => setFromDate(e.target.value)}
-                className="w-full bg-transparent text-xs text-black/50 focus:outline-none"
+                className="w-full bg-transparent text-sm text-black sm:text-black/50 focus:outline-none"
               />
 
               <input
                 type="date"
                 value={toDate}
                 onChange={(e) => setToDate(e.target.value)}
-                className="w-full bg-transparent text-xs text-black/50 focus:outline-none"
+                className="w-full bg-transparent text-sm text-black sm:text-black/50 focus:outline-none"
               />
             </div>
           )}
