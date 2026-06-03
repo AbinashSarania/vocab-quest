@@ -7,22 +7,30 @@ import ResultScreen from "./components/ResultScreen";
 
 function App() {
   const [screen, setScreen] = useState("splash");
-  const [gameLimit, setGameLimit] = useState(10);
+
+  // now we store actual words, not just limit
+  const [sessionWords, setSessionWords] = useState([]);
 
   const [finalStats, setFinalStats] = useState({
     score: 0,
     xp: 0,
   });
 
+  /* =========================
+     SPLASH
+  ========================= */
   if (screen === "splash") {
     return <SplashScreen onStart={() => setScreen("menu")} />;
   }
 
+  /* =========================
+     MENU
+  ========================= */
   if (screen === "menu") {
     return (
       <MainMenu
-        onStartGame={(count) => {
-          setGameLimit(count);
+        onStartGame={(words) => {
+          setSessionWords(words); // 👈 IMPORTANT CHANGE
           setScreen("battle");
         }}
         onOpenLibrary={() => setScreen("library")}
@@ -30,10 +38,13 @@ function App() {
     );
   }
 
+  /* =========================
+     BATTLE
+  ========================= */
   if (screen === "battle") {
     return (
       <BattleScreen
-        limit={gameLimit}
+        words={sessionWords} // 👈 NEW: pass filtered words
         onBackToMenu={() => setScreen("menu")}
         onFinish={(score, xp) => {
           setFinalStats({ score, xp });
@@ -43,15 +54,21 @@ function App() {
     );
   }
 
+  /* =========================
+     LIBRARY
+  ========================= */
   if (screen === "library") {
     return <WordLibrary onBack={() => setScreen("menu")} />;
   }
 
+  /* =========================
+     RESULT
+  ========================= */
   if (screen === "result") {
     return (
       <ResultScreen
         score={finalStats.score}
-        total={gameLimit}
+        total={sessionWords.length}
         xp={finalStats.xp}
         onRestart={() => setScreen("menu")}
         onMenu={() => setScreen("menu")}

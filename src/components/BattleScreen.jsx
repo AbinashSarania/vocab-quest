@@ -1,11 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import wordsData from "../data/words.json";
 
 /* =========================
    HELPERS
 ========================= */
 
 function getOptions(correct, pool) {
+  if (!correct || !pool?.length) return [];
+
   const wrong = pool
     .filter((w) => w.meaning !== correct.meaning)
     .sort(() => Math.random() - 0.5)
@@ -23,7 +24,7 @@ function shuffle(arr) {
    COMPONENT
 ========================= */
 
-function BattleScreen({ limit = 10, onBackToMenu, onFinish }) {
+function BattleScreen({ words = [], onBackToMenu, onFinish }) {
   const [index, setIndex] = useState(0);
 
   const [correctCount, setCorrectCount] = useState(0);
@@ -38,14 +39,17 @@ function BattleScreen({ limit = 10, onBackToMenu, onFinish }) {
 
   const [showHint, setShowHint] = useState(false);
 
-  const wordQueueRef = useRef(shuffle(wordsData));
+  /* =========================
+     SAFETY CHECK (IMPORTANT)
+  ========================= */
+  const wordQueueRef = useRef(shuffle(words.length ? words : []));
 
   const [currentWord, setCurrentWord] = useState(
-    wordQueueRef.current[0]
+    wordQueueRef.current[0] || null,
   );
 
   /* =========================
-     MINIMAL ANIMATION CONTROL
+     ANIMATION CONTROL
   ========================= */
 
   const [animate, setAnimate] = useState(false);
@@ -65,15 +69,15 @@ function BattleScreen({ limit = 10, onBackToMenu, onFinish }) {
   ========================= */
 
   const options = useMemo(() => {
-    return getOptions(currentWord, wordsData);
-  }, [currentWord]);
+    return getOptions(currentWord, words);
+  }, [currentWord, words]);
 
   /* =========================
      ANSWER
   ========================= */
 
   const handleAnswer = (opt) => {
-    if (selected) return;
+    if (selected || !currentWord) return;
 
     const correct = opt === currentWord.meaning;
 
@@ -97,18 +101,18 @@ function BattleScreen({ limit = 10, onBackToMenu, onFinish }) {
   ========================= */
 
   const goNext = () => {
-    if (index + 1 >= limit) {
+    if (!words.length) return;
+
+    const nextIndex = index + 1;
+
+    if (nextIndex >= words.length) {
       onFinish(score, xp);
       return;
     }
 
-    const nextIndex = index + 1;
     setIndex(nextIndex);
 
-    setCurrentWord(
-      wordQueueRef.current[nextIndex % wordQueueRef.current.length]
-    );
-
+    setCurrentWord(wordQueueRef.current[nextIndex]);
     setSelected(null);
     setIsCorrect(null);
     setShowHint(false);
@@ -122,11 +126,9 @@ function BattleScreen({ limit = 10, onBackToMenu, onFinish }) {
     if (index === 0) return;
 
     const prevIndex = index - 1;
-    setIndex(prevIndex);
 
-    setCurrentWord(
-      wordQueueRef.current[prevIndex % wordQueueRef.current.length]
-    );
+    setIndex(prevIndex);
+    setCurrentWord(wordQueueRef.current[prevIndex]);
 
     setSelected(null);
     setIsCorrect(null);
@@ -134,15 +136,36 @@ function BattleScreen({ limit = 10, onBackToMenu, onFinish }) {
   };
 
   /* =========================
+     EMPTY STATE (IMPORTANT UX FIX)
+  ========================= */
+
+  if (!words.length || !currentWord) {
+    return (
+      <div className="min-h-screen flex items-center justify-center text-center">
+        <div>
+          <p className="text-lg font-bold">No words available</p>
+          <button
+            onClick={onBackToMenu}
+            className="mt-4 border border-black px-4 py-2"
+          >
+            Go Back
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  /* =========================
      UI
   ========================= */
 
   return (
     <div className="min-h-screen bg-white text-black flex flex-col items-center justify-center px-6 text-center relative">
-
       {/* TOP */}
       <div className="absolute top-6 text-xs tracking-widest text-gray-600 flex gap-6">
-        <span>Q {index + 1}/{limit}</span>
+        <span>
+          Q {index + 1}/{words.length}
+        </span>
         <span>Correct: {correctCount}</span>
         <span>Wrong: {wrongCount}</span>
       </div>
@@ -154,32 +177,28 @@ function BattleScreen({ limit = 10, onBackToMenu, onFinish }) {
         Menu
       </button>
 
-      {/* WORD (MINIMAL SMOOTH ANIMATION + RESPONSIVE FIX) */}
+      {/* WORD */}
       <h1
         className={`
           font-bold tracking-[0.25em] text-center px-4 break-words
           transition-all duration-500 ease-out
-
           text-3xl sm:text-4xl md:text-5xl lg:text-6xl
-
-          ${animate
-            ? "opacity-100 translate-y-0 scale-100"
-            : "opacity-0 translate-y-3 scale-[0.98]"
+          ${
+            animate
+              ? "opacity-100 translate-y-0 scale-100"
+              : "opacity-0 translate-y-3 scale-[0.98]"
           }
         `}
       >
-        {currentWord?.word}
+        {currentWord.word}
       </h1>
 
-      <p className="mt-4 text-sm text-gray-600">
-        Choose the correct meaning
-      </p>
+      <p className="mt-4 text-sm text-gray-600">Choose the correct meaning</p>
 
       {/* OPTIONS */}
       <div className="mt-10 w-full max-w-md space-y-3">
         {options.map((opt, i) => {
-          let style =
-            "w-full border border-black py-3 text-sm transition duration-200";
+          let style = "w-full border border-black py-3 text-sm transition";
 
           if (selected) {
             if (opt === currentWord.meaning) {
@@ -212,16 +231,15 @@ function BattleScreen({ limit = 10, onBackToMenu, onFinish }) {
 
       {showHint && (
         <div className="mt-6 text-sm text-gray-700 max-w-md space-y-2">
-          <p className="italic">"{currentWord?.example}"</p>
+          <p className="italic">"{currentWord.example}"</p>
           <p>
-            <b>Synonyms:</b> {currentWord?.synonyms?.join(", ")}
+            <b>Synonyms:</b> {currentWord.synonyms?.join(", ")}
           </p>
         </div>
       )}
 
       {/* NAV */}
       <div className="mt-8 flex gap-4">
-
         <button
           onClick={goPrev}
           disabled={index === 0}
@@ -236,9 +254,7 @@ function BattleScreen({ limit = 10, onBackToMenu, onFinish }) {
         >
           Next
         </button>
-
       </div>
-
     </div>
   );
 }

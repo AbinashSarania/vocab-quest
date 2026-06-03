@@ -1,338 +1,1130 @@
 [
   {
+    "id": 1,
     "word": "sangfroid",
-    "meaning": "Calmness under pressure",
+    "meaning": "Calmness and composure under pressure",
     "example": "He handled the crisis with complete sangfroid.",
-    "synonyms": ["composure", "poise"],
-    "antonyms": ["panic", "agitation"],
-    "difficulty": "hard"
+    "synonyms": [
+      "composure",
+      "equanimity",
+      "poise",
+      "self-possession",
+      "imperturbability"
+    ],
+    "antonyms": ["panic", "agitation", "hysteria", "alarm", "anxiety"],
+    "difficulty": "hard",
+    "date": "2026-05-28"
   },
   {
+    "id": 2,
     "word": "moribund",
     "meaning": "At the point of dying or ending",
     "example": "The company was moribund after years of losses.",
-    "synonyms": ["dying", "ailing"],
-    "antonyms": ["thriving", "flourishing"],
-    "difficulty": "hard"
+    "synonyms": ["dying", "ailing", "declining", "expiring", "enfeebled"],
+    "antonyms": [
+      "thriving",
+      "flourishing",
+      "vigorous",
+      "prosperous",
+      "booming"
+    ],
+    "difficulty": "hard",
+    "date": "2026-05-28"
   },
   {
+    "id": 3,
     "word": "ambiguous",
     "meaning": "Open to more than one interpretation",
     "example": "His statement was ambiguous.",
-    "synonyms": ["unclear", "vague"],
-    "antonyms": ["clear", "definite"],
-    "difficulty": "medium"
+    "synonyms": ["equivocal", "vague", "obscure", "indefinite", "cryptic"],
+    "antonyms": ["clear", "explicit", "definite", "unambiguous", "precise"],
+    "difficulty": "hard",
+    "date": "2026-05-28"
   },
   {
+    "id": 4,
     "word": "amorous",
     "meaning": "Showing romantic desire",
     "example": "He wrote amorous letters.",
-    "synonyms": ["romantic", "loving"],
-    "antonyms": ["cold", "unloving"],
-    "difficulty": "medium"
+    "synonyms": [
+      "romantic",
+      "passionate",
+      "ardent",
+      "enamored",
+      "affectionate"
+    ],
+    "antonyms": ["cold", "indifferent", "detached", "unloving", "apathetic"],
+    "difficulty": "hard",
+    "date": "2026-05-28"
   },
   {
+    "id": 5,
     "word": "profusion",
     "meaning": "An abundance",
     "example": "A profusion of flowers bloomed.",
-    "synonyms": ["abundance", "overflow"],
-    "antonyms": ["scarcity", "lack"],
-    "difficulty": "medium"
+    "synonyms": [
+      "abundance",
+      "plenty",
+      "copiousness",
+      "overflow",
+      "superfluity"
+    ],
+    "antonyms": ["scarcity", "dearth", "shortage", "lack", "insufficiency"],
+    "difficulty": "hard",
+    "date": "2026-05-28"
   },
   {
+    "id": 6,
     "word": "feisty",
     "meaning": "Lively and aggressive",
     "example": "The feisty child argued back.",
-    "synonyms": ["spirited", "lively"],
-    "antonyms": ["calm", "docile"],
-    "difficulty": "easy"
+    "synonyms": ["spirited", "spunky", "tenacious", "assertive", "combative"],
+    "antonyms": ["docile", "meek", "timid", "submissive", "compliant"],
+    "difficulty": "hard",
+    "date": "2026-05-28"
   },
   {
+    "id": 7,
     "word": "infamy",
     "meaning": "Being famous for bad reasons",
     "example": "He achieved infamy for the crime.",
-    "synonyms": ["notoriety", "disgrace"],
-    "antonyms": ["honor", "respect"],
-    "difficulty": "medium"
+    "synonyms": ["notoriety", "disgrace", "ignominy", "dishonor", "opprobrium"],
+    "antonyms": ["honor", "esteem", "prestige", "respectability", "renown"],
+    "difficulty": "hard",
+    "date": "2026-05-28"
   },
   {
+    "id": 8,
     "word": "plunging",
     "meaning": "Falling rapidly downward",
     "example": "Stock prices were plunging.",
-    "synonyms": ["dropping", "falling"],
-    "antonyms": ["rising"],
-    "difficulty": "easy"
+    "synonyms": ["dropping", "tumbling", "plummeting", "sinking", "collapsing"],
+    "antonyms": ["rising", "climbing", "ascending", "soaring", "surging"],
+    "difficulty": "hard",
+    "date": "2026-05-28"
   },
   {
+    "id": 9,
     "word": "riveting",
     "meaning": "Extremely engaging",
     "example": "The movie was riveting.",
-    "synonyms": ["captivating", "absorbing"],
-    "antonyms": ["boring"],
-    "difficulty": "medium"
+    "synonyms": [
+      "captivating",
+      "engrossing",
+      "compelling",
+      "mesmerizing",
+      "spellbinding"
+    ],
+    "antonyms": ["boring", "dull", "tedious", "uninteresting", "monotonous"],
+    "difficulty": "hard",
+    "date": "2026-05-28"
   },
   {
+    "id": 10,
     "word": "bedlam",
     "meaning": "Chaos and confusion",
     "example": "The room was bedlam.",
-    "synonyms": ["chaos", "mayhem"],
-    "antonyms": ["order", "calm"],
-    "difficulty": "medium"
+    "synonyms": ["chaos", "mayhem", "pandemonium", "turmoil", "anarchy"],
+    "antonyms": ["order", "harmony", "peace", "calm", "stability"],
+    "difficulty": "hard",
+    "date": "2026-05-28"
   },
   {
+    "id": 11,
     "word": "babble",
-    "meaning": "To talk nonsense",
+    "meaning": "To talk rapidly and foolishly or meaninglessly",
     "example": "The baby began to babble.",
-    "synonyms": ["mutter", "chatter"],
-    "antonyms": ["silence"],
-    "difficulty": "easy"
+    "synonyms": ["chatter", "prattle", "jabber", "gibber", "blather"],
+    "antonyms": ["silence", "reticence", "quietness", "reserve", "restraint"],
+    "difficulty": "hard",
+    "date": "2026-05-29"
   },
   {
+    "id": 12,
     "word": "coalescence",
-    "meaning": "Coming together",
+    "meaning": "The process of coming together to form one whole",
     "example": "The coalescence of ideas formed a plan.",
-    "synonyms": ["fusion", "merging"],
-    "antonyms": ["separation"],
-    "difficulty": "hard"
+    "synonyms": [
+      "fusion",
+      "merger",
+      "amalgamation",
+      "consolidation",
+      "unification"
+    ],
+    "antonyms": [
+      "separation",
+      "division",
+      "fragmentation",
+      "disintegration",
+      "dispersion"
+    ],
+    "difficulty": "hard",
+    "date": "2026-05-29"
   },
- {
-  "word": "bereft",
-  "meaning": "deprived of something or someone; left empty or lacking",
-  "example": "He was bereft of hope after the results.",
-  "synonyms": ["deprived", "stripped", "robbed", "lacking"],
-  "antonyms": ["possessed", "provided", "fulfilled"],
-  "difficulty": "medium"
-},
   {
+    "id": 13,
+    "word": "bereft",
+    "meaning": "Deprived of something or someone; left empty or lacking",
+    "example": "He was bereft of hope after the results.",
+    "synonyms": ["deprived", "stripped", "robbed", "destitute", "forlorn"],
+    "antonyms": ["possessed", "provided", "fulfilled", "endowed", "equipped"],
+    "difficulty": "hard",
+    "date": "2026-05-29"
+  },
+  {
+    "id": 14,
     "word": "incontrovertible",
-    "meaning": "Impossible to deny",
+    "meaning": "Impossible to deny or dispute",
     "example": "The evidence was incontrovertible.",
-    "synonyms": ["undeniable", "irrefutable"],
-    "antonyms": ["doubtful"],
-    "difficulty": "hard"
+    "synonyms": [
+      "undeniable",
+      "irrefutable",
+      "indisputable",
+      "conclusive",
+      "unassailable"
+    ],
+    "antonyms": [
+      "doubtful",
+      "questionable",
+      "debatable",
+      "uncertain",
+      "dubious"
+    ],
+    "difficulty": "hard",
+    "date": "2026-05-29"
   },
   {
+    "id": 15,
     "word": "desolate",
-    "meaning": "Empty and lonely",
+    "meaning": "Empty, barren, and lonely",
     "example": "The town looked desolate.",
-    "synonyms": ["abandoned", "empty"],
-    "antonyms": ["lively"],
-    "difficulty": "medium"
+    "synonyms": ["bleak", "forlorn", "abandoned", "barren", "dreary"],
+    "antonyms": ["lively", "thriving", "vibrant", "populated", "prosperous"],
+    "difficulty": "hard",
+    "date": "2026-05-29"
   },
   {
+    "id": 16,
     "word": "supercilious",
-    "meaning": "Arrogant behavior",
+    "meaning": "Behaving as though one is superior to others",
     "example": "He gave a supercilious glance.",
-    "synonyms": ["arrogant", "haughty"],
-    "antonyms": ["humble"],
-    "difficulty": "hard"
+    "synonyms": [
+      "arrogant",
+      "haughty",
+      "condescending",
+      "disdainful",
+      "imperious"
+    ],
+    "antonyms": ["humble", "modest", "respectful", "courteous", "unassuming"],
+    "difficulty": "hard",
+    "date": "2026-05-29"
   },
   {
+    "id": 17,
     "word": "crestfallen",
-    "meaning": "Sad and disappointed",
-    "example": "She looked crestfallen.",
-    "synonyms": ["dejected", "downcast"],
-    "antonyms": ["happy"],
-    "difficulty": "medium"
+    "meaning": "Sad, disappointed, or discouraged",
+    "example": "She looked crestfallen after hearing the news.",
+    "synonyms": [
+      "dejected",
+      "downcast",
+      "disheartened",
+      "despondent",
+      "dispirited"
+    ],
+    "antonyms": ["cheerful", "elated", "joyful", "optimistic", "buoyant"],
+    "difficulty": "hard",
+    "date": "2026-05-29"
   },
   {
+    "id": 18,
     "word": "trepidation",
-    "meaning": "Fear or anxiety",
-    "example": "He entered with trepidation.",
-    "synonyms": ["fear", "anxiety"],
-    "antonyms": ["confidence"],
-    "difficulty": "medium"
+    "meaning": "A feeling of fear, anxiety, or apprehension",
+    "example": "He entered the room with trepidation.",
+    "synonyms": ["fear", "anxiety", "apprehension", "dread", "misgiving"],
+    "antonyms": [
+      "confidence",
+      "assurance",
+      "calmness",
+      "certainty",
+      "composure"
+    ],
+    "difficulty": "hard",
+    "date": "2026-05-29"
   },
   {
+    "id": 19,
     "word": "dipsomania",
-    "meaning": "Alcohol addiction",
-    "example": "He suffered from dipsomania.",
-    "synonyms": ["alcoholism"],
-    "antonyms": [],
-    "difficulty": "hard"
+    "meaning": "An uncontrollable craving for alcoholic beverages",
+    "example": "He suffered from dipsomania for many years.",
+    "synonyms": [
+      "alcoholism",
+      "inebriety",
+      "addiction",
+      "dependency",
+      "intemperance"
+    ],
+    "antonyms": [
+      "sobriety",
+      "abstinence",
+      "temperance",
+      "self-control",
+      "moderation"
+    ],
+    "difficulty": "hard",
+    "date": "2026-05-29"
   },
   {
+    "id": 20,
     "word": "belied",
-    "meaning": "Gave a false impression",
-    "example": "Her smile belied sadness.",
-    "synonyms": ["contradicted"],
-    "antonyms": [],
-    "difficulty": "hard"
+    "meaning": "Failed to give a true impression of something",
+    "example": "Her smile belied the sadness she felt.",
+    "synonyms": [
+      "contradicted",
+      "disguised",
+      "misrepresented",
+      "concealed",
+      "masked"
+    ],
+    "antonyms": [
+      "revealed",
+      "confirmed",
+      "verified",
+      "disclosed",
+      "demonstrated"
+    ],
+    "difficulty": "hard",
+    "date": "2026-05-29"
   },
   {
+    "id": 21,
     "word": "circumspot",
-    "meaning": "To look around carefully",
+    "meaning": "To examine or observe an area carefully from all sides",
     "example": "He circumspotted the area before entering.",
-    "synonyms": ["scan", "inspect"],
-    "antonyms": [],
-    "difficulty": "hard"
+    "synonyms": ["scan", "inspect", "survey", "scrutinize", "examine"],
+    "antonyms": ["ignore", "overlook", "neglect", "disregard", "miss"],
+    "difficulty": "hard",
+    "date": "2026-06-01"
   },
   {
+    "id": 22,
     "word": "avenge",
-    "meaning": "To take revenge",
+    "meaning": "To inflict punishment in return for an injury or wrong",
     "example": "He vowed to avenge his loss.",
-    "synonyms": ["retaliate", "punish"],
-    "antonyms": ["forgive"],
-    "difficulty": "medium"
+    "synonyms": ["retaliate", "vindicate", "revenge", "requite", "redress"],
+    "antonyms": ["forgive", "pardon", "absolve", "excuse", "overlook"],
+    "difficulty": "hard",
+    "date": "2026-06-01"
   },
   {
+    "id": 23,
     "word": "quintessential",
-    "meaning": "Perfect example",
+    "meaning": "Representing the most perfect or typical example of something",
     "example": "She is the quintessential leader.",
-    "synonyms": ["ideal", "typical"],
-    "antonyms": ["atypical"],
-    "difficulty": "medium"
+    "synonyms": [
+      "archetypal",
+      "classic",
+      "ideal",
+      "prototypical",
+      "representative"
+    ],
+    "antonyms": [
+      "atypical",
+      "aberrant",
+      "uncharacteristic",
+      "exceptional",
+      "anomalous"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-01"
   },
   {
+    "id": 24,
     "word": "fiduciaries",
-    "meaning": "People responsible for managing trust",
+    "meaning": "People entrusted with managing assets or interests on behalf of others",
     "example": "The fiduciaries handled the estate.",
-    "synonyms": ["trustees"],
-    "antonyms": [],
-    "difficulty": "hard"
+    "synonyms": [
+      "trustees",
+      "guardians",
+      "custodians",
+      "executors",
+      "stewards"
+    ],
+    "antonyms": ["beneficiaries", "owners", "principals", "heirs", "claimants"],
+    "difficulty": "hard",
+    "date": "2026-06-01"
   },
   {
+    "id": 25,
     "word": "onerous",
-    "meaning": "Difficult and burdensome",
+    "meaning": "Involving a great deal of effort, difficulty, or burden",
     "example": "The task was onerous.",
-    "synonyms": ["burdensome", "hard"],
-    "antonyms": ["easy"],
-    "difficulty": "medium"
+    "synonyms": ["burdensome", "arduous", "taxing", "oppressive", "exacting"],
+    "antonyms": ["easy", "effortless", "light", "manageable", "undemanding"],
+    "difficulty": "hard",
+    "date": "2026-06-01"
   },
   {
+    "id": 26,
     "word": "galled",
-    "meaning": "Irritated or annoyed",
+    "meaning": "Annoyed, irritated, or provoked",
     "example": "He was galled by the insult.",
-    "synonyms": ["irritated", "annoyed"],
-    "antonyms": ["pleased"],
-    "difficulty": "medium"
+    "synonyms": ["irritated", "annoyed", "vexed", "aggrieved", "exasperated"],
+    "antonyms": ["pleased", "delighted", "satisfied", "contented", "gratified"],
+    "difficulty": "hard",
+    "date": "2026-06-01"
   },
   {
+    "id": 27,
     "word": "snugly",
-    "meaning": "Comfortably tight",
+    "meaning": "In a comfortable, warm, and secure manner",
     "example": "The baby slept snugly.",
-    "synonyms": ["cozily"],
-    "antonyms": ["loosely"],
-    "difficulty": "easy"
+    "synonyms": ["cozily", "comfortably", "securely", "warmly", "tightly"],
+    "antonyms": [
+      "loosely",
+      "uncomfortably",
+      "awkwardly",
+      "coldly",
+      "insecurely"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-01"
   },
   {
+    "id": 28,
     "word": "defunct",
-    "meaning": "No longer existing",
+    "meaning": "No longer existing, functioning, or active",
     "example": "The company is defunct.",
-    "synonyms": ["inactive", "dead"],
-    "antonyms": ["active"],
-    "difficulty": "medium"
+    "synonyms": ["obsolete", "extinct", "inactive", "dead", "dissolved"],
+    "antonyms": ["active", "operational", "functioning", "thriving", "viable"],
+    "difficulty": "hard",
+    "date": "2026-06-01"
   },
   {
+    "id": 29,
     "word": "inextricably",
-    "meaning": "Impossible to separate",
+    "meaning": "In a way that cannot be separated or disentangled",
     "example": "Their lives are inextricably linked.",
-    "synonyms": ["inseparably"],
-    "antonyms": [],
-    "difficulty": "hard"
+    "synonyms": [
+      "inseparably",
+      "indissolubly",
+      "irrevocably",
+      "intimately",
+      "permanently"
+    ],
+    "antonyms": [
+      "separately",
+      "independently",
+      "distinctly",
+      "loosely",
+      "detachedly"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-01"
   },
   {
+    "id": 30,
     "word": "proximate",
-    "meaning": "Nearest in space or time",
+    "meaning": "Nearest in time, place, or relationship",
     "example": "The proximate cause of the issue was clear.",
-    "synonyms": ["near", "immediate"],
-    "antonyms": ["distant"],
-    "difficulty": "medium"
+    "synonyms": ["near", "adjacent", "immediate", "neighboring", "closest"],
+    "antonyms": ["distant", "remote", "faraway", "indirect", "detached"],
+    "difficulty": "hard",
+    "date": "2026-06-01"
   },
   {
+    "id": 31,
     "word": "threshold",
-    "meaning": "Point of beginning",
+    "meaning": "The point at which something begins or changes",
     "example": "He stood at the threshold of success.",
-    "synonyms": ["entry", "start"],
-    "antonyms": ["end"],
-    "difficulty": "easy"
+    "synonyms": ["boundary", "doorstep", "commencement", "outset", "beginning"],
+    "antonyms": ["end", "conclusion", "termination", "finish", "closure"],
+    "difficulty": "hard",
+    "date": "2026-06-02"
   },
   {
+    "id": 32,
     "word": "auspices",
-    "meaning": "Support or protection",
+    "meaning": "Support, sponsorship, guidance, or protection",
     "example": "The event was under the auspices of the government.",
-    "synonyms": ["support", "guidance"],
-    "antonyms": [],
-    "difficulty": "hard"
+    "synonyms": [
+      "patronage",
+      "support",
+      "guidance",
+      "sponsorship",
+      "protection"
+    ],
+    "antonyms": [
+      "opposition",
+      "hindrance",
+      "obstruction",
+      "neglect",
+      "hostility"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-02"
   },
   {
+    "id": 33,
     "word": "attrition",
-    "meaning": "Gradual reduction",
+    "meaning": "Gradual reduction through loss or wear",
     "example": "Attrition reduced the workforce.",
-    "synonyms": ["reduction", "decrease"],
-    "antonyms": ["increase"],
-    "difficulty": "medium"
+    "synonyms": [
+      "erosion",
+      "depletion",
+      "reduction",
+      "diminution",
+      "shrinkage"
+    ],
+    "antonyms": [
+      "increase",
+      "growth",
+      "expansion",
+      "augmentation",
+      "accumulation"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-02"
   },
   {
+    "id": 34,
     "word": "bourgeois",
-    "meaning": "Middle-class society",
+    "meaning": "Relating to the middle class and its values",
     "example": "He criticized bourgeois values.",
-    "synonyms": ["middle-class"],
-    "antonyms": ["proletariat"],
-    "difficulty": "hard"
+    "synonyms": [
+      "middle-class",
+      "conventional",
+      "materialistic",
+      "capitalistic",
+      "respectable"
+    ],
+    "antonyms": [
+      "proletarian",
+      "working-class",
+      "radical",
+      "revolutionary",
+      "bohemian"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-02"
   },
   {
+    "id": 35,
     "word": "incorrigible",
-    "meaning": "Impossible to correct",
+    "meaning": "Impossible to reform, improve, or correct",
     "example": "He is an incorrigible liar.",
-    "synonyms": ["uncontrollable"],
-    "antonyms": ["reformable"],
-    "difficulty": "medium"
+    "synonyms": [
+      "irredeemable",
+      "uncontrollable",
+      "unmanageable",
+      "hopeless",
+      "refractory"
+    ],
+    "antonyms": [
+      "reformable",
+      "correctable",
+      "manageable",
+      "obedient",
+      "tractable"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-02"
   },
   {
+    "id": 36,
     "word": "proletarian",
-    "meaning": "Working class",
+    "meaning": "Relating to the working class",
     "example": "Proletarian movements grew.",
-    "synonyms": ["worker class"],
-    "antonyms": ["bourgeois"],
-    "difficulty": "hard"
+    "synonyms": [
+      "working-class",
+      "laboring",
+      "blue-collar",
+      "industrial",
+      "common"
+    ],
+    "antonyms": [
+      "bourgeois",
+      "aristocratic",
+      "elite",
+      "privileged",
+      "upper-class"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-02"
   },
   {
+    "id": 37,
     "word": "bravura",
-    "meaning": "Brilliant skill",
+    "meaning": "Great technical skill displayed with brilliance and confidence",
     "example": "She performed with bravura.",
-    "synonyms": ["flair", "skill"],
-    "antonyms": ["mediocrity"],
-    "difficulty": "hard"
+    "synonyms": ["virtuosity", "mastery", "flair", "brilliance", "expertise"],
+    "antonyms": [
+      "mediocrity",
+      "ineptitude",
+      "clumsiness",
+      "incompetence",
+      "awkwardness"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-02"
   },
   {
+    "id": 38,
     "word": "clandestine",
-    "meaning": "Secret",
+    "meaning": "Kept secret or done secretly",
     "example": "They held a clandestine meeting.",
-    "synonyms": ["hidden", "covert"],
-    "antonyms": ["open"],
-    "difficulty": "medium"
+    "synonyms": ["covert", "furtive", "surreptitious", "secret", "undercover"],
+    "antonyms": ["open", "public", "overt", "transparent", "unconcealed"],
+    "difficulty": "hard",
+    "date": "2026-06-02"
   },
   {
+    "id": 39,
     "word": "grotesque",
-    "meaning": "Ugly or distorted",
+    "meaning": "Comically or repulsively distorted and ugly",
     "example": "The statue looked grotesque.",
-    "synonyms": ["distorted", "ugly"],
-    "antonyms": ["beautiful"],
-    "difficulty": "medium"
+    "synonyms": ["distorted", "hideous", "bizarre", "monstrous", "misshapen"],
+    "antonyms": ["beautiful", "attractive", "elegant", "graceful", "refined"],
+    "difficulty": "hard",
+    "date": "2026-06-02"
   },
   {
+    "id": 40,
     "word": "lugubrious",
-    "meaning": "Looking sad and gloomy",
+    "meaning": "Looking or sounding sad and gloomy",
     "example": "He had a lugubrious expression.",
-    "synonyms": ["gloomy", "mournful"],
-    "antonyms": ["happy"],
-    "difficulty": "hard"
+    "synonyms": ["mournful", "gloomy", "melancholic", "woeful", "doleful"],
+    "antonyms": ["cheerful", "joyful", "buoyant", "jovial", "elated"],
+    "difficulty": "hard",
+    "date": "2026-06-02"
   },
   {
+    "id": 41,
     "word": "rasping",
-    "meaning": "Harsh sound",
+    "meaning": "Having a harsh, grating sound",
     "example": "He spoke in a rasping voice.",
-    "synonyms": ["harsh", "grating"],
-    "antonyms": ["soft"],
-    "difficulty": "easy"
+    "synonyms": ["harsh", "grating", "gravelly", "raucous", "strident"],
+    "antonyms": ["soft", "smooth", "melodious", "gentle", "pleasant"],
+    "difficulty": "hard",
+    "date": "2026-06-02"
   },
   {
+    "id": 42,
     "word": "seduction",
-    "meaning": "Attraction or temptation",
+    "meaning": "The act of tempting, attracting, or persuading someone",
     "example": "The seduction of power is strong.",
-    "synonyms": ["temptation"],
-    "antonyms": ["repulsion"],
-    "difficulty": "medium"
+    "synonyms": [
+      "temptation",
+      "allurement",
+      "enticement",
+      "lure",
+      "attraction"
+    ],
+    "antonyms": [
+      "repulsion",
+      "deterrence",
+      "discouragement",
+      "aversion",
+      "disgust"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-02"
+  },
+  {
+    "id": 43,
+    "word": "blithely",
+    "meaning": "In a carefree or casual manner, often ignoring consequences",
+    "example": "He blithely ignored the warning signs.",
+    "synonyms": [
+      "carelessly",
+      "casually",
+      "recklessly",
+      "indifferently",
+      "lightheartedly"
+    ],
+    "antonyms": [
+      "carefully",
+      "seriously",
+      "cautiously",
+      "thoughtfully",
+      "deliberately"
+    ],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 44,
+    "word": "unwonted",
+    "meaning": "Unusual or not familiar",
+    "example": "She showed unwonted patience.",
+    "synonyms": ["unusual", "rare", "unexpected", "uncommon", "abnormal"],
+    "antonyms": ["usual", "common", "typical", "ordinary", "familiar"],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 45,
+    "word": "bombast",
+    "meaning": "High-sounding but empty speech",
+    "example": "His speech was full of bombast.",
+    "synonyms": [
+      "pompousness",
+      "bluster",
+      "grandiosity",
+      "pretentiousness",
+      "verbosity"
+    ],
+    "antonyms": ["modesty", "simplicity", "humility", "clarity", "plainness"],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 46,
+    "word": "dissolute",
+    "meaning": "Lacking moral restraint; living in a careless or immoral way",
+    "example": "He led a dissolute lifestyle.",
+    "synonyms": ["immoral", "depraved", "decadent", "debauched", "corrupt"],
+    "antonyms": ["moral", "upright", "virtuous", "righteous", "ethical"],
+    "difficulty": "hard",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 47,
+    "word": "philanderer",
+    "meaning": "A person who has casual romantic relationships without commitment",
+    "example": "He was known as a philanderer.",
+    "synonyms": ["womanizer", "flirt", "ladies' man", "playboy", "cheater"],
+    "antonyms": [
+      "faithful partner",
+      "loyal partner",
+      "committed partner",
+      "devoted partner",
+      "loyalist"
+    ],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 48,
+    "word": "inquisitive",
+    "meaning": "Curious and eager to learn",
+    "example": "The inquisitive child asked many questions.",
+    "synonyms": [
+      "curious",
+      "probing",
+      "interested",
+      "inquisitorial",
+      "questioning"
+    ],
+    "antonyms": [
+      "indifferent",
+      "uninterested",
+      "apathetic",
+      "uninquisitive",
+      "uncurious"
+    ],
+    "difficulty": "easy",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 49,
+    "word": "capitulate",
+    "meaning": "To surrender or give up resistance",
+    "example": "The army was forced to capitulate.",
+    "synonyms": ["surrender", "submit", "yield", "concede", "give in"],
+    "antonyms": ["resist", "fight", "defy", "withstand", "oppose"],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 50,
+    "word": "relegate",
+    "meaning": "To assign to a lower position or rank",
+    "example": "He was relegated to a minor role.",
+    "synonyms": ["demote", "downgrade", "lower", "degrade", "dismiss"],
+    "antonyms": ["promote", "elevate", "upgrade", "advance", "raise"],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 51,
+    "word": "delegate",
+    "meaning": "To assign responsibility to someone else",
+    "example": "She delegated the task to her assistant.",
+    "synonyms": ["assign", "entrust", "authorize", "appoint", "transfer"],
+    "antonyms": ["retain", "withhold", "keep", "hoard", "control"],
+    "difficulty": "easy",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 52,
+    "word": "cornucopia",
+    "meaning": "An abundant supply of good things",
+    "example": "The festival offered a cornucopia of food.",
+    "synonyms": ["abundance", "overflow", "richness", "plenty", "profusion"],
+    "antonyms": ["scarcity", "lack", "shortage", "deficiency", "dearth"],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 53,
+    "word": "bountiful",
+    "meaning": "Large in quantity; generous",
+    "example": "They enjoyed a bountiful harvest.",
+    "synonyms": ["abundant", "generous", "plentiful", "ample", "lavish"],
+    "antonyms": ["scarce", "limited", "meager", "insufficient", "deficient"],
+    "difficulty": "easy",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 54,
+    "word": "licentious",
+    "meaning": "Ignoring moral rules, especially in sexual behavior",
+    "example": "He was condemned for his licentious behavior.",
+    "synonyms": ["immoral", "lewd", "debauched", "dissolute", "licentious"],
+    "antonyms": ["moral", "chaste", "upright", "virtuous", "pure"],
+    "difficulty": "hard",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 55,
+    "word": "promiscuous",
+    "meaning": "Engaging in casual and indiscriminate relationships or behavior",
+    "example": "He was known for his promiscuous lifestyle.",
+    "synonyms": [
+      "indiscriminate",
+      "unrestrained",
+      "licentious",
+      "loose",
+      "immoral"
+    ],
+    "antonyms": [
+      "faithful",
+      "chaste",
+      "faithful-minded",
+      "loyal",
+      "restrained"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 56,
+    "word": "lascivious",
+    "meaning": "Showing or feeling strong sexual desire",
+    "example": "He gave her a lascivious look.",
+    "synonyms": ["lustful", "lewd", "lecherous", "salacious", "lusty"],
+    "antonyms": ["pure", "chaste", "modest", "innocent", "clean"],
+    "difficulty": "hard",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 57,
+    "word": "ostracise",
+    "meaning": "To exclude someone from a group or society",
+    "example": "He was ostracised from the community.",
+    "synonyms": ["exclude", "shun", "reject", "banish", "expel"],
+    "antonyms": ["include", "accept", "welcome", "embrace", "admit"],
+    "difficulty": "hard",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 58,
+    "word": "bizarre",
+    "meaning": "Very strange or unusual",
+    "example": "That was a bizarre incident.",
+    "synonyms": ["odd", "weird", "strange", "eccentric", "unusual"],
+    "antonyms": ["normal", "ordinary", "common", "typical", "familiar"],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 59,
+    "word": "ascetic",
+    "meaning": "Characterized by severe self-discipline and abstention from indulgence",
+    "example": "He lived an ascetic life in the mountains.",
+    "synonyms": [
+      "disciplined",
+      "austere",
+      "self-denying",
+      "spartan",
+      "abstemious"
+    ],
+    "antonyms": [
+      "indulgent",
+      "luxurious",
+      "hedonistic",
+      "pleasure-seeking",
+      "extravagant"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 60,
+    "word": "usurer",
+    "meaning": "A person who lends money at extremely high interest rates",
+    "example": "The usurer charged excessive interest.",
+    "synonyms": [
+      "moneylender",
+      "loan shark",
+      "financier",
+      "creditor",
+      "banker"
+    ],
+    "antonyms": [
+      "borrower",
+      "debtor",
+      "charity",
+      "philanthropist",
+      "lender (fair)"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 61,
+    "word": "verbatim",
+    "meaning": "In exactly the same words as were used originally",
+    "example": "He repeated the speech verbatim.",
+    "synonyms": ["word-for-word", "exact", "literal", "precise", "direct"],
+    "antonyms": [
+      "summarized",
+      "paraphrased",
+      "altered",
+      "interpreted",
+      "reworded"
+    ],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 62,
+    "word": "sheath",
+    "meaning": "A case for a blade or similar object",
+    "example": "He put the sword back into its sheath.",
+    "synonyms": ["cover", "case", "scabbard", "enclosure", "holder"],
+    "antonyms": ["exposure", "uncovering", "removal", "opening", "release"],
+    "difficulty": "easy",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 63,
+    "word": "elope",
+    "meaning": "To run away secretly to get married",
+    "example": "The couple decided to elope.",
+    "synonyms": ["run away", "flee", "escape", "bolt", "decamp"],
+    "antonyms": ["stay", "remain", "announce", "formalize", "declare"],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 64,
+    "word": "impetuous",
+    "meaning": "Acting quickly without thought or care",
+    "example": "He made an impetuous decision.",
+    "synonyms": ["rash", "hasty", "reckless", "impulsive", "brash"],
+    "antonyms": ["careful", "thoughtful", "cautious", "patient", "deliberate"],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 65,
+    "word": "laconic",
+    "meaning": "Using very few words",
+    "example": "He gave a laconic reply.",
+    "synonyms": ["brief", "concise", "terse", "succinct", "short"],
+    "antonyms": ["verbose", "wordy", "talkative", "rambling", "long-winded"],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 66,
+    "word": "nascent",
+    "meaning": "Just beginning to exist or develop",
+    "example": "A nascent idea emerged.",
+    "synonyms": ["emerging", "developing", "incipient", "starting", "growing"],
+    "antonyms": ["established", "mature", "developed", "declining", "dying"],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 67,
+    "word": "obdurate",
+    "meaning": "Stubbornly refusing to change opinion",
+    "example": "He remained obdurate despite evidence.",
+    "synonyms": ["stubborn", "unyielding", "inflexible", "adamant", "resolute"],
+    "antonyms": [
+      "flexible",
+      "yielding",
+      "compliant",
+      "agreeable",
+      "open-minded"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 68,
+    "word": "placate",
+    "meaning": "To make someone less angry",
+    "example": "She tried to placate him.",
+    "synonyms": ["calm", "soothe", "pacify", "appease", "mollify"],
+    "antonyms": ["anger", "provoke", "irritate", "enrage", "agitate"],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 69,
+    "word": "contentious",
+    "meaning": "Causing disagreement or argument",
+    "example": "It was a contentious issue.",
+    "synonyms": [
+      "controversial",
+      "argumentative",
+      "disputed",
+      "combative",
+      "conflict-ridden"
+    ],
+    "antonyms": [
+      "harmonious",
+      "peaceful",
+      "uncontroversial",
+      "agreeable",
+      "calm"
+    ],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 70,
+    "word": "camaraderie",
+    "meaning": "Mutual trust and friendship among people",
+    "example": "There was strong camaraderie in the team.",
+    "synonyms": [
+      "friendship",
+      "brotherhood",
+      "fellowship",
+      "bonding",
+      "solidarity"
+    ],
+    "antonyms": ["hostility", "isolation", "alienation", "rivalry", "distance"],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 71,
+    "word": "blasphemous",
+    "meaning": "Showing disrespect toward sacred things",
+    "example": "His remarks were considered blasphemous.",
+    "synonyms": [
+      "irreverent",
+      "sacrilegious",
+      "disrespectful",
+      "profane",
+      "impious"
+    ],
+    "antonyms": ["reverent", "pious", "devout", "respectful", "holy"],
+    "difficulty": "hard",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 72,
+    "word": "beleaguer",
+    "meaning": "To surround and attack or trouble",
+    "example": "The city was beleaguered by troops.",
+    "synonyms": ["besiege", "harass", "trouble", "surround", "plague"],
+    "antonyms": ["release", "aid", "support", "protect", "help"],
+    "difficulty": "hard",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 73,
+    "word": "cadaver",
+    "meaning": "A dead body used for scientific study",
+    "example": "The students studied a cadaver.",
+    "synonyms": ["corpse", "body", "remains", "stiff", "carcass"],
+    "antonyms": ["living being", "person", "alive body", "human", "organism"],
+    "difficulty": "hard",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 74,
+    "word": "accentuate",
+    "meaning": "To make something more noticeable",
+    "example": "The lighting accentuates her features.",
+    "synonyms": [
+      "emphasize",
+      "highlight",
+      "stress",
+      "underline",
+      "draw attention"
+    ],
+    "antonyms": ["hide", "obscure", "reduce", "downplay", "soften"],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 75,
+    "word": "hamstrung",
+    "meaning": "Seriously restricted or made ineffective",
+    "example": "The project was hamstrung by lack of funds.",
+    "synonyms": ["crippled", "restricted", "hindered", "weakened", "paralyzed"],
+    "antonyms": [
+      "empowered",
+      "strengthened",
+      "enabled",
+      "supported",
+      "facilitated"
+    ],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 76,
+    "word": "desultory",
+    "meaning": "Lacking a plan, purpose, or enthusiasm",
+    "example": "He made desultory attempts to study.",
+    "synonyms": ["random", "aimless", "haphazard", "disconnected", "irregular"],
+    "antonyms": [
+      "methodical",
+      "systematic",
+      "focused",
+      "organized",
+      "purposeful"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 77,
+    "word": "buttress",
+    "meaning": "To support or strengthen",
+    "example": "Evidence buttresses his claim.",
+    "synonyms": ["support", "reinforce", "strengthen", "uphold", "bolster"],
+    "antonyms": ["weaken", "undermine", "reduce", "erode", "oppose"],
+    "difficulty": "medium",
+    "date": "2026-06-03"
+  },
+  {
+    "id": 78,
+    "word": "incongruous",
+    "meaning": "Not in harmony or keeping with surroundings",
+    "example": "His formal suit looked incongruous at the beach.",
+    "synonyms": [
+      "incompatible",
+      "odd",
+      "out of place",
+      "unfitting",
+      "discordant"
+    ],
+    "antonyms": [
+      "harmonious",
+      "appropriate",
+      "suitable",
+      "consistent",
+      "matching"
+    ],
+    "difficulty": "medium",
+    "date": "2026-06-03"
   }
 ]
