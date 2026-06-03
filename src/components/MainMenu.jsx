@@ -99,12 +99,25 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
           </div>
 
           {dateMode === "Single Date" && (
-            <input
-              type="date"
-              value={singleDate}
-              onChange={(e) => setSingleDate(e.target.value)}
-              className="w-full border border-black/20 p-2 text-sm bg-transparent"
-            />
+            <button
+              onClick={() => {
+                document.getElementById("single-date-picker")?.showPicker?.();
+                document.getElementById("single-date-picker")?.click();
+              }}
+              className="w-full border border-black/20 py-3 text-xs tracking-widest uppercase hover:bg-black hover:text-white transition"
+            >
+              {singleDate
+                ? new Date(singleDate).toLocaleDateString()
+                : "Select Date"}
+
+              <input
+                id="single-date-picker"
+                type="date"
+                value={singleDate}
+                onChange={(e) => setSingleDate(e.target.value)}
+                className="absolute opacity-0 pointer-events-none"
+              />
+            </button>
           )}
 
           {dateMode === "Date Range" && (
