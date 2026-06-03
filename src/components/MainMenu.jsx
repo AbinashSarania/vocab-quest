@@ -101,30 +101,45 @@ function MainMenu({ onStartGame, onOpenLibrary }) {
 
           {/* SINGLE DATE */}
           {dateMode === "Single Date" && (
-            <input
-              type="date"
-              value={singleDate}
-              onChange={(e) => setSingleDate(e.target.value)}
-              className="w-full bg-transparent text-sm text-black sm:text-black/50 focus:outline-none mt-2"
-            />
+            <div className="mt-2">
+              <p className="text-[10px] tracking-widest uppercase text-black/40 mb-1">
+                Pick Date
+              </p>
+              <input
+                type="date"
+                value={singleDate}
+                onChange={(e) => setSingleDate(e.target.value)}
+                className="w-full bg-transparent text-sm text-black focus:outline-none"
+              />
+            </div>
           )}
 
           {/* DATE RANGE */}
           {dateMode === "Date Range" && (
             <div className="flex flex-col sm:grid sm:grid-cols-2 gap-2 mt-2 animate-[fadeIn_0.2s_ease]">
-              <input
-                type="date"
-                value={fromDate}
-                onChange={(e) => setFromDate(e.target.value)}
-                className="w-full bg-transparent text-sm text-black sm:text-black/50 focus:outline-none"
-              />
+              <div>
+                <p className="text-[10px] tracking-widest uppercase text-black/40 mb-1">
+                  From
+                </p>
+                <input
+                  type="date"
+                  value={fromDate}
+                  onChange={(e) => setFromDate(e.target.value)}
+                  className="w-full bg-transparent text-sm text-black focus:outline-none"
+                />
+              </div>
 
-              <input
-                type="date"
-                value={toDate}
-                onChange={(e) => setToDate(e.target.value)}
-                className="w-full bg-transparent text-sm text-black sm:text-black/50 focus:outline-none"
-              />
+              <div>
+                <p className="text-[10px] tracking-widest uppercase text-black/40 mb-1">
+                  To
+                </p>
+                <input
+                  type="date"
+                  value={toDate}
+                  onChange={(e) => setToDate(e.target.value)}
+                  className="w-full bg-transparent text-sm text-black focus:outline-none"
+                />
+              </div>
             </div>
           )}
         </div>
