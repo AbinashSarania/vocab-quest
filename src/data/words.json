@@ -1126,5 +1126,243 @@
     ],
     "difficulty": "medium",
     "date": "2026-06-03"
+  },
+  {
+    "id": 79,
+    "word": "beckons",
+    "meaning": "To signal or summon someone to come closer",
+    "example": "She beckons him over with a wave.",
+    "synonyms": ["invite", "call", "gesture", "summon", "signal"],
+    "antonyms": ["dismiss", "repel", "ignore", "reject", "ward off"],
+    "difficulty": "medium",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 80,
+    "word": "oracular",
+    "meaning": "Having the style or tone of a prophet; mysterious and ambiguous",
+    "example": "His oracular remarks left everyone confused.",
+    "synonyms": ["prophetic", "mystical", "cryptic", "enigmatic", "mysterious"],
+    "antonyms": ["clear", "direct", "plain", "obvious", "literal"],
+    "difficulty": "hard",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 81,
+    "word": "kleptomaniac",
+    "meaning": "A person with an uncontrollable urge to steal",
+    "example": "He was diagnosed as a kleptomaniac after repeated shoplifting incidents.",
+    "synonyms": ["thief", "shoplifter", "stealer", "pilferer", "burglar"],
+    "antonyms": [
+      "honest person",
+      "law-abiding person",
+      "upright person",
+      "non-thief",
+      "lawful citizen"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 82,
+    "word": "wan",
+    "meaning": "Pale and weak in appearance",
+    "example": "She looked wan after days without sleep.",
+    "synonyms": ["pale", "haggard", "faint", "weak", "pallid"],
+    "antonyms": ["healthy", "vibrant", "rosy", "strong", "lively"],
+    "difficulty": "easy",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 83,
+    "word": "excoriate",
+    "meaning": "To criticize someone severely and publicly",
+    "example": "The journalist excoriated the government’s decision.",
+    "synonyms": ["condemn", "denounce", "berate", "criticize", "censure"],
+    "antonyms": ["praise", "commend", "approve", "support", "endorse"],
+    "difficulty": "hard",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 84,
+    "word": "frivolous",
+    "meaning": "Not having any serious purpose or value",
+    "example": "They wasted time on frivolous arguments.",
+    "synonyms": ["silly", "trivial", "meaningless", "superficial", "idle"],
+    "antonyms": ["serious", "important", "meaningful", "significant", "grave"],
+    "difficulty": "easy",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 85,
+    "word": "skirmish",
+    "meaning": "A minor fight or brief conflict",
+    "example": "There was a skirmish between the two groups.",
+    "synonyms": ["fight", "clash", "battle", "conflict", "scuffle"],
+    "antonyms": ["peace", "truce", "harmony", "calm", "agreement"],
+    "difficulty": "medium",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 86,
+    "word": "knave",
+    "meaning": "A dishonest or unscrupulous man",
+    "example": "He was known as a knave in political circles.",
+    "synonyms": ["rogue", "scoundrel", "villain", "crook", "rascal"],
+    "antonyms": [
+      "gentleman",
+      "honest man",
+      "upright person",
+      "saint",
+      "truthful person"
+    ],
+    "difficulty": "medium",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 87,
+    "word": "wanton",
+    "meaning": "Deliberate and unprovoked; sexually uncontrolled or excessive",
+    "example": "The wanton destruction shocked everyone.",
+    "synonyms": ["reckless", "uncontrolled", "wild", "lewd", "indiscriminate"],
+    "antonyms": [
+      "restrained",
+      "controlled",
+      "moderate",
+      "careful",
+      "disciplined"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 88,
+    "word": "pompous",
+    "meaning": "Self-important and arrogant",
+    "example": "He gave a pompous speech about his achievements.",
+    "synonyms": ["arrogant", "conceited", "pretentious", "grandiose", "vain"],
+    "antonyms": ["humble", "modest", "simple", "unassuming", "meek"],
+    "difficulty": "medium",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 89,
+    "word": "dormitory",
+    "meaning": "A building containing sleeping and residential quarters",
+    "example": "Students live in the university dormitory.",
+    "synonyms": [
+      "hostel",
+      "residence hall",
+      "lodging",
+      "quarters",
+      "residence"
+    ],
+    "antonyms": ["none"],
+    "difficulty": "easy",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 90,
+    "word": "somnambulist",
+    "meaning": "A person who sleepwalks",
+    "example": "The somnambulist wandered into the kitchen at night.",
+    "synonyms": [
+      "sleepwalker",
+      "night wanderer",
+      "dream walker",
+      "noctambulator",
+      "sleep mover"
+    ],
+    "antonyms": [
+      "wakeful person",
+      "insomniac",
+      "alert person",
+      "awake person",
+      "conscious person"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 91,
+    "word": "teetotaller",
+    "meaning": "A person who does not drink alcohol",
+    "example": "He is a strict teetotaller.",
+    "synonyms": [
+      "abstainer",
+      "non-drinker",
+      "sober person",
+      "dry person",
+      "alcohol-free person"
+    ],
+    "antonyms": [
+      "drinker",
+      "alcohol consumer",
+      "imbiber",
+      "alcohol user",
+      "social drinker"
+    ],
+    "difficulty": "easy",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 92,
+    "word": "elegy",
+    "meaning": "A poem of serious reflection, typically lamenting the dead",
+    "example": "She wrote an elegy for her late friend.",
+    "synonyms": ["lament", "dirge", "requiem", "mourning poem", "tribute"],
+    "antonyms": [
+      "celebration",
+      "ode of joy",
+      "praise poem",
+      "festive song",
+      "jubilation"
+    ],
+    "difficulty": "medium",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 93,
+    "word": "jurisprudential",
+    "meaning": "Relating to the philosophy or theory of law",
+    "example": "The case raised jurisprudential questions.",
+    "synonyms": [
+      "legal",
+      "judicial",
+      "law-based",
+      "theoretical legal",
+      "constitutional"
+    ],
+    "antonyms": [
+      "non-legal",
+      "informal",
+      "unregulated",
+      "casual",
+      "non-judicial"
+    ],
+    "difficulty": "hard",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 94,
+    "word": "prescriptive",
+    "meaning": "Stating how things should be done rather than describing how they are",
+    "example": "The book takes a prescriptive approach to grammar.",
+    "synonyms": [
+      "directive",
+      "normative",
+      "regulatory",
+      "instructional",
+      "authoritative"
+    ],
+    "antonyms": [
+      "descriptive",
+      "observational",
+      "neutral",
+      "analytical",
+      "reporting"
+    ],
+    "difficulty": "medium",
+    "date": "2026-06-04"
   }
 ]
