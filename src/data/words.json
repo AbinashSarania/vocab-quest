@@ -1364,5 +1364,105 @@
     ],
     "difficulty": "medium",
     "date": "2026-06-04"
+  },
+  {
+    "id": 95,
+    "word": "churn",
+    "meaning": "To stir or agitate vigorously; to produce something through intense activity",
+    "example": "The storm churned the sea into massive waves.",
+    "synonyms": ["agitate", "stir", "whip", "mix", "roil"],
+    "antonyms": ["calm", "settle", "soothe", "stabilize", "still"],
+    "difficulty": "medium",
+    "date": "2026-06-05"
+  },
+  {
+    "id": 96,
+    "word": "impute",
+    "meaning": "To attribute or ascribe something, especially a fault or responsibility, to someone",
+    "example": "The critics imputed the failure of the project to poor leadership.",
+    "synonyms": ["attribute", "ascribe", "assign", "credit", "blame"],
+    "antonyms": ["disassociate", "detach", "separate", "exclude", "absolve"],
+    "difficulty": "hard",
+    "date": "2026-06-05"
+  },
+  {
+    "id": 97,
+    "word": "inexorable",
+    "meaning": "Impossible to stop or prevent; relentless",
+    "example": "The inexorable march of time spares no one.",
+    "synonyms": ["relentless", "unyielding", "unstoppable", "merciless", "persistent"],
+    "antonyms": ["flexible", "yielding", "merciful", "lenient", "forgiving"],
+    "difficulty": "hard",
+    "date": "2026-06-05"
+  },
+  {
+    "id": 98,
+    "word": "quixotic",
+    "meaning": "Exceedingly idealistic and unrealistic",
+    "example": "His quixotic plan to eliminate poverty overnight was impractical.",
+    "synonyms": ["idealistic", "impractical", "romantic", "visionary", "unrealistic"],
+    "antonyms": ["practical", "realistic", "sensible", "pragmatic", "reasonable"],
+    "difficulty": "hard",
+    "date": "2026-06-05"
+  },
+  {
+    "id": 99,
+    "word": "diffident",
+    "meaning": "Lacking self-confidence; shy and modest",
+    "example": "She was too diffident to speak in front of the crowd.",
+    "synonyms": ["shy", "timid", "bashful", "reserved", "self-conscious"],
+    "antonyms": ["confident", "bold", "assertive", "outgoing", "self-assured"],
+    "difficulty": "medium",
+    "date": "2026-06-05"
+  },
+  {
+    "id": 100,
+    "word": "licentious",
+    "meaning": "Lacking moral restraint, especially in sexual behavior",
+    "example": "The novel was criticized for its licentious content.",
+    "synonyms": ["debauched", "dissolute", "lewd", "wanton", "promiscuous"],
+    "antonyms": ["virtuous", "moral", "chaste", "upright", "decent"],
+    "difficulty": "hard",
+    "date": "2026-06-05"
+  },
+  {
+    "id": 101,
+    "word": "truncate",
+    "meaning": "To shorten by cutting off a part",
+    "example": "The editor had to truncate the article to fit the page.",
+    "synonyms": ["shorten", "cut", "abridge", "reduce", "trim"],
+    "antonyms": ["extend", "lengthen", "expand", "enlarge", "prolong"],
+    "difficulty": "medium",
+    "date": "2026-06-05"
+  },
+  {
+    "id": 102,
+    "word": "contumacy",
+    "meaning": "Stubborn refusal to obey authority; rebellious disobedience",
+    "example": "His contumacy led to disciplinary action.",
+    "synonyms": ["defiance", "rebellion", "insubordination", "disobedience", "resistance"],
+    "antonyms": ["obedience", "compliance", "submission", "cooperation", "respect"],
+    "difficulty": "hard",
+    "date": "2026-06-05"
+  },
+  {
+    "id": 103,
+    "word": "lacuna",
+    "meaning": "A gap or missing part in a text, record, or argument",
+    "example": "Researchers discovered a lacuna in the historical records.",
+    "synonyms": ["gap", "void", "omission", "blank", "deficiency"],
+    "antonyms": ["addition", "inclusion", "completeness", "fullness", "continuity"],
+    "difficulty": "hard",
+    "date": "2026-06-05"
+  },
+  {
+    "id": 104,
+    "word": "antediluvian",
+    "meaning": "Extremely old-fashioned or belonging to a very ancient period",
+    "example": "His antediluvian views on technology amused the younger generation.",
+    "synonyms": ["ancient", "archaic", "outdated", "primitive", "obsolete"],
+    "antonyms": ["modern", "contemporary", "current", "advanced", "innovative"],
+    "difficulty": "hard",
+    "date": "2026-06-05"
   }
 ]
