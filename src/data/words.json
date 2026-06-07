@@ -1464,5 +1464,95 @@
     "antonyms": ["modern", "contemporary", "current", "advanced", "innovative"],
     "difficulty": "hard",
     "date": "2026-06-05"
+  },
+  {
+    "id": 105,
+    "word": "incandescent",
+    "meaning": "Glowing brightly; full of strong emotion, passion, or brilliance",
+    "example": "She delivered an incandescent speech that inspired the entire audience.",
+    "synonyms": ["radiant", "luminous", "brilliant", "passionate", "glowing"],
+    "antonyms": ["dim", "dull", "lifeless", "apathetic", "dark"],
+    "difficulty": "medium",
+    "date": "2026-06-07"
+  },
+  {
+    "id": 106,
+    "word": "abomination",
+    "meaning": "Something extremely unpleasant, hateful, or unacceptable",
+    "example": "The corruption scandal was regarded as an abomination by the public.",
+    "synonyms": ["atrocity", "disgrace", "horror", "outrage", "monstrosity"],
+    "antonyms": ["delight", "blessing", "virtue", "treasure", "admiration"],
+    "difficulty": "medium",
+    "date": "2026-06-07"
+  },
+  {
+    "id": 107,
+    "word": "prosaic",
+    "meaning": "Ordinary, dull, or lacking imagination",
+    "example": "His explanation was accurate but rather prosaic.",
+    "synonyms": ["mundane", "ordinary", "unimaginative", "commonplace", "dull"],
+    "antonyms": ["creative", "imaginative", "exciting", "extraordinary", "inspired"],
+    "difficulty": "hard",
+    "date": "2026-06-07"
+  },
+  {
+    "id": 108,
+    "word": "persnickety",
+    "meaning": "Very particular or careful about small details",
+    "example": "She is persnickety about keeping her notes perfectly organized.",
+    "synonyms": ["fussy", "fastidious", "meticulous", "particular", "finicky"],
+    "antonyms": ["careless", "easygoing", "casual", "sloppy", "indifferent"],
+    "difficulty": "hard",
+    "date": "2026-06-07"
+  },
+  {
+    "id": 109,
+    "word": "lusciousness",
+    "meaning": "Richness, sweetness, or great attractiveness",
+    "example": "The lusciousness of the mango made it irresistible.",
+    "synonyms": ["richness", "sweetness", "luxuriance", "succulence", "allure"],
+    "antonyms": ["blandness", "dryness", "harshness", "plainness", "unattractiveness"],
+    "difficulty": "medium",
+    "date": "2026-06-07"
+  },
+  {
+    "id": 110,
+    "word": "mendacious",
+    "meaning": "Dishonest; given to lying",
+    "example": "The witness was found to be mendacious during the investigation.",
+    "synonyms": ["deceitful", "dishonest", "untruthful", "lying", "fraudulent"],
+    "antonyms": ["truthful", "honest", "sincere", "trustworthy", "candid"],
+    "difficulty": "hard",
+    "date": "2026-06-07"
+  },
+  {
+    "id": 111,
+    "word": "officious",
+    "meaning": "Too eager to offer unwanted advice, help, or interference",
+    "example": "An officious employee kept interrupting customers with unnecessary suggestions.",
+    "synonyms": ["meddlesome", "interfering", "intrusive", "pushy", "bossy"],
+    "antonyms": ["reserved", "unobtrusive", "respectful", "modest", "reticent"],
+    "difficulty": "hard",
+    "date": "2026-06-07"
+  },
+  {
+    "id": 112,
+    "word": "punitive",
+    "meaning": "Intended to punish or penalize",
+    "example": "The company imposed punitive measures for repeated violations.",
+    "synonyms": ["penal", "disciplinary", "corrective", "retributive", "punishing"],
+    "antonyms": ["rewarding", "lenient", "forgiving", "merciful", "indulgent"],
+    "difficulty": "medium",
+    "date": "2026-06-07"
+  },
+  {
+    "id": 113,
+    "word": "ephemeral",
+    "meaning": "Lasting for a very short time",
+    "example": "Fame on social media can often be ephemeral.",
+    "synonyms": ["transient", "fleeting", "temporary", "short-lived", "momentary"],
+    "antonyms": ["permanent", "enduring", "lasting", "eternal", "persistent"],
+    "difficulty": "medium",
+    "date": "2026-06-07"
   }
 ]
