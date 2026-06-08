@@ -1554,5 +1554,204 @@
     "antonyms": ["permanent", "enduring", "lasting", "eternal", "persistent"],
     "difficulty": "medium",
     "date": "2026-06-07"
+  },
+  {
+
+    "id": 114,
+
+    "word": "invidious",
+
+    "meaning": "Likely to cause resentment, envy, or offense; unfairly discriminatory",
+
+    "example": "The manager faced criticism for making invidious comparisons between employees.",
+
+    "synonyms": ["offensive", "resentful", "discriminatory", "prejudicial", "obnoxious"],
+
+    "antonyms": ["fair", "impartial", "just", "equitable", "unbiased"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-08"
+
+  },
+
+  {
+
+    "id": 115,
+
+    "word": "perjure",
+
+    "meaning": "To deliberately tell a lie under oath",
+
+    "example": "He was charged after attempting to perjure himself in court.",
+
+    "synonyms": ["lie", "deceive", "falsify", "misrepresent", "fabricate"],
+
+    "antonyms": ["tell the truth", "confess", "verify", "authenticate", "attest"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-08"
+
+  },
+
+  {
+
+    "id": 116,
+
+    "word": "extolling",
+
+    "meaning": "Praising enthusiastically and highly",
+
+    "example": "The article was extolling the achievements of the young scientist.",
+
+    "synonyms": ["praising", "lauding", "glorifying", "acclaiming", "commending"],
+
+    "antonyms": ["criticizing", "condemning", "denouncing", "disparaging", "belittling"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-08"
+
+  },
+
+  {
+
+    "id": 117,
+
+    "word": "affectation",
+
+    "meaning": "Artificial behavior, speech, or manners intended to impress others",
+
+    "example": "His accent was merely an affectation designed to appear sophisticated.",
+
+    "synonyms": ["pretension", "artifice", "pose", "mannerism", "pretense"],
+
+    "antonyms": ["genuineness", "sincerity", "naturalness", "authenticity", "honesty"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-08"
+
+  },
+
+  {
+
+    "id": 118,
+
+    "word": "woebegone",
+
+    "meaning": "Looking sad, miserable, or sorrowful",
+
+    "example": "The team appeared woebegone after their defeat.",
+
+    "synonyms": ["miserable", "dejected", "forlorn", "gloomy", "melancholy"],
+
+    "antonyms": ["cheerful", "joyful", "happy", "elated", "optimistic"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-08"
+
+  },
+
+  {
+
+    "id": 119,
+
+    "word": "adulation",
+
+    "meaning": "Excessive admiration or praise",
+
+    "example": "The celebrity enjoyed the adulation of her fans.",
+
+    "synonyms": ["flattery", "praise", "worship", "admiration", "idolization"],
+
+    "antonyms": ["criticism", "disapproval", "condemnation", "censure", "ridicule"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-08"
+
+  },
+
+  {
+
+    "id": 120,
+
+    "word": "querulous",
+
+    "meaning": "Complaining in a whining or petulant manner",
+
+    "example": "His querulous tone irritated everyone in the meeting.",
+
+    "synonyms": ["complaining", "whining", "grumbling", "petulant", "fault-finding"],
+
+    "antonyms": ["cheerful", "content", "satisfied", "pleasant", "agreeable"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-08"
+
+  },
+
+  {
+
+    "id": 121,
+
+    "word": "desultory",
+
+    "meaning": "Lacking a clear plan, purpose, or enthusiasm",
+
+    "example": "Their desultory efforts failed to produce meaningful results.",
+
+    "synonyms": ["aimless", "random", "haphazard", "unsystematic", "disorganized"],
+
+    "antonyms": ["focused", "systematic", "organized", "purposeful", "methodical"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-08"
+
+  },
+
+  {
+
+    "id": 122,
+
+    "word": "rumpus",
+
+    "meaning": "A noisy disturbance, commotion, or quarrel",
+
+    "example": "The children caused a rumpus in the classroom.",
+
+    "synonyms": ["commotion", "uproar", "disturbance", "tumult", "ruckus"],
+
+    "antonyms": ["calm", "peace", "quiet", "order", "tranquility"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-08"
+
+  },
+
+  {
+
+    "id": 123,
+
+    "word": "vilify",
+
+    "meaning": "To speak or write about someone in an abusively disparaging manner",
+
+    "example": "The politician was vilified by opponents in the media.",
+
+    "synonyms": ["defame", "slander", "malign", "denounce", "disparage"],
+
+    "antonyms": ["praise", "commend", "extol", "honor", "celebrate"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-08"
+
   }
 ]
