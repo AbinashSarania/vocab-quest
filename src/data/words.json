@@ -1753,5 +1753,304 @@
 
     "date": "2026-06-08"
 
+  },
+  {
+    "id": 124,
+    "word": "tenacity",
+    "meaning": "The quality of being determined and persistent in achieving something",
+    "example": "Her tenacity helped her clear the banking exam after several attempts.",
+    "synonyms": ["persistence", "determination", "resolve", "grit", "perseverance"],
+    "antonyms": ["weakness", "indecision", "apathy", "timidity", "surrender"],
+    "difficulty": "medium",
+    "date": "2026-06-10"
+  },
+  {
+    "id": 125,
+    "word": "exhilaration",
+    "meaning": "A feeling of great excitement, happiness, and joy",
+    "example": "He felt a rush of exhilaration after seeing his name on the selection list.",
+    "synonyms": ["elation", "euphoria", "excitement", "joy", "thrill"],
+    "antonyms": ["depression", "sadness", "misery", "gloom", "despair"],
+    "difficulty": "medium",
+    "date": "2026-06-10"
+  },
+  {
+    "id": 126,
+    "word": "depraved",
+    "meaning": "Morally corrupt, wicked, or evil",
+    "example": "The novel portrayed the actions of a depraved ruler.",
+    "synonyms": ["corrupt", "wicked", "immoral", "degenerate", "vicious"],
+    "antonyms": ["virtuous", "moral", "upright", "honorable", "ethical"],
+    "difficulty": "hard",
+    "date": "2026-06-10"
+  },
+  {
+    "id": 127,
+    "word": "sentient",
+    "meaning": "Able to perceive, feel, or experience sensations and emotions",
+    "example": "Many philosophers debate whether certain animals are fully sentient beings.",
+    "synonyms": ["conscious", "aware", "perceptive", "responsive", "cognizant"],
+    "antonyms": ["insentient", "unaware", "unconscious", "inanimate", "mindless"],
+    "difficulty": "hard",
+    "date": "2026-06-10"
+  },
+  {
+    "id": 128,
+    "word": "uproot",
+    "meaning": "To remove completely; to destroy or eliminate from its place",
+    "example": "The government launched a campaign to uproot corruption.",
+    "synonyms": ["eradicate", "remove", "eliminate", "dislodge", "extirpate"],
+    "antonyms": ["establish", "plant", "fix", "embed", "preserve"],
+    "difficulty": "medium",
+    "date": "2026-06-10"
+  },
+  {
+    "id": 129,
+    "word": "callow",
+    "meaning": "Inexperienced, immature, or lacking sophistication",
+    "example": "As a callow recruit, he still had much to learn.",
+    "synonyms": ["inexperienced", "immature", "naive", "green", "unseasoned"],
+    "antonyms": ["experienced", "mature", "seasoned", "wise", "sophisticated"],
+    "difficulty": "hard",
+    "date": "2026-06-10"
+  },
+  {
+    "id": 130,
+    "word": "ballooning",
+    "meaning": "Increasing rapidly in size, amount, or importance",
+    "example": "The company struggled with ballooning operational costs.",
+    "synonyms": ["expanding", "growing", "surging", "escalating", "swelling"],
+    "antonyms": ["shrinking", "declining", "reducing", "contracting", "diminishing"],
+    "difficulty": "medium",
+    "date": "2026-06-10"
+  },
+  {
+    "id": 131,
+    "word": "nebulous",
+    "meaning": "Vague, unclear, or ill-defined",
+    "example": "The proposal was rejected because its objectives were too nebulous.",
+    "synonyms": ["vague", "unclear", "indistinct", "ambiguous", "hazy"],
+    "antonyms": ["clear", "definite", "precise", "explicit", "specific"],
+    "difficulty": "hard",
+    "date": "2026-06-10"
+  },
+  {
+    "id": 132,
+    "word": "chimerical",
+    "meaning": "Wildly imaginative, unrealistic, or impossible to achieve",
+    "example": "His dream of building a city on the moon seemed chimerical.",
+    "synonyms": ["fantastical", "unrealistic", "illusory", "impractical", "visionary"],
+    "antonyms": ["realistic", "practical", "feasible", "attainable", "possible"],
+    "difficulty": "hard",
+    "date": "2026-06-10"
+  },
+  {
+    "id": 133,
+    "word": "abstruse",
+    "meaning": "Difficult to understand; obscure and complex",
+    "example": "The professor's lecture on quantum mechanics was highly abstruse.",
+    "synonyms": ["obscure", "complex", "esoteric", "arcane", "cryptic"],
+    "antonyms": ["simple", "clear", "straightforward", "obvious", "comprehensible"],
+    "difficulty": "hard",
+    "date": "2026-06-10"
+  },
+   {
+
+    "id": 134,
+
+    "word": "indefatigable",
+
+    "meaning": "Persisting tirelessly; incapable of being exhausted by effort",
+
+    "example": "The indefatigable volunteer worked day and night to help flood victims.",
+
+    "synonyms": ["tireless", "untiring", "relentless", "energetic", "persistent"],
+
+    "antonyms": ["lazy", "weary", "sluggish", "lethargic", "indolent"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-12"
+
+  },
+
+  {
+
+    "id": 135,
+
+    "word": "irrepressible",
+
+    "meaning": "Impossible to control, restrain, or suppress",
+
+    "example": "Her irrepressible enthusiasm brightened the entire classroom.",
+
+    "synonyms": ["uncontrollable", "unstoppable", "exuberant", "unrestrained", "spirited"],
+
+    "antonyms": ["restrained", "subdued", "controlled", "suppressed", "reserved"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-12"
+
+  },
+
+  {
+
+    "id": 136,
+
+    "word": "irreconcilable",
+
+    "meaning": "Impossible to bring into agreement or harmony",
+
+    "example": "The two leaders had irreconcilable differences over the policy.",
+
+    "synonyms": ["incompatible", "conflicting", "opposed", "discordant", "unresolvable"],
+
+    "antonyms": ["compatible", "harmonious", "reconcilable", "agreeable", "consistent"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-12"
+
+  },
+
+  {
+
+    "id": 137,
+
+    "word": "conflagration",
+
+    "meaning": "A large destructive fire; an extensive blaze",
+
+    "example": "The conflagration destroyed several buildings before firefighters contained it.",
+
+    "synonyms": ["fire", "inferno", "blaze", "holocaust", "firestorm"],
+
+    "antonyms": ["extinguishment", "suppression", "quenching", "containment", "abatement"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-12"
+
+  },
+
+  {
+
+    "id": 138,
+
+    "word": "exasperation",
+
+    "meaning": "A feeling of intense irritation, annoyance, or frustration",
+
+    "example": "Repeated delays caused great exasperation among passengers.",
+
+    "synonyms": ["frustration", "irritation", "annoyance", "aggravation", "vexation"],
+
+    "antonyms": ["satisfaction", "contentment", "calm", "pleasure", "delight"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-12"
+
+  },
+
+  {
+
+    "id": 139,
+
+    "word": "circumspect",
+
+    "meaning": "Careful, cautious, and unwilling to take risks",
+
+    "example": "Investors remained circumspect about the volatile market.",
+
+    "synonyms": ["cautious", "prudent", "careful", "wary", "vigilant"],
+
+    "antonyms": ["reckless", "careless", "rash", "impulsive", "heedless"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-12"
+
+  },
+
+  {
+
+    "id": 140,
+
+    "word": "profusion",
+
+    "meaning": "An abundance or large quantity of something",
+
+    "example": "The garden displayed a profusion of colorful flowers.",
+
+    "synonyms": ["abundance", "plenty", "overflow", "wealth", "copiousness"],
+
+    "antonyms": ["scarcity", "shortage", "lack", "dearth", "paucity"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-12"
+
+  },
+
+  {
+
+    "id": 141,
+
+    "word": "assiduous",
+
+    "meaning": "Showing great care, attention, and perseverance in work",
+
+    "example": "Her assiduous preparation helped her excel in the examination.",
+
+    "synonyms": ["diligent", "industrious", "meticulous", "hardworking", "conscientious"],
+
+    "antonyms": ["lazy", "negligent", "careless", "indifferent", "slothful"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-12"
+
+  },
+
+  {
+
+    "id": 142,
+
+    "word": "perfunctorily",
+
+    "meaning": "Done with minimal effort, interest, or attention",
+
+    "example": "He perfunctorily signed the documents without reading them.",
+
+    "synonyms": ["mechanically", "casually", "superficially", "carelessly", "indifferently"],
+
+    "antonyms": ["carefully", "thoroughly", "attentively", "meticulously", "earnestly"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-12"
+
+  },
+
+  {
+
+    "id": 143,
+
+    "word": "invective",
+
+    "meaning": "Harsh, abusive, or insulting language",
+
+    "example": "The debate quickly deteriorated into personal invective.",
+
+    "synonyms": ["abuse", "insult", "vituperation", "denunciation", "scorn"],
+
+    "antonyms": ["praise", "compliment", "commendation", "flattery", "approval"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-12"
+
   }
 ]
