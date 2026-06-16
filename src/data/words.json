@@ -2052,5 +2052,408 @@
 
     "date": "2026-06-12"
 
+  },
+  {
+
+    "id": 144,
+
+    "word": "egress",
+
+    "meaning": "The act of going out or leaving a place; an exit",
+
+    "example": "The emergency egress was clearly marked near the rear of the building.",
+
+    "synonyms": ["exit", "departure", "outlet", "escape", "withdrawal"],
+
+    "antonyms": ["entrance", "entry", "ingress", "arrival", "admission"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-15"
+
+  },
+
+  {
+
+    "id": 145,
+
+    "word": "exiguous",
+
+    "meaning": "Very small in amount, size, or degree; scanty",
+
+    "example": "The project was completed with an exiguous budget.",
+
+    "synonyms": ["scanty", "meager", "minimal", "insufficient", "sparse"],
+
+    "antonyms": ["abundant", "ample", "copious", "plentiful", "substantial"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-15"
+
+  },
+
+  {
+
+    "id": 146,
+
+    "word": "abet",
+
+    "meaning": "To encourage, support, or assist someone in doing something wrong",
+
+    "example": "Anyone who helps to abet a crime may face legal consequences.",
+
+    "synonyms": ["assist", "aid", "encourage", "support", "instigate"],
+
+    "antonyms": ["hinder", "prevent", "discourage", "obstruct", "deter"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-15"
+
+  },
+
+  {
+
+    "id": 147,
+
+    "word": "perfidious",
+
+    "meaning": "Deceitful and untrustworthy; betraying trust",
+
+    "example": "The perfidious minister secretly worked against his own allies.",
+
+    "synonyms": ["treacherous", "faithless", "deceitful", "dishonest", "disloyal"],
+
+    "antonyms": ["loyal", "faithful", "trustworthy", "honest", "reliable"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-15"
+
+  },
+
+  {
+
+    "id": 148,
+
+    "word": "ruminate",
+
+    "meaning": "To think deeply and carefully about something",
+
+    "example": "He sat quietly to ruminate on the difficult decision.",
+
+    "synonyms": ["ponder", "contemplate", "reflect", "meditate", "deliberate"],
+
+    "antonyms": ["ignore", "neglect", "disregard", "overlook", "dismiss"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-15"
+
+  },
+
+  {
+
+    "id": 149,
+
+    "word": "phlegmatic",
+
+    "meaning": "Calm, unemotional, and not easily excited or disturbed",
+
+    "example": "Despite the chaos around him, he remained phlegmatic.",
+
+    "synonyms": ["calm", "composed", "stoic", "unemotional", "imperturbable"],
+
+    "antonyms": ["emotional", "excitable", "passionate", "agitated", "volatile"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-15"
+
+  },
+
+  {
+
+    "id": 150,
+
+    "word": "enormity",
+
+    "meaning": "The great wickedness or seriousness of something bad",
+
+    "example": "The enormity of the fraud shocked the entire nation.",
+
+    "synonyms": ["atrocity", "heinousness", "outrage", "monstrosity", "evil"],
+
+    "antonyms": ["goodness", "virtue", "kindness", "benevolence", "morality"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-15"
+
+  },
+
+  {
+
+    "id": 151,
+
+    "word": "bumpkin",
+
+    "meaning": "An unsophisticated or socially awkward person from the countryside",
+
+    "example": "The city dwellers unfairly regarded him as a bumpkin.",
+
+    "synonyms": ["rustic", "yokel", "hick", "countryman", "peasant"],
+
+    "antonyms": ["sophisticate", "urbanite", "gentleman", "aristocrat", "cosmopolitan"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-15"
+
+  },
+
+  {
+
+    "id": 152,
+
+    "word": "terse",
+
+    "meaning": "Brief and concise in speech or writing",
+
+    "example": "Her terse reply made it clear that the discussion was over.",
+
+    "synonyms": ["concise", "succinct", "brief", "compact", "laconic"],
+
+    "antonyms": ["verbose", "wordy", "lengthy", "prolix", "rambling"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-15"
+
+  },
+
+  {
+
+    "id": 153,
+
+    "word": "beneficent",
+
+    "meaning": "Kind, generous, and doing good to others",
+
+    "example": "The beneficent donor funded several scholarships for needy students.",
+
+    "synonyms": ["benevolent", "charitable", "kindhearted", "generous", "philanthropic"],
+
+    "antonyms": ["malevolent", "cruel", "selfish", "unkind", "harmful"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-15"
+
+  },
+  {
+
+    "id": 154,
+
+    "word": "fecund",
+
+    "meaning": "Highly productive, fertile, or capable of producing abundant growth or ideas",
+
+    "example": "The scientist's fecund imagination led to many groundbreaking discoveries.",
+
+    "synonyms": ["fertile", "productive", "fruitful", "prolific", "abundant"],
+
+    "antonyms": ["barren", "infertile", "unproductive", "sterile", "fruitless"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-16"
+
+  },
+
+  {
+
+    "id": 155,
+
+    "word": "spree",
+
+    "meaning": "A period of unrestrained activity, spending, or enjoyment",
+
+    "example": "After receiving his bonus, he went on a shopping spree.",
+
+    "synonyms": ["binge", "splurge", "frolic", "outburst", "indulgence"],
+
+    "antonyms": ["restraint", "moderation", "abstinence", "control", "frugality"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-16"
+
+  },
+
+  {
+
+    "id": 156,
+
+    "word": "adroit",
+
+    "meaning": "Skillful, clever, and quick in thought or action",
+
+    "example": "She was adroit at handling difficult negotiations.",
+
+    "synonyms": ["skillful", "dexterous", "adept", "proficient", "clever"],
+
+    "antonyms": ["clumsy", "awkward", "inept", "unskilled", "incompetent"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-16"
+
+  },
+
+  {
+
+    "id": 157,
+
+    "word": "tepid",
+
+    "meaning": "Only slightly warm; showing little enthusiasm",
+
+    "example": "The proposal received a tepid response from the committee.",
+
+    "synonyms": ["lukewarm", "unenthusiastic", "indifferent", "cool", "apathetic"],
+
+    "antonyms": ["enthusiastic", "passionate", "eager", "ardent", "fervent"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-16"
+
+  },
+
+  {
+
+    "id": 158,
+
+    "word": "rebuff",
+
+    "meaning": "To reject or criticize sharply and bluntly",
+
+    "example": "His request for assistance was met with a rebuff.",
+
+    "synonyms": ["reject", "snub", "dismiss", "repulse", "refuse"],
+
+    "antonyms": ["accept", "welcome", "approve", "encourage", "embrace"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-16"
+
+  },
+
+  {
+
+    "id": 159,
+
+    "word": "virulent",
+
+    "meaning": "Extremely harmful, hostile, or poisonous",
+
+    "example": "The virulent disease spread rapidly through the region.",
+
+    "synonyms": ["malignant", "deadly", "poisonous", "hostile", "venomous"],
+
+    "antonyms": ["benign", "harmless", "mild", "gentle", "inoffensive"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-16"
+
+  },
+
+  {
+
+    "id": 160,
+
+    "word": "salubrious",
+
+    "meaning": "Health-giving, healthy, or pleasant to live in",
+
+    "example": "The hill station is known for its salubrious climate.",
+
+    "synonyms": ["healthy", "wholesome", "beneficial", "invigorating", "healthful"],
+
+    "antonyms": ["unhealthy", "harmful", "noxious", "unsanitary", "deleterious"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-16"
+
+  },
+
+  {
+
+    "id": 161,
+
+    "word": "jester",
+
+    "meaning": "A person who entertains others with jokes, especially in a royal court",
+
+    "example": "The jester amused the king with witty remarks and tricks.",
+
+    "synonyms": ["clown", "comedian", "fool", "joker", "entertainer"],
+
+    "antonyms": ["serious person", "scholar", "sage", "critic", "intellectual"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-16"
+
+  },
+
+  {
+
+    "id": 162,
+
+    "word": "tendentious",
+
+    "meaning": "Expressing or promoting a particular cause, viewpoint, or agenda, often in a biased way",
+
+    "example": "The article was criticized for its tendentious reporting.",
+
+    "synonyms": ["biased", "partisan", "prejudiced", "slanted", "one-sided"],
+
+    "antonyms": ["objective", "impartial", "neutral", "fair", "unbiased"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-16"
+
+  },
+
+  {
+
+    "id": 163,
+
+    "word": "insular",
+
+    "meaning": "Narrow-minded, isolated, or uninterested in different ideas or cultures",
+
+    "example": "His insular attitude prevented him from appreciating other perspectives.",
+
+    "synonyms": ["narrow-minded", "parochial", "isolated", "provincial", "closed-minded"],
+
+    "antonyms": ["open-minded", "cosmopolitan", "inclusive", "broad-minded", "worldly"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-16"
+
   }
+
+]
+  
+  
+  
 ]
