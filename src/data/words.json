@@ -2450,6 +2450,106 @@
 
     "date": "2026-06-16"
 
+  },
+  {
+    "id": 164,
+    "word": "maladroit",
+    "meaning": "Ineffective, awkward, or clumsy in action or behavior",
+    "example": "His maladroit attempt at humor only made the situation more uncomfortable.",
+    "synonyms": ["clumsy", "awkward", "inept", "bungling", "unskillful"],
+    "antonyms": ["adroit", "skillful", "dexterous", "competent", "graceful"],
+    "difficulty": "hard",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 165,
+    "word": "bravura",
+    "meaning": "A display of great skill, confidence, or brilliance",
+    "example": "The pianist delivered a bravura performance that captivated the audience.",
+    "synonyms": ["mastery", "virtuosity", "brilliance", "flair", "excellence"],
+    "antonyms": ["ineptitude", "clumsiness", "mediocrity", "incompetence", "awkwardness"],
+    "difficulty": "hard",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 166,
+    "word": "squandered",
+    "meaning": "Wasted recklessly or foolishly",
+    "example": "He squandered his savings on unnecessary luxuries.",
+    "synonyms": ["wasted", "misused", "dissipated", "lavished", "threw away"],
+    "antonyms": ["saved", "conserved", "preserved", "hoarded", "economized"],
+    "difficulty": "medium",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 167,
+    "word": "chicanery",
+    "meaning": "Deceptive or dishonest practices used to achieve a goal",
+    "example": "The election was marred by accusations of political chicanery.",
+    "synonyms": ["deception", "trickery", "fraud", "dishonesty", "duplicity"],
+    "antonyms": ["honesty", "integrity", "fairness", "sincerity", "truthfulness"],
+    "difficulty": "hard",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 168,
+    "word": "invidiousness",
+    "meaning": "The quality of being offensive, unfair, or likely to cause resentment",
+    "example": "The invidiousness of the comparison angered many employees.",
+    "synonyms": ["offensiveness", "unfairness", "prejudice", "bias", "resentfulness"],
+    "antonyms": ["fairness", "impartiality", "justice", "equity", "objectivity"],
+    "difficulty": "hard",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 169,
+    "word": "parochial",
+    "meaning": "Having a limited or narrow outlook; confined to local interests",
+    "example": "A parochial mindset can prevent people from embracing new ideas.",
+    "synonyms": ["narrow-minded", "provincial", "insular", "limited", "small-minded"],
+    "antonyms": ["broad-minded", "cosmopolitan", "open-minded", "worldly", "inclusive"],
+    "difficulty": "hard",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 170,
+    "word": "inchoation",
+    "meaning": "The beginning or initial stage of something",
+    "example": "The project was still in its inchoation and far from completion.",
+    "synonyms": ["beginning", "commencement", "inception", "initiation", "onset"],
+    "antonyms": ["completion", "conclusion", "ending", "termination", "finality"],
+    "difficulty": "hard",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 171,
+    "word": "tinker",
+    "meaning": "To make small adjustments or repairs in an experimental manner",
+    "example": "He loved to tinker with old radios in his spare time.",
+    "synonyms": ["fiddle", "tamper", "adjust", "modify", "repair"],
+    "antonyms": ["neglect", "ignore", "damage", "destroy", "abandon"],
+    "difficulty": "medium",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 172,
+    "word": "indelible",
+    "meaning": "Impossible to erase, remove, or forget",
+    "example": "The experience left an indelible mark on her memory.",
+    "synonyms": ["permanent", "enduring", "lasting", "ineradicable", "unforgettable"],
+    "antonyms": ["temporary", "erasable", "forgettable", "fleeting", "transient"],
+    "difficulty": "hard",
+    "date": "2026-06-18"
+  },
+  {
+    "id": 173,
+    "word": "aghast",
+    "meaning": "Filled with shock, horror, or amazement",
+    "example": "She was aghast when she heard the unexpected news.",
+    "synonyms": ["appalled", "horrified", "shocked", "stunned", "dismayed"],
+    "antonyms": ["calm", "unmoved", "composed", "unconcerned", "indifferent"],
+    "difficulty": "medium",
+    "date": "2026-06-18"
   }
 
 ]
