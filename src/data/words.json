@@ -2550,6 +2550,205 @@
     "antonyms": ["calm", "unmoved", "composed", "unconcerned", "indifferent"],
     "difficulty": "medium",
     "date": "2026-06-18"
+  },
+  {
+
+    "id": 174,
+
+    "word": "grandiose",
+
+    "meaning": "Impressive or ambitious in appearance, style, or scope, often excessively so",
+
+    "example": "He presented a grandiose plan to transform the small town into a major tourist destination.",
+
+    "synonyms": ["magnificent", "imposing", "majestic", "pretentious", "extravagant"],
+
+    "antonyms": ["modest", "humble", "simple", "unassuming", "plain"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-22"
+
+  },
+
+  {
+
+    "id": 175,
+
+    "word": "muckraking",
+
+    "meaning": "The act of searching for and exposing real or alleged corruption, scandal, or misconduct",
+
+    "example": "The journalist gained recognition for her muckraking investigations into political corruption.",
+
+    "synonyms": ["investigation", "exposure", "probing", "whistleblowing", "scrutiny"],
+
+    "antonyms": ["concealment", "cover-up", "suppression", "secrecy", "protection"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-22"
+
+  },
+
+  {
+
+    "id": 176,
+
+    "word": "propitiate",
+
+    "meaning": "To win or regain the favor of someone by doing something pleasing",
+
+    "example": "He tried to propitiate his manager by completing the project ahead of schedule.",
+
+    "synonyms": ["appease", "pacify", "conciliate", "placate", "mollify"],
+
+    "antonyms": ["provoke", "aggravate", "offend", "antagonize", "irritate"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-22"
+
+  },
+
+  {
+
+    "id": 177,
+
+    "word": "obscurantism",
+
+    "meaning": "The practice of deliberately preventing knowledge or understanding from spreading",
+
+    "example": "Critics accused the regime of obscurantism by restricting access to educational resources.",
+
+    "synonyms": ["ignorance", "suppression", "secrecy", "censorship", "concealment"],
+
+    "antonyms": ["enlightenment", "education", "openness", "clarity", "transparency"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-22"
+
+  },
+
+  {
+
+    "id": 178,
+
+    "word": "glint",
+
+    "meaning": "A small flash or sparkle of light",
+
+    "example": "A glint of sunlight reflected off the surface of the lake.",
+
+    "synonyms": ["sparkle", "flash", "gleam", "shimmer", "twinkle"],
+
+    "antonyms": ["darkness", "dullness", "gloom", "dimness", "shadow"],
+
+    "difficulty": "easy",
+
+    "date": "2026-06-22"
+
+  },
+
+  {
+
+    "id": 179,
+
+    "word": "resplendent",
+
+    "meaning": "Attractive and impressive through being richly colorful or sumptuous",
+
+    "example": "The bride looked resplendent in her traditional attire.",
+
+    "synonyms": ["radiant", "splendid", "magnificent", "brilliant", "glorious"],
+
+    "antonyms": ["drab", "dull", "plain", "unattractive", "shabby"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-22"
+
+  },
+
+  {
+
+    "id": 180,
+
+    "word": "frailty",
+
+    "meaning": "The condition of being weak or delicate, especially due to age or illness",
+
+    "example": "The frailty of the old man became evident as he struggled to walk.",
+
+    "synonyms": ["weakness", "fragility", "delicacy", "feebleness", "infirmity"],
+
+    "antonyms": ["strength", "robustness", "vigor", "endurance", "sturdiness"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-22"
+
+  },
+
+  {
+
+    "id": 181,
+
+    "word": "shoddy",
+
+    "meaning": "Poorly made or done; of inferior quality",
+
+    "example": "Customers complained about the shoddy workmanship of the product.",
+
+    "synonyms": ["inferior", "cheap", "substandard", "poor", "defective"],
+
+    "antonyms": ["excellent", "superior", "quality", "durable", "first-rate"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-22"
+
+  },
+
+  {
+
+    "id": 182,
+
+    "word": "calamitous",
+
+    "meaning": "Involving disaster, catastrophe, or great misfortune",
+
+    "example": "The calamitous flood caused widespread destruction across the region.",
+
+    "synonyms": ["disastrous", "catastrophic", "tragic", "devastating", "ruinous"],
+
+    "antonyms": ["fortunate", "beneficial", "favorable", "successful", "auspicious"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-22"
+
+  },
+
+  {
+
+    "id": 183,
+
+    "word": "connived",
+
+    "meaning": "Secretly allowed or cooperated in wrongdoing",
+
+    "example": "The officials were accused of having connived in the fraudulent scheme.",
+
+    "synonyms": ["colluded", "conspired", "cooperated", "abetted", "plotted"],
+
+    "antonyms": ["prevented", "opposed", "thwarted", "resisted", "exposed"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-22"
+
   }
 
 ]
