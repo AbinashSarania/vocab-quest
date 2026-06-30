@@ -2749,6 +2749,803 @@
 
     "date": "2026-06-22"
 
+  },
+  {
+
+    "id": 184,
+
+    "word": "disquieting",
+
+    "meaning": "Causing anxiety, uneasiness, or concern",
+
+    "example": "The sudden silence after the explosion was deeply disquieting.",
+
+    "synonyms": ["disturbing", "unsettling", "alarming", "troubling", "disconcerting"],
+
+    "antonyms": ["reassuring", "comforting", "calming", "soothing", "encouraging"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-25"
+
+  },
+
+  {
+
+    "id": 185,
+
+    "word": "riposte",
+
+    "meaning": "A quick, clever reply to an insult or criticism",
+
+    "example": "She delivered a sharp riposte that left her opponent speechless.",
+
+    "synonyms": ["retort", "rejoinder", "comeback", "reply", "counter"],
+
+    "antonyms": ["silence", "agreement", "acceptance", "concession", "yielding"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-25"
+
+  },
+
+  {
+
+    "id": 186,
+
+    "word": "flagrant",
+
+    "meaning": "Conspicuously offensive, shocking, or obvious",
+
+    "example": "The referee ignored the player's flagrant foul, sparking outrage among the fans.",
+
+    "synonyms": ["blatant", "glaring", "egregious", "outrageous", "scandalous"],
+
+    "antonyms": ["subtle", "minor", "inconspicuous", "acceptable", "unnoticeable"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-25"
+
+  },
+
+  {
+
+    "id": 187,
+
+    "word": "vociferous",
+
+    "meaning": "Expressing opinions or feelings loudly and forcefully",
+
+    "example": "The vociferous crowd demanded immediate action from the authorities.",
+
+    "synonyms": ["outspoken", "boisterous", "clamorous", "loud", "vehement"],
+
+    "antonyms": ["quiet", "reserved", "silent", "subdued", "muted"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-25"
+
+  },
+
+  {
+
+    "id": 188,
+
+    "word": "ineluctable",
+
+    "meaning": "Impossible to avoid or escape; inevitable",
+
+    "example": "The ineluctable passage of time changes everyone.",
+
+    "synonyms": ["inevitable", "unavoidable", "inescapable", "certain", "unpreventable"],
+
+    "antonyms": ["avoidable", "uncertain", "preventable", "optional", "escapable"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-25"
+
+  },
+
+  {
+
+    "id": 189,
+
+    "word": "incapacitation",
+
+    "meaning": "The state of being made unable to function or act normally",
+
+    "example": "The injury led to his temporary incapacitation, preventing him from working.",
+
+    "synonyms": ["disablement", "impairment", "infirmity", "debilitation", "helplessness"],
+
+    "antonyms": ["ability", "recovery", "strength", "fitness", "capability"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-25"
+
+  },
+
+  {
+
+    "id": 190,
+
+    "word": "ramshackle",
+
+    "meaning": "In a state of severe disrepair or poorly constructed",
+
+    "example": "They lived in a ramshackle cottage on the outskirts of the village.",
+
+    "synonyms": ["dilapidated", "rickety", "run-down", "shabby", "crumbling"],
+
+    "antonyms": ["sturdy", "well-built", "solid", "modern", "sound"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-25"
+
+  },
+
+  {
+
+    "id": 191,
+
+    "word": "gamut",
+
+    "meaning": "The complete range or scope of something",
+
+    "example": "The workshop covered the entire gamut of digital marketing strategies.",
+
+    "synonyms": ["range", "scope", "spectrum", "extent", "variety"],
+
+    "antonyms": ["limitation", "restriction", "narrowness", "scarcity", "deficiency"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-25"
+
+  },
+
+  {
+
+    "id": 192,
+
+    "word": "inconsequential",
+
+    "meaning": "Not important or significant",
+
+    "example": "The error was inconsequential and did not affect the final outcome.",
+
+    "synonyms": ["insignificant", "trivial", "minor", "negligible", "unimportant"],
+
+    "antonyms": ["important", "significant", "crucial", "vital", "substantial"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-25"
+
+  },
+
+  {
+
+    "id": 193,
+
+    "word": "animus",
+
+    "meaning": "Strong hostility, resentment, or ill will",
+
+    "example": "Despite years having passed, there was still animus between the two families.",
+
+    "synonyms": ["hostility", "hatred", "resentment", "antagonism", "enmity"],
+
+    "antonyms": ["goodwill", "friendliness", "affection", "kindness", "harmony"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-25"
+
+  },
+  {
+
+    "id": 194,
+
+    "word": "caliginous",
+
+    "meaning": "Dark, misty, or obscure; difficult to understand",
+
+    "example": "The hikers struggled through the caliginous forest before dawn.",
+
+    "synonyms": ["murky", "gloomy", "shadowy", "obscure", "dim"],
+
+    "antonyms": ["bright", "clear", "luminous", "radiant", "transparent"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-26"
+
+  },
+
+  {
+
+    "id": 195,
+
+    "word": "bamboozle",
+
+    "meaning": "To deceive, trick, or confuse someone",
+
+    "example": "The con artist managed to bamboozle several unsuspecting customers.",
+
+    "synonyms": ["deceive", "trick", "dupe", "hoodwink", "mislead"],
+
+    "antonyms": ["inform", "clarify", "enlighten", "educate", "reveal"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-26"
+
+  },
+
+  {
+
+    "id": 196,
+
+    "word": "esurient",
+
+    "meaning": "Hungry or having a strong desire for something",
+
+    "example": "The esurient travelers eagerly searched for a place to eat.",
+
+    "synonyms": ["hungry", "starving", "ravenous", "voracious", "greedy"],
+
+    "antonyms": ["satisfied", "full", "content", "satiated", "fulfilled"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-26"
+
+  },
+
+  {
+
+    "id": 197,
+
+    "word": "guise",
+
+    "meaning": "An external appearance or manner intended to conceal the true nature of someone or something",
+
+    "example": "The spy entered the building under the guise of a maintenance worker.",
+
+    "synonyms": ["appearance", "disguise", "mask", "pretense", "facade"],
+
+    "antonyms": ["reality", "truth", "authenticity", "openness", "honesty"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-26"
+
+  },
+
+  {
+
+    "id": 198,
+
+    "word": "perfervid",
+
+    "meaning": "Filled with intense emotion, enthusiasm, or passion",
+
+    "example": "The leader delivered a perfervid speech that inspired the crowd.",
+
+    "synonyms": ["passionate", "fervent", "ardent", "zealous", "enthusiastic"],
+
+    "antonyms": ["apathetic", "indifferent", "cold", "unenthusiastic", "dispassionate"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-26"
+
+  },
+
+  {
+
+    "id": 199,
+
+    "word": "homage",
+
+    "meaning": "Special honor, respect, or public expression of admiration",
+
+    "example": "The film pays homage to the pioneers of Indian cinema.",
+
+    "synonyms": ["tribute", "respect", "honor", "admiration", "reverence"],
+
+    "antonyms": ["disrespect", "dishonor", "insult", "contempt", "disdain"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-26"
+
+  },
+
+  {
+
+    "id": 200,
+
+    "word": "hapless",
+
+    "meaning": "Unfortunate or unlucky",
+
+    "example": "The hapless traveler missed every connecting flight due to bad weather.",
+
+    "synonyms": ["unfortunate", "luckless", "ill-fated", "unlucky", "doomed"],
+
+    "antonyms": ["fortunate", "lucky", "blessed", "successful", "favored"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-26"
+
+  },
+
+  {
+
+    "id": 201,
+
+    "word": "erred",
+
+    "meaning": "Made a mistake or was incorrect",
+
+    "example": "The judge admitted that he had erred in his earlier decision.",
+
+    "synonyms": ["mistaken", "blundered", "misjudged", "slipped", "faulted"],
+
+    "antonyms": ["succeeded", "excelled", "corrected", "achieved", "triumphed"],
+
+    "difficulty": "easy",
+
+    "date": "2026-06-26"
+
+  },
+
+  {
+
+    "id": 202,
+
+    "word": "puissant",
+
+    "meaning": "Powerful, influential, or mighty",
+
+    "example": "The kingdom became a puissant force in the region.",
+
+    "synonyms": ["powerful", "mighty", "strong", "influential", "dominant"],
+
+    "antonyms": ["weak", "powerless", "feeble", "ineffective", "helpless"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-26"
+
+  },
+
+  {
+
+    "id": 203,
+
+    "word": "loiter",
+
+    "meaning": "To stand or wait around without any clear purpose",
+
+    "example": "The security guard asked the teenagers not to loiter outside the entrance.",
+
+    "synonyms": ["linger", "idle", "dawdle", "lounge", "wander"],
+
+    "antonyms": ["hurry", "rush", "leave", "depart", "proceed"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-26"
+
+  },
+  {
+
+    "id": 204,
+
+    "word": "thwarting",
+
+    "meaning": "Preventing someone from accomplishing something; blocking or frustrating an effort",
+
+    "example": "The security system was successful in thwarting the cyberattack.",
+
+    "synonyms": ["foiling", "preventing", "frustrating", "obstructing", "hindering"],
+
+    "antonyms": ["assisting", "aiding", "encouraging", "facilitating", "supporting"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-29"
+
+  },
+
+  {
+
+    "id": 205,
+
+    "word": "hiatus",
+
+    "meaning": "A pause, break, or interruption in continuity",
+
+    "example": "After a two-year hiatus, the band reunited for a world tour.",
+
+    "synonyms": ["break", "pause", "interruption", "gap", "interval"],
+
+    "antonyms": ["continuation", "continuity", "resumption", "permanence", "progression"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-29"
+
+  },
+
+  {
+
+    "id": 206,
+
+    "word": "rambunctious",
+
+    "meaning": "Uncontrollably noisy, energetic, and difficult to manage",
+
+    "example": "The rambunctious children ran around the playground all afternoon.",
+
+    "synonyms": ["boisterous", "rowdy", "unruly", "wild", "lively"],
+
+    "antonyms": ["calm", "quiet", "obedient", "gentle", "well-behaved"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-29"
+
+  },
+
+  {
+
+    "id": 207,
+
+    "word": "wanton",
+
+    "meaning": "Deliberate and unprovoked; reckless or without concern for consequences",
+
+    "example": "The court condemned the wanton destruction of public property.",
+
+    "synonyms": ["reckless", "malicious", "unprovoked", "deliberate", "heedless"],
+
+    "antonyms": ["careful", "restrained", "considerate", "responsible", "cautious"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-29"
+
+  },
+
+  {
+
+    "id": 208,
+
+    "word": "diminution",
+
+    "meaning": "A reduction or decrease in size, importance, or intensity",
+
+    "example": "There was a noticeable diminution in air pollution after the new regulations.",
+
+    "synonyms": ["reduction", "decrease", "decline", "lessening", "shrinkage"],
+
+    "antonyms": ["increase", "growth", "expansion", "rise", "enlargement"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-29"
+
+  },
+
+  {
+
+    "id": 209,
+
+    "word": "onslaught",
+
+    "meaning": "A fierce or destructive attack",
+
+    "example": "The army struggled to withstand the enemy's onslaught.",
+
+    "synonyms": ["assault", "attack", "offensive", "barrage", "raid"],
+
+    "antonyms": ["defense", "retreat", "withdrawal", "protection", "shielding"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-29"
+
+  },
+
+  {
+
+    "id": 210,
+
+    "word": "anaemic",
+
+    "meaning": "Lacking strength, vitality, or effectiveness; weak",
+
+    "example": "The country's anaemic economic growth worried investors.",
+
+    "synonyms": ["weak", "feeble", "lifeless", "frail", "ineffective"],
+
+    "antonyms": ["strong", "vigorous", "robust", "healthy", "energetic"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-29"
+
+  },
+
+  {
+
+    "id": 211,
+
+    "word": "quashed",
+
+    "meaning": "Rejected, suppressed, or put an end to something officially",
+
+    "example": "The court quashed the earlier verdict due to lack of evidence.",
+
+    "synonyms": ["suppressed", "nullified", "overturned", "dismissed", "crushed"],
+
+    "antonyms": ["approved", "accepted", "upheld", "endorsed", "validated"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-29"
+
+  },
+
+  {
+
+    "id": 212,
+
+    "word": "propitious",
+
+    "meaning": "Giving or indicating a good chance of success; favorable",
+
+    "example": "The clear weather provided a propitious start to the expedition.",
+
+    "synonyms": ["favorable", "auspicious", "promising", "advantageous", "fortunate"],
+
+    "antonyms": ["unfavorable", "inauspicious", "adverse", "unlucky", "bleak"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-29"
+
+  },
+
+  {
+
+    "id": 213,
+
+    "word": "adversary",
+
+    "meaning": "An opponent or enemy in a conflict, competition, or dispute",
+
+    "example": "She respected her adversary despite their intense rivalry.",
+
+    "synonyms": ["opponent", "enemy", "rival", "competitor", "foe"],
+
+    "antonyms": ["ally", "friend", "supporter", "partner", "companion"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-29"
+
+  },
+  {
+
+    "id": 214,
+
+    "word": "sagacious",
+
+    "meaning": "Having or showing keen mental discernment and good judgment; wise",
+
+    "example": "The sagacious leader anticipated the crisis and prepared accordingly.",
+
+    "synonyms": ["wise", "prudent", "astute", "shrewd", "judicious"],
+
+    "antonyms": ["foolish", "unwise", "naive", "ignorant", "imprudent"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-30"
+
+  },
+
+  {
+
+    "id": 215,
+
+    "word": "nudge",
+
+    "meaning": "To gently push or encourage someone toward a particular action",
+
+    "example": "She gave her friend a nudge to remind him it was his turn to speak.",
+
+    "synonyms": ["prod", "prompt", "encourage", "push", "poke"],
+
+    "antonyms": ["discourage", "restrain", "deter", "prevent", "hold back"],
+
+    "difficulty": "easy",
+
+    "date": "2026-06-30"
+
+  },
+
+  {
+
+    "id": 216,
+
+    "word": "vicissitude",
+
+    "meaning": "A change of circumstances or fortune, typically one that is unwelcome",
+
+    "example": "They remained resilient through every vicissitude of life.",
+
+    "synonyms": ["change", "fluctuation", "variation", "uncertainty", "adversity"],
+
+    "antonyms": ["stability", "constancy", "certainty", "uniformity", "continuity"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-30"
+
+  },
+
+  {
+
+    "id": 217,
+
+    "word": "malign",
+
+    "meaning": "To speak harmful untruths about someone or something; to slander",
+
+    "example": "It is unfair to malign someone without knowing the facts.",
+
+    "synonyms": ["slander", "defame", "vilify", "disparage", "denigrate"],
+
+    "antonyms": ["praise", "commend", "compliment", "honor", "admire"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-30"
+
+  },
+
+  {
+
+    "id": 218,
+
+    "word": "munificent",
+
+    "meaning": "More generous than is usual or necessary",
+
+    "example": "The philanthropist made a munificent donation to the hospital.",
+
+    "synonyms": ["generous", "bountiful", "lavish", "charitable", "magnanimous"],
+
+    "antonyms": ["stingy", "miserly", "selfish", "ungenerous", "parsimonious"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-30"
+
+  },
+
+  {
+
+    "id": 219,
+
+    "word": "poignant",
+
+    "meaning": "Evoking a keen sense of sadness or regret",
+
+    "example": "The farewell scene was deeply poignant and moved everyone to tears.",
+
+    "synonyms": ["touching", "moving", "heartfelt", "emotional", "affecting"],
+
+    "antonyms": ["cheerful", "insensitive", "indifferent", "joyful", "lighthearted"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-30"
+
+  },
+
+  {
+
+    "id": 220,
+
+    "word": "imperative",
+
+    "meaning": "Of vital importance; absolutely necessary",
+
+    "example": "It is imperative that all passengers fasten their seat belts.",
+
+    "synonyms": ["essential", "crucial", "vital", "necessary", "mandatory"],
+
+    "antonyms": ["optional", "unnecessary", "inessential", "dispensable", "voluntary"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-30"
+
+  },
+
+  {
+
+    "id": 221,
+
+    "word": "glut",
+
+    "meaning": "An excessively abundant supply of something",
+
+    "example": "A glut of tomatoes caused prices to fall sharply in the market.",
+
+    "synonyms": ["surplus", "overflow", "excess", "abundance", "oversupply"],
+
+    "antonyms": ["shortage", "scarcity", "deficit", "lack", "dearth"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-30"
+
+  },
+
+  {
+
+    "id": 222,
+
+    "word": "perils",
+
+    "meaning": "Serious and immediate dangers",
+
+    "example": "The mountaineers were well aware of the perils of climbing in winter.",
+
+    "synonyms": ["dangers", "hazards", "risks", "threats", "jeopardy"],
+
+    "antonyms": ["safety", "security", "protection", "safeguard", "certainty"],
+
+    "difficulty": "medium",
+
+    "date": "2026-06-30"
+
+  },
+
+  {
+
+    "id": 223,
+
+    "word": "callous",
+
+    "meaning": "Showing or having an insensitive and cruel disregard for others",
+
+    "example": "His callous remarks upset everyone in the meeting.",
+
+    "synonyms": ["heartless", "cruel", "insensitive", "cold", "unfeeling"],
+
+    "antonyms": ["compassionate", "kind", "sympathetic", "caring", "merciful"],
+
+    "difficulty": "hard",
+
+    "date": "2026-06-30"
+
   }
+  
 
 ]
