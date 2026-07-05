@@ -3545,6 +3545,806 @@
 
     "date": "2026-06-30"
 
+  },
+  
+  {
+
+    "id": 224,
+
+    "word": "festoon",
+
+    "meaning": "To decorate or adorn with ribbons, flowers, or other ornaments",
+
+    "example": "The hall was festooned with colorful lights for the celebration.",
+
+    "synonyms": ["decorate", "adorn", "embellish", "ornament", "drape"],
+
+    "antonyms": ["strip", "bare", "undecorate", "remove", "plain"],
+
+    "difficulty": "medium",
+
+    "date": "2026-07-01"
+
+  },
+
+  {
+
+    "id": 225,
+
+    "word": "fiddle",
+
+    "meaning": "To make small adjustments or tamper with something, often unnecessarily",
+
+    "example": "He kept fiddling with the radio until he found the right station.",
+
+    "synonyms": ["tinker", "tamper", "adjust", "tweak", "meddle"],
+
+    "antonyms": ["leave", "ignore", "neglect", "preserve", "maintain"],
+
+    "difficulty": "medium",
+
+    "date": "2026-07-01"
+
+  },
+
+  {
+
+    "id": 226,
+
+    "word": "whinge",
+
+    "meaning": "To complain persistently in an irritating manner",
+
+    "example": "Instead of trying to solve the problem, he continued to whinge about it.",
+
+    "synonyms": ["complain", "grumble", "moan", "whine", "gripe"],
+
+    "antonyms": ["praise", "commend", "appreciate", "accept", "rejoice"],
+
+    "difficulty": "medium",
+
+    "date": "2026-07-01"
+
+  },
+
+  {
+
+    "id": 227,
+
+    "word": "deleterious",
+
+    "meaning": "Causing harm or damage",
+
+    "example": "Smoking has deleterious effects on overall health.",
+
+    "synonyms": ["harmful", "damaging", "injurious", "detrimental", "noxious"],
+
+    "antonyms": ["beneficial", "helpful", "advantageous", "wholesome", "constructive"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-01"
+
+  },
+
+  {
+
+    "id": 228,
+
+    "word": "bunkum",
+
+    "meaning": "Nonsense or meaningless talk",
+
+    "example": "The scientist dismissed the rumor as complete bunkum.",
+
+    "synonyms": ["nonsense", "rubbish", "balderdash", "drivel", "gibberish"],
+
+    "antonyms": ["truth", "fact", "sense", "logic", "reality"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-01"
+
+  },
+
+  {
+
+    "id": 229,
+
+    "word": "halcyon",
+
+    "meaning": "Denoting a period of peace, happiness, and prosperity",
+
+    "example": "She often reminisced about the halcyon days of her childhood.",
+
+    "synonyms": ["peaceful", "tranquil", "serene", "prosperous", "idyllic"],
+
+    "antonyms": ["troubled", "chaotic", "turbulent", "difficult", "stormy"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-01"
+
+  },
+
+  {
+
+    "id": 230,
+
+    "word": "interminable",
+
+    "meaning": "Continuing for too long and seeming endless",
+
+    "example": "The meeting felt interminable as the discussion dragged on.",
+
+    "synonyms": ["endless", "never-ending", "prolonged", "lengthy", "unending"],
+
+    "antonyms": ["brief", "short", "concise", "quick", "temporary"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-01"
+
+  },
+
+  {
+
+    "id": 231,
+
+    "word": "evince",
+
+    "meaning": "To reveal or show clearly",
+
+    "example": "Her actions evinced genuine concern for the community.",
+
+    "synonyms": ["display", "demonstrate", "manifest", "exhibit", "reveal"],
+
+    "antonyms": ["conceal", "hide", "suppress", "cover", "mask"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-01"
+
+  },
+
+  {
+
+    "id": 232,
+
+    "word": "mangle",
+
+    "meaning": "To damage or mutilate severely; to ruin",
+
+    "example": "The editor accidentally mangled the original manuscript during revisions.",
+
+    "synonyms": ["mutilate", "damage", "ruin", "disfigure", "distort"],
+
+    "antonyms": ["repair", "restore", "preserve", "improve", "fix"],
+
+    "difficulty": "medium",
+
+    "date": "2026-07-01"
+
+  },
+
+  {
+
+    "id": 233,
+
+    "word": "lugubrious",
+
+    "meaning": "Looking or sounding sad and gloomy",
+
+    "example": "His lugubrious expression suggested that something had gone terribly wrong.",
+
+    "synonyms": ["mournful", "gloomy", "dismal", "melancholy", "sorrowful"],
+
+    "antonyms": ["cheerful", "joyful", "bright", "optimistic", "happy"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-01"
+
+  },
+  
+  {
+
+    "id": 234,
+
+    "word": "jejune",
+
+    "meaning": "Lacking interest, substance, or significance; naive or simplistic",
+
+    "example": "The critic dismissed the article as jejune and lacking original thought.",
+
+    "synonyms": ["insipid", "shallow", "trivial", "immature", "simplistic"],
+
+    "antonyms": ["insightful", "profound", "mature", "meaningful", "substantial"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-02"
+
+  },
+
+  {
+
+    "id": 235,
+
+    "word": "effervescent",
+
+    "meaning": "Vivacious, enthusiastic, and full of energy",
+
+    "example": "Her effervescent personality made her the center of every gathering.",
+
+    "synonyms": ["bubbly", "lively", "vivacious", "cheerful", "animated"],
+
+    "antonyms": ["dull", "gloomy", "lifeless", "depressed", "apathetic"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-02"
+
+  },
+
+  {
+
+    "id": 236,
+
+    "word": "ostracisation",
+
+    "meaning": "The act of excluding or isolating someone from a group or society",
+
+    "example": "His ostracisation from the community deeply affected his confidence.",
+
+    "synonyms": ["exclusion", "isolation", "rejection", "banishment", "alienation"],
+
+    "antonyms": ["acceptance", "inclusion", "integration", "welcome", "embrace"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-02"
+
+  },
+
+  {
+
+    "id": 237,
+
+    "word": "guile",
+
+    "meaning": "Sly or cunning intelligence used to deceive others",
+
+    "example": "She relied on guile rather than force to achieve her objectives.",
+
+    "synonyms": ["cunning", "deceit", "craftiness", "trickery", "duplicity"],
+
+    "antonyms": ["honesty", "sincerity", "frankness", "integrity", "candor"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-02"
+
+  },
+
+  {
+
+    "id": 238,
+
+    "word": "ineludible",
+
+    "meaning": "Impossible to avoid or escape",
+
+    "example": "The ineludible truth eventually came to light.",
+
+    "synonyms": ["inescapable", "unavoidable", "inevitable", "certain", "inescapable"],
+
+    "antonyms": ["avoidable", "escapable", "optional", "preventable", "uncertain"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-02"
+
+  },
+
+  {
+
+    "id": 239,
+
+    "word": "assiduous",
+
+    "meaning": "Showing great care, perseverance, and attention to detail",
+
+    "example": "Her assiduous preparation helped her secure the top rank in the examination.",
+
+    "synonyms": ["diligent", "industrious", "hardworking", "meticulous", "persevering"],
+
+    "antonyms": ["lazy", "careless", "negligent", "idle", "sluggish"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-02"
+
+  },
+
+  {
+
+    "id": 240,
+
+    "word": "imbroglio",
+
+    "meaning": "A confusing and complicated situation or misunderstanding",
+
+    "example": "The political imbroglio dominated headlines for weeks.",
+
+    "synonyms": ["complication", "mess", "confusion", "entanglement", "predicament"],
+
+    "antonyms": ["clarity", "order", "solution", "simplicity", "harmony"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-02"
+
+  },
+
+  {
+
+    "id": 241,
+
+    "word": "ennui",
+
+    "meaning": "A feeling of boredom and dissatisfaction caused by lack of excitement",
+
+    "example": "After weeks of doing the same routine, she was overcome with ennui.",
+
+    "synonyms": ["boredom", "tedium", "monotony", "weariness", "listlessness"],
+
+    "antonyms": ["excitement", "enthusiasm", "interest", "engagement", "stimulation"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-02"
+
+  },
+
+  {
+
+    "id": 242,
+
+    "word": "inveigle",
+
+    "meaning": "To persuade someone to do something through deception or flattery",
+
+    "example": "The fraudster inveigled investors into funding a fake business.",
+
+    "synonyms": ["coax", "entice", "lure", "deceive", "persuade"],
+
+    "antonyms": ["dissuade", "discourage", "repel", "warn", "prevent"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-02"
+
+  },
+
+  {
+
+    "id": 243,
+
+    "word": "niggard",
+
+    "meaning": "A person who is unwilling to spend or give; miserly",
+
+    "example": "The wealthy niggard refused to donate even a small amount to charity.",
+
+    "synonyms": ["miser", "cheapskate", "skinflint", "tightwad", "scrooge"],
+
+    "antonyms": ["generous", "charitable", "liberal", "munificent", "bountiful"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-02"
+
+  },
+  
+   {
+
+    "id": 244,
+
+    "word": "upheaval",
+
+    "meaning": "A violent or sudden change or disruption, especially causing disorder",
+
+    "example": "The political upheaval led to major reforms across the country.",
+
+    "synonyms": ["turmoil", "disruption", "disturbance", "chaos", "convulsion"],
+
+    "antonyms": ["stability", "calm", "order", "peace", "harmony"],
+
+    "difficulty": "medium",
+
+    "date": "2026-07-03"
+
+  },
+
+  {
+
+    "id": 245,
+
+    "word": "benign",
+
+    "meaning": "Kind, gentle, or not harmful in effect",
+
+    "example": "The doctor assured her that the tumor was benign.",
+
+    "synonyms": ["harmless", "kind", "gentle", "benevolent", "favorable"],
+
+    "antonyms": ["malignant", "harmful", "hostile", "cruel", "dangerous"],
+
+    "difficulty": "medium",
+
+    "date": "2026-07-03"
+
+  },
+
+  {
+
+    "id": 246,
+
+    "word": "hortatory",
+
+    "meaning": "Encouraging or urging someone to take action",
+
+    "example": "The teacher delivered a hortatory speech before the examinations.",
+
+    "synonyms": ["encouraging", "exhortative", "persuasive", "advisory", "motivational"],
+
+    "antonyms": ["discouraging", "deterring", "dissuasive", "disheartening", "prohibitive"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-03"
+
+  },
+
+  {
+
+    "id": 247,
+
+    "word": "embroil",
+
+    "meaning": "To involve someone deeply in conflict, difficulty, or argument",
+
+    "example": "He was unwilling to embroil his family in the legal dispute.",
+
+    "synonyms": ["entangle", "involve", "implicate", "ensnare", "engulf"],
+
+    "antonyms": ["extricate", "resolve", "disentangle", "settle", "free"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-03"
+
+  },
+
+  {
+
+    "id": 248,
+
+    "word": "ruction",
+
+    "meaning": "A noisy disturbance, quarrel, or commotion",
+
+    "example": "A ruction broke out after the controversial announcement.",
+
+    "synonyms": ["commotion", "uproar", "disturbance", "fracas", "tumult"],
+
+    "antonyms": ["calm", "peace", "order", "harmony", "tranquility"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-03"
+
+  },
+
+  {
+
+    "id": 249,
+
+    "word": "lackluster",
+
+    "meaning": "Lacking energy, excitement, or brilliance",
+
+    "example": "The team gave a lackluster performance in the final match.",
+
+    "synonyms": ["dull", "uninspired", "lifeless", "mediocre", "boring"],
+
+    "antonyms": ["vibrant", "brilliant", "spirited", "dynamic", "impressive"],
+
+    "difficulty": "medium",
+
+    "date": "2026-07-03"
+
+  },
+
+  {
+
+    "id": 250,
+
+    "word": "venal",
+
+    "meaning": "Open to bribery or motivated by money rather than principles",
+
+    "example": "The venal official accepted bribes in exchange for favors.",
+
+    "synonyms": ["corrupt", "bribable", "dishonest", "mercenary", "unscrupulous"],
+
+    "antonyms": ["honest", "incorruptible", "upright", "ethical", "principled"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-03"
+
+  },
+
+  {
+
+    "id": 251,
+
+    "word": "onerous",
+
+    "meaning": "Involving a great deal of effort, difficulty, or responsibility",
+
+    "example": "Completing the lengthy paperwork proved to be an onerous task.",
+
+    "synonyms": ["burdensome", "demanding", "arduous", "taxing", "laborious"],
+
+    "antonyms": ["easy", "effortless", "light", "simple", "manageable"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-03"
+
+  },
+
+  {
+
+    "id": 252,
+
+    "word": "sprightly",
+
+    "meaning": "Full of energy, liveliness, and enthusiasm",
+
+    "example": "Despite her age, she remained sprightly and active.",
+
+    "synonyms": ["lively", "energetic", "vivacious", "brisk", "animated"],
+
+    "antonyms": ["sluggish", "lethargic", "lifeless", "dull", "listless"],
+
+    "difficulty": "medium",
+
+    "date": "2026-07-03"
+
+  },
+
+  {
+
+    "id": 253,
+
+    "word": "perturb",
+
+    "meaning": "To make someone anxious, upset, or unsettled",
+
+    "example": "The unexpected announcement perturbed the employees.",
+
+    "synonyms": ["disturb", "unsettle", "agitate", "trouble", "disconcert"],
+
+    "antonyms": ["calm", "comfort", "reassure", "soothe", "settle"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-03"
+
+  },
+  
+  {
+
+    "id": 254,
+
+    "word": "atavistic",
+
+    "meaning": "Relating to or characterized by the reappearance of ancestral traits or primitive behavior",
+
+    "example": "His atavistic instincts emerged during the survival challenge.",
+
+    "synonyms": ["primitive", "ancestral", "archaic", "instinctive", "primeval"],
+
+    "antonyms": ["modern", "advanced", "progressive", "contemporary", "civilized"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-04"
+
+  },
+
+  {
+
+    "id": 255,
+
+    "word": "blatant",
+
+    "meaning": "Very obvious and done without shame or concealment",
+
+    "example": "The company was fined for its blatant violation of environmental laws.",
+
+    "synonyms": ["obvious", "glaring", "flagrant", "conspicuous", "shameless"],
+
+    "antonyms": ["subtle", "hidden", "concealed", "inconspicuous", "discreet"],
+
+    "difficulty": "medium",
+
+    "date": "2026-07-04"
+
+  },
+
+  {
+
+    "id": 256,
+
+    "word": "extol",
+
+    "meaning": "To praise enthusiastically or highly",
+
+    "example": "Critics continued to extol the author's latest novel.",
+
+    "synonyms": ["praise", "commend", "laud", "glorify", "acclaim"],
+
+    "antonyms": ["criticize", "condemn", "denounce", "disparage", "belittle"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-04"
+
+  },
+
+  {
+
+    "id": 257,
+
+    "word": "dispel",
+
+    "meaning": "To drive away or eliminate doubts, fears, or false beliefs",
+
+    "example": "The teacher's explanation helped dispel the students' confusion.",
+
+    "synonyms": ["eliminate", "banish", "remove", "clear", "eradicate"],
+
+    "antonyms": ["create", "cause", "encourage", "foster", "strengthen"],
+
+    "difficulty": "medium",
+
+    "date": "2026-07-04"
+
+  },
+
+  {
+
+    "id": 258,
+
+    "word": "relegate",
+
+    "meaning": "To assign someone or something to a lower or less important position",
+
+    "example": "She refused to be relegated to a minor role in the project.",
+
+    "synonyms": ["demote", "downgrade", "banish", "defer", "consign"],
+
+    "antonyms": ["promote", "elevate", "advance", "upgrade", "honor"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-04"
+
+  },
+
+  {
+
+    "id": 259,
+
+    "word": "impediment",
+
+    "meaning": "Something that hinders or obstructs progress or movement",
+
+    "example": "Poor infrastructure remains a major impediment to economic growth.",
+
+    "synonyms": ["obstacle", "barrier", "hindrance", "obstruction", "encumbrance"],
+
+    "antonyms": ["aid", "advantage", "facilitation", "assistance", "support"],
+
+    "difficulty": "medium",
+
+    "date": "2026-07-04"
+
+  },
+
+  {
+
+    "id": 260,
+
+    "word": "pluck",
+
+    "meaning": "Courage and determination in facing difficulties",
+
+    "example": "Her pluck helped her overcome every challenge she encountered.",
+
+    "synonyms": ["courage", "grit", "bravery", "fortitude", "determination"],
+
+    "antonyms": ["cowardice", "fear", "timidity", "weakness", "hesitation"],
+
+    "difficulty": "medium",
+
+    "date": "2026-07-04"
+
+  },
+
+  {
+
+    "id": 261,
+
+    "word": "refurbish",
+
+    "meaning": "To renovate or restore something to a better condition",
+
+    "example": "The city plans to refurbish the old railway station.",
+
+    "synonyms": ["renovate", "restore", "repair", "revamp", "renew"],
+
+    "antonyms": ["damage", "ruin", "neglect", "deteriorate", "demolish"],
+
+    "difficulty": "medium",
+
+    "date": "2026-07-04"
+
+  },
+
+  {
+
+    "id": 262,
+
+    "word": "pensive",
+
+    "meaning": "Deeply thoughtful, often with a hint of sadness",
+
+    "example": "She sat by the window with a pensive expression.",
+
+    "synonyms": ["thoughtful", "reflective", "contemplative", "meditative", "wistful"],
+
+    "antonyms": ["carefree", "thoughtless", "cheerful", "lighthearted", "unconcerned"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-04"
+
+  },
+
+  {
+
+    "id": 263,
+
+    "word": "bonhomie",
+
+    "meaning": "Cheerful friendliness and good-natured behavior",
+
+    "example": "His bonhomie made him popular with colleagues and neighbors alike.",
+
+    "synonyms": ["friendliness", "geniality", "cordiality", "warmth", "affability"],
+
+    "antonyms": ["hostility", "coldness", "unfriendliness", "rudeness", "animosity"],
+
+    "difficulty": "hard",
+
+    "date": "2026-07-04"
+
   }
   
 
