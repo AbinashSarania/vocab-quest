@@ -4446,6 +4446,410 @@
   "antonyms": ["false", "fake", "artificial", "bogus", "counterfeit"],
   "difficulty": "medium",
   "date": "2026-07-06"
+},
+
+{
+  "id": 274,
+  "word": "fanatical",
+  "meaning": "Filled with excessive and single-minded enthusiasm or zeal",
+  "example": "He was fanatical about fitness and never missed a workout.",
+  "synonyms": ["obsessive", "zealous", "fervent", "extreme", "passionate"],
+  "antonyms": ["moderate", "indifferent", "apathetic", "unenthusiastic", "casual"],
+  "difficulty": "medium",
+  "date": "2026-07-07"
+},
+{
+  "id": 275,
+  "word": "agony",
+  "meaning": "Extreme physical or mental pain or suffering",
+  "example": "She was in agony after twisting her ankle during the match.",
+  "synonyms": ["anguish", "torment", "pain", "misery", "suffering"],
+  "antonyms": ["comfort", "pleasure", "joy", "relief", "ease"],
+  "difficulty": "easy",
+  "date": "2026-07-07"
+},
+{
+  "id": 276,
+  "word": "consonance",
+  "meaning": "Agreement or harmony between ideas, opinions, or actions",
+  "example": "There was complete consonance between the team's strategy and execution.",
+  "synonyms": ["harmony", "agreement", "accord", "consistency", "compatibility"],
+  "antonyms": ["discord", "conflict", "disagreement", "dissonance", "incompatibility"],
+  "difficulty": "hard",
+  "date": "2026-07-07"
+},
+{
+  "id": 277,
+  "word": "inure",
+  "meaning": "To accustom someone to something unpleasant through prolonged exposure",
+  "example": "Years of hardship had inured him to physical discomfort.",
+  "synonyms": ["accustom", "harden", "condition", "habituate", "acclimatize"],
+  "antonyms": ["sensitize", "soften", "alienate", "disturb", "weaken"],
+  "difficulty": "hard",
+  "date": "2026-07-07"
+},
+{
+  "id": 278,
+  "word": "copious",
+  "meaning": "Abundant in quantity; plentiful",
+  "example": "The professor provided copious notes for exam preparation.",
+  "synonyms": ["abundant", "plentiful", "ample", "profuse", "bountiful"],
+  "antonyms": ["scarce", "meager", "limited", "insufficient", "sparse"],
+  "difficulty": "medium",
+  "date": "2026-07-07"
+},
+{
+  "id": 279,
+  "word": "extirpated",
+  "meaning": "Completely destroyed or removed",
+  "example": "The invasive species was extirpated from the protected forest.",
+  "synonyms": ["eradicated", "eliminated", "destroyed", "uprooted", "annihilated"],
+  "antonyms": ["established", "preserved", "maintained", "protected", "retained"],
+  "difficulty": "hard",
+  "date": "2026-07-07"
+},
+{
+  "id": 280,
+  "word": "slovenly",
+  "meaning": "Untidy, messy, or careless in appearance or habits",
+  "example": "His slovenly appearance made a poor first impression.",
+  "synonyms": ["untidy", "sloppy", "unkempt", "messy", "disheveled"],
+  "antonyms": ["neat", "tidy", "orderly", "well-groomed", "organized"],
+  "difficulty": "medium",
+  "date": "2026-07-07"
+},
+{
+  "id": 281,
+  "word": "objurgate",
+  "meaning": "To scold or rebuke someone sharply",
+  "example": "The coach objurgated the players for their lack of discipline.",
+  "synonyms": ["rebuke", "reprimand", "scold", "admonish", "berate"],
+  "antonyms": ["praise", "commend", "applaud", "compliment", "encourage"],
+  "difficulty": "hard",
+  "date": "2026-07-07"
+},
+{
+  "id": 282,
+  "word": "quiddity",
+  "meaning": "The essential nature or inherent quality of something",
+  "example": "The philosopher explored the quiddity of human consciousness.",
+  "synonyms": ["essence", "nature", "core", "substance", "identity"],
+  "antonyms": ["appearance", "surface", "exterior", "form", "facade"],
+  "difficulty": "hard",
+  "date": "2026-07-07"
+},
+{
+  "id": 283,
+  "word": "circumspect",
+  "meaning": "Careful and cautious before taking action or making decisions",
+  "example": "Investors remained circumspect amid the uncertain market conditions.",
+  "synonyms": ["cautious", "prudent", "careful", "wary", "vigilant"],
+  "antonyms": ["reckless", "careless", "rash", "impulsive", "heedless"],
+  "difficulty": "hard",
+  "date": "2026-07-07"
+},
+
+{
+  "id": 284,
+  "word": "mercurial",
+  "meaning": "Subject to sudden and unpredictable changes in mood or behavior",
+  "example": "His mercurial temperament made him difficult to work with.",
+  "synonyms": ["volatile", "capricious", "temperamental", "unpredictable", "erratic"],
+  "antonyms": ["stable", "consistent", "steady", "predictable", "calm"],
+  "difficulty": "hard",
+  "date": "2026-07-08"
+},
+{
+  "id": 285,
+  "word": "fulminate",
+  "meaning": "To express strong criticism or protest forcefully",
+  "example": "The activist fulminated against the government's new policy.",
+  "synonyms": ["denounce", "condemn", "rant", "rail", "protest"],
+  "antonyms": ["praise", "commend", "approve", "endorse", "support"],
+  "difficulty": "hard",
+  "date": "2026-07-08"
+},
+{
+  "id": 286,
+  "word": "stultify",
+  "meaning": "To make ineffective, absurd, or unable to think clearly",
+  "example": "Strict regulations can stultify creativity in the workplace.",
+  "synonyms": ["hamper", "cripple", "paralyze", "suppress", "inhibit"],
+  "antonyms": ["stimulate", "encourage", "inspire", "invigorate", "enhance"],
+  "difficulty": "hard",
+  "date": "2026-07-08"
+},
+{
+  "id": 287,
+  "word": "risible",
+  "meaning": "So absurd that it deserves to be laughed at",
+  "example": "His excuse for being late was utterly risible.",
+  "synonyms": ["ridiculous", "laughable", "absurd", "comical", "preposterous"],
+  "antonyms": ["serious", "credible", "reasonable", "plausible", "sensible"],
+  "difficulty": "hard",
+  "date": "2026-07-08"
+},
+{
+  "id": 288,
+  "word": "untenable",
+  "meaning": "Unable to be defended, maintained, or justified",
+  "example": "The lawyer admitted that the argument was legally untenable.",
+  "synonyms": ["indefensible", "unsustainable", "unjustifiable", "invalid", "weak"],
+  "antonyms": ["defensible", "justifiable", "sustainable", "valid", "sound"],
+  "difficulty": "hard",
+  "date": "2026-07-08"
+},
+{
+  "id": 289,
+  "word": "invidious",
+  "meaning": "Likely to cause resentment or anger because of being unfair or offensive",
+  "example": "Making invidious comparisons between employees harmed team morale.",
+  "synonyms": ["offensive", "unfair", "objectionable", "prejudicial", "discriminatory"],
+  "antonyms": ["fair", "impartial", "just", "equitable", "unbiased"],
+  "difficulty": "hard",
+  "date": "2026-07-08"
+},
+{
+  "id": 290,
+  "word": "vitiate",
+  "meaning": "To impair the quality or effectiveness of something",
+  "example": "The forged evidence vitiated the entire investigation.",
+  "synonyms": ["impair", "invalidate", "corrupt", "weaken", "undermine"],
+  "antonyms": ["strengthen", "improve", "validate", "enhance", "reinforce"],
+  "difficulty": "hard",
+  "date": "2026-07-08"
+},
+{
+  "id": 291,
+  "word": "perfunctory",
+  "meaning": "Carried out with minimal effort or interest",
+  "example": "He gave a perfunctory apology without showing any real remorse.",
+  "synonyms": ["superficial", "cursory", "routine", "halfhearted", "mechanical"],
+  "antonyms": ["thorough", "careful", "enthusiastic", "earnest", "meticulous"],
+  "difficulty": "hard",
+  "date": "2026-07-08"
+},
+{
+  "id": 292,
+  "word": "propitious",
+  "meaning": "Giving or indicating a good chance of success; favorable",
+  "example": "The cool weather was propitious for the marathon.",
+  "synonyms": ["auspicious", "favorable", "promising", "advantageous", "fortunate"],
+  "antonyms": ["unfavorable", "inauspicious", "adverse", "unlucky", "bleak"],
+  "difficulty": "hard",
+  "date": "2026-07-08"
+},
+{
+  "id": 293,
+  "word": "quixotic",
+  "meaning": "Exceedingly idealistic, unrealistic, and impractical",
+  "example": "His quixotic plan to eliminate poverty overnight was admired but unrealistic.",
+  "synonyms": ["idealistic", "impractical", "romantic", "visionary", "utopian"],
+  "antonyms": ["practical", "realistic", "pragmatic", "sensible", "feasible"],
+  "difficulty": "hard",
+  "date": "2026-07-08"
+},
+
+{
+  "id": 294,
+  "word": "imprudent",
+  "meaning": "Not showing care for the consequences of an action; unwise",
+  "example": "It was imprudent to invest all his savings in a single company.",
+  "synonyms": ["reckless", "unwise", "careless", "rash", "indiscreet"],
+  "antonyms": ["prudent", "wise", "careful", "cautious", "judicious"],
+  "difficulty": "hard",
+  "date": "2026-07-09"
+},
+{
+  "id": 295,
+  "word": "apogee",
+  "meaning": "The highest point or peak of achievement, success, or development",
+  "example": "The scientist reached the apogee of her career after winning the Nobel Prize.",
+  "synonyms": ["peak", "zenith", "summit", "climax", "pinnacle"],
+  "antonyms": ["nadir", "bottom", "low", "decline", "base"],
+  "difficulty": "hard",
+  "date": "2026-07-09"
+},
+{
+  "id": 296,
+  "word": "aplomb",
+  "meaning": "Self-confidence and assurance, especially in a demanding situation",
+  "example": "She handled the difficult interview with remarkable aplomb.",
+  "synonyms": ["confidence", "poise", "composure", "assurance", "self-possession"],
+  "antonyms": ["timidity", "awkwardness", "nervousness", "hesitation", "insecurity"],
+  "difficulty": "hard",
+  "date": "2026-07-09"
+},
+{
+  "id": 297,
+  "word": "nonchalant",
+  "meaning": "Feeling or appearing casually calm and unconcerned",
+  "example": "He remained nonchalant despite the intense pressure of the competition.",
+  "synonyms": ["carefree", "casual", "cool", "unconcerned", "composed"],
+  "antonyms": ["anxious", "concerned", "worried", "tense", "agitated"],
+  "difficulty": "hard",
+  "date": "2026-07-09"
+},
+{
+  "id": 298,
+  "word": "captivity",
+  "meaning": "The state of being imprisoned or confined",
+  "example": "The rescued bird had spent years in captivity.",
+  "synonyms": ["imprisonment", "confinement", "detention", "bondage", "internment"],
+  "antonyms": ["freedom", "liberty", "release", "independence", "emancipation"],
+  "difficulty": "medium",
+  "date": "2026-07-09"
+},
+{
+  "id": 299,
+  "word": "circuitous",
+  "meaning": "Longer than the most direct way; roundabout",
+  "example": "We took a circuitous route to avoid the traffic jam.",
+  "synonyms": ["roundabout", "indirect", "winding", "meandering", "devious"],
+  "antonyms": ["direct", "straight", "short", "immediate", "linear"],
+  "difficulty": "hard",
+  "date": "2026-07-09"
+},
+{
+  "id": 300,
+  "word": "volition",
+  "meaning": "The power or ability to make conscious choices or decisions",
+  "example": "She left the company of her own volition.",
+  "synonyms": ["choice", "will", "decision", "free will", "determination"],
+  "antonyms": ["compulsion", "coercion", "force", "constraint", "necessity"],
+  "difficulty": "hard",
+  "date": "2026-07-09"
+},
+{
+  "id": 301,
+  "word": "jettison",
+  "meaning": "To discard or throw away something that is no longer wanted",
+  "example": "The company decided to jettison its outdated business model.",
+  "synonyms": ["discard", "abandon", "dump", "cast off", "dispose of"],
+  "antonyms": ["retain", "keep", "preserve", "maintain", "hold"],
+  "difficulty": "hard",
+  "date": "2026-07-09"
+},
+{
+  "id": 302,
+  "word": "embargo",
+  "meaning": "An official ban on trade or other commercial activity with a particular country",
+  "example": "The government imposed an embargo on the import of certain goods.",
+  "synonyms": ["ban", "prohibition", "restriction", "blockade", "sanction"],
+  "antonyms": ["approval", "permission", "authorization", "allowance", "clearance"],
+  "difficulty": "hard",
+  "date": "2026-07-09"
+},
+{
+  "id": 303,
+  "word": "scrimmage",
+  "meaning": "A practice game or a confused struggle between opposing groups",
+  "example": "The football team held a scrimmage before the tournament.",
+  "synonyms": ["skirmish", "clash", "practice match", "fray", "melee"],
+  "antonyms": ["truce", "peace", "agreement", "harmony", "ceasefire"],
+  "difficulty": "medium",
+  "date": "2026-07-09"
+},
+
+{
+  "id": 304,
+  "word": "excogitate",
+  "meaning": "To think out or devise carefully and thoroughly",
+  "example": "The engineer excogitated an innovative solution to the complex problem.",
+  "synonyms": ["devise", "formulate", "conceive", "invent", "contrive"],
+  "antonyms": ["ignore", "neglect", "overlook", "abandon", "discard"],
+  "difficulty": "hard",
+  "date": "2026-07-10"
+},
+{
+  "id": 305,
+  "word": "saliency",
+  "meaning": "The quality of being most noticeable or important",
+  "example": "The saliency of the issue could not be ignored during the meeting.",
+  "synonyms": ["prominence", "importance", "significance", "noticeability", "distinctiveness"],
+  "antonyms": ["insignificance", "obscurity", "unimportance", "triviality", "subtlety"],
+  "difficulty": "hard",
+  "date": "2026-07-10"
+},
+{
+  "id": 306,
+  "word": "foliage",
+  "meaning": "The leaves of a plant or trees collectively",
+  "example": "The dense foliage provided welcome shade on the hot afternoon.",
+  "synonyms": ["leaves", "greenery", "vegetation", "verdure", "flora"],
+  "antonyms": ["barrenness", "defoliation", "desolation", "sterility", "wasteland"],
+  "difficulty": "easy",
+  "date": "2026-07-10"
+},
+{
+  "id": 307,
+  "word": "knavery",
+  "meaning": "Dishonest or deceitful behavior",
+  "example": "The merchant's knavery was eventually exposed by the authorities.",
+  "synonyms": ["deceit", "trickery", "fraud", "dishonesty", "duplicity"],
+  "antonyms": ["honesty", "integrity", "fairness", "truthfulness", "sincerity"],
+  "difficulty": "hard",
+  "date": "2026-07-10"
+},
+{
+  "id": 308,
+  "word": "hysteria",
+  "meaning": "Exaggerated or uncontrollable emotion or excitement",
+  "example": "The false rumor caused widespread hysteria among the residents.",
+  "synonyms": ["panic", "frenzy", "alarm", "uproar", "agitation"],
+  "antonyms": ["calm", "composure", "peace", "tranquility", "serenity"],
+  "difficulty": "medium",
+  "date": "2026-07-10"
+},
+{
+  "id": 309,
+  "word": "gratuitous",
+  "meaning": "Uncalled for; lacking good reason; unnecessary",
+  "example": "The movie contained gratuitous violence that added nothing to the story.",
+  "synonyms": ["unnecessary", "unwarranted", "needless", "uncalled-for", "superfluous"],
+  "antonyms": ["necessary", "essential", "justified", "required", "appropriate"],
+  "difficulty": "hard",
+  "date": "2026-07-10"
+},
+{
+  "id": 310,
+  "word": "jabber",
+  "meaning": "To talk rapidly and excitedly in a way that is difficult to understand",
+  "example": "The children jabbered excitedly about their school trip.",
+  "synonyms": ["babble", "chatter", "prattle", "gibber", "blabber"],
+  "antonyms": ["be silent", "listen", "hush", "mute", "quiet"],
+  "difficulty": "medium",
+  "date": "2026-07-10"
+},
+{
+  "id": 311,
+  "word": "fecund",
+  "meaning": "Highly fertile or intellectually productive",
+  "example": "The region's fecund soil produced abundant crops every year.",
+  "synonyms": ["fertile", "productive", "fruitful", "prolific", "abundant"],
+  "antonyms": ["barren", "infertile", "sterile", "unproductive", "unfruitful"],
+  "difficulty": "hard",
+  "date": "2026-07-10"
+},
+{
+  "id": 312,
+  "word": "infuriate",
+  "meaning": "To make someone extremely angry",
+  "example": "His constant interruptions began to infuriate the audience.",
+  "synonyms": ["enrage", "anger", "provoke", "exasperate", "irk"],
+  "antonyms": ["calm", "appease", "pacify", "soothe", "delight"],
+  "difficulty": "medium",
+  "date": "2026-07-10"
+},
+{
+  "id": 313,
+  "word": "cheeseparing",
+  "meaning": "Excessively stingy or miserly",
+  "example": "His cheeseparing attitude prevented him from helping those in need.",
+  "synonyms": ["miserly", "stingy", "parsimonious", "frugal", "tightfisted"],
+  "antonyms": ["generous", "liberal", "charitable", "bountiful", "munificent"],
+  "difficulty": "hard",
+  "date": "2026-07-10"
 }
   
 
