@@ -4345,7 +4345,108 @@
 
     "date": "2026-07-04"
 
-  }
+  },
+  
+  {
+  "id": 264,
+  "word": "hollering",
+  "meaning": "Shouting or yelling loudly",
+  "example": "The children were hollering with excitement after winning the match.",
+  "synonyms": ["shouting", "yelling", "bawling", "calling", "screaming"],
+  "antonyms": ["whispering", "murmuring", "muttering", "silence", "quietness"],
+  "difficulty": "easy",
+  "date": "2026-07-06"
+},
+{
+  "id": 265,
+  "word": "invective",
+  "meaning": "Insulting, abusive, or highly critical language",
+  "example": "The debate quickly descended into personal invective.",
+  "synonyms": ["abuse", "insults", "vitriol", "denunciation", "vilification"],
+  "antonyms": ["praise", "compliment", "approval", "commendation", "flattery"],
+  "difficulty": "hard",
+  "date": "2026-07-06"
+},
+{
+  "id": 266,
+  "word": "eerily",
+  "meaning": "In a strange, mysterious, or frightening way",
+  "example": "The abandoned house was eerily silent at midnight.",
+  "synonyms": ["strangely", "uncannily", "ominously", "mysteriously", "weirdly"],
+  "antonyms": ["normally", "familiarly", "comfortably", "naturally", "pleasantly"],
+  "difficulty": "medium",
+  "date": "2026-07-06"
+},
+{
+  "id": 267,
+  "word": "disparity",
+  "meaning": "A great difference or inequality",
+  "example": "There is a significant disparity in income between rural and urban areas.",
+  "synonyms": ["difference", "inequality", "imbalance", "gap", "divergence"],
+  "antonyms": ["equality", "similarity", "uniformity", "parity", "equivalence"],
+  "difficulty": "medium",
+  "date": "2026-07-06"
+},
+{
+  "id": 268,
+  "word": "unconscionable",
+  "meaning": "Not right or reasonable; shockingly unfair or excessive",
+  "example": "The company charged unconscionable prices during the emergency.",
+  "synonyms": ["outrageous", "unjust", "excessive", "inhumane", "atrocious"],
+  "antonyms": ["fair", "reasonable", "just", "ethical", "acceptable"],
+  "difficulty": "hard",
+  "date": "2026-07-06"
+},
+{
+  "id": 269,
+  "word": "scion",
+  "meaning": "A descendant or heir of a notable or wealthy family",
+  "example": "He was the scion of a famous political family.",
+  "synonyms": ["heir", "descendant", "offspring", "successor", "progeny"],
+  "antonyms": ["ancestor", "forefather", "predecessor", "originator", "founder"],
+  "difficulty": "hard",
+  "date": "2026-07-06"
+},
+{
+  "id": 270,
+  "word": "tantalising",
+  "meaning": "Arousing interest or desire while keeping something just out of reach",
+  "example": "The trailer offered a tantalising glimpse of the upcoming movie.",
+  "synonyms": ["tempting", "enticing", "alluring", "seductive", "intriguing"],
+  "antonyms": ["unappealing", "repellent", "boring", "repulsive", "discouraging"],
+  "difficulty": "hard",
+  "date": "2026-07-06"
+},
+{
+  "id": 271,
+  "word": "tatters",
+  "meaning": "Torn pieces of cloth or a badly damaged condition",
+  "example": "After the storm, the old flag hung in tatters.",
+  "synonyms": ["rags", "shreds", "fragments", "scraps", "ruins"],
+  "antonyms": ["wholeness", "integrity", "perfection", "completeness", "repair"],
+  "difficulty": "medium",
+  "date": "2026-07-06"
+},
+{
+  "id": 272,
+  "word": "quibbling",
+  "meaning": "Arguing or raising trivial objections over unimportant details",
+  "example": "Stop quibbling over minor issues and focus on the main problem.",
+  "synonyms": ["nitpicking", "bickering", "caviling", "arguing", "pettifogging"],
+  "antonyms": ["agreeing", "accepting", "concurring", "approving", "yielding"],
+  "difficulty": "hard",
+  "date": "2026-07-06"
+},
+{
+  "id": 273,
+  "word": "veritable",
+  "meaning": "Used to emphasize that something is true or genuine; real",
+  "example": "The city became a veritable paradise for food lovers.",
+  "synonyms": ["genuine", "true", "real", "actual", "authentic"],
+  "antonyms": ["false", "fake", "artificial", "bogus", "counterfeit"],
+  "difficulty": "medium",
+  "date": "2026-07-06"
+}
   
 
 ]
