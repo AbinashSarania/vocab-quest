@@ -4850,6 +4850,107 @@
   "antonyms": ["generous", "liberal", "charitable", "bountiful", "munificent"],
   "difficulty": "hard",
   "date": "2026-07-10"
+},
+
+{
+  "id": 314,
+  "word": "baroque",
+  "meaning": "Highly ornate, elaborate, or extravagantly detailed",
+  "example": "The palace was famous for its baroque architecture and intricate carvings.",
+  "synonyms": ["ornate", "elaborate", "extravagant", "decorative", "lavish"],
+  "antonyms": ["plain", "simple", "minimal", "austere", "unadorned"],
+  "difficulty": "hard",
+  "date": "2026-07-14"
+},
+{
+  "id": 315,
+  "word": "gossamer",
+  "meaning": "Very light, thin, delicate, or insubstantial",
+  "example": "A gossamer veil covered the bride's face.",
+  "synonyms": ["delicate", "filmy", "airy", "sheer", "lightweight"],
+  "antonyms": ["thick", "heavy", "dense", "solid", "coarse"],
+  "difficulty": "hard",
+  "date": "2026-07-14"
+},
+{
+  "id": 316,
+  "word": "benison",
+  "meaning": "A blessing or expression of good wishes",
+  "example": "The priest offered his benison before the ceremony began.",
+  "synonyms": ["blessing", "benediction", "grace", "favor", "good wishes"],
+  "antonyms": ["curse", "condemnation", "malediction", "hex", "anathema"],
+  "difficulty": "hard",
+  "date": "2026-07-14"
+},
+{
+  "id": 317,
+  "word": "fugacious",
+  "meaning": "Lasting for only a short time; fleeting",
+  "example": "The beauty of the rainbow was fugacious.",
+  "synonyms": ["fleeting", "transient", "momentary", "brief", "ephemeral"],
+  "antonyms": ["lasting", "permanent", "enduring", "persistent", "eternal"],
+  "difficulty": "hard",
+  "date": "2026-07-14"
+},
+{
+  "id": 318,
+  "word": "forlorn",
+  "meaning": "Feeling sad, lonely, or abandoned",
+  "example": "The forlorn puppy waited patiently for its owner to return.",
+  "synonyms": ["desolate", "lonely", "dejected", "miserable", "abandoned"],
+  "antonyms": ["cheerful", "hopeful", "happy", "joyful", "content"],
+  "difficulty": "medium",
+  "date": "2026-07-14"
+},
+{
+  "id": 319,
+  "word": "exorbitant",
+  "meaning": "Unreasonably high or excessive",
+  "example": "The hotel charged exorbitant prices during the holiday season.",
+  "synonyms": ["excessive", "outrageous", "steep", "inflated", "unreasonable"],
+  "antonyms": ["reasonable", "moderate", "fair", "affordable", "modest"],
+  "difficulty": "medium",
+  "date": "2026-07-14"
+},
+{
+  "id": 320,
+  "word": "imbroglio",
+  "meaning": "A confusing and complicated situation",
+  "example": "The company found itself in a legal imbroglio over the contract.",
+  "synonyms": ["complication", "confusion", "mess", "predicament", "entanglement"],
+  "antonyms": ["clarity", "order", "simplicity", "solution", "harmony"],
+  "difficulty": "hard",
+  "date": "2026-07-14"
+},
+{
+  "id": 321,
+  "word": "enormity",
+  "meaning": "The great seriousness or scale of something bad or morally wrong",
+  "example": "The enormity of the crime shocked the entire nation.",
+  "synonyms": ["atrocity", "heinousness", "outrage", "monstrosity", "wickedness"],
+  "antonyms": ["goodness", "virtue", "kindness", "morality", "decency"],
+  "difficulty": "hard",
+  "date": "2026-07-14"
+},
+{
+  "id": 322,
+  "word": "panicky",
+  "meaning": "Feeling or showing sudden fear or anxiety",
+  "example": "The passengers became panicky when the lights went out.",
+  "synonyms": ["frightened", "alarmed", "anxious", "terrified", "hysterical"],
+  "antonyms": ["calm", "composed", "confident", "relaxed", "fearless"],
+  "difficulty": "easy",
+  "date": "2026-07-14"
+},
+{
+  "id": 323,
+  "word": "deceptively",
+  "meaning": "In a way that gives a misleading impression",
+  "example": "The task looked deceptively simple but proved very difficult.",
+  "synonyms": ["misleadingly", "falsely", "dishonestly", "delusively", "speciously"],
+  "antonyms": ["honestly", "truthfully", "accurately", "openly", "plainly"],
+  "difficulty": "medium",
+  "date": "2026-07-14"
 }
   
 
