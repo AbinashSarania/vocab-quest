@@ -5251,7 +5251,408 @@
   "antonyms": ["victory", "triumph", "win", "success", "conquest"],
   "difficulty": "medium",
   "date": "2026-07-17"
+},
+{
+  "id": 354,
+  "word": "titular",
+  "meaning": "Holding a title or position in name only, without real authority",
+  "example": "Although he was the titular head of the company, others made the important decisions.",
+  "synonyms": ["nominal", "ceremonial", "official", "named", "formal"],
+  "antonyms": ["actual", "real", "effective", "substantive", "genuine"],
+  "difficulty": "hard",
+  "date": "2026-07-18"
+},
+{
+  "id": 355,
+  "word": "tranche",
+  "meaning": "A portion or segment of something, especially money or investments",
+  "example": "The government released the next tranche of funds for the project.",
+  "synonyms": ["portion", "share", "segment", "installment", "allocation"],
+  "antonyms": ["whole", "entirety", "total", "aggregate", "sum"],
+  "difficulty": "hard",
+  "date": "2026-07-18"
+},
+{
+  "id": 356,
+  "word": "petite",
+  "meaning": "Small and delicately built, usually describing a woman",
+  "example": "She was petite but remarkably strong and athletic.",
+  "synonyms": ["small", "slender", "dainty", "tiny", "delicate"],
+  "antonyms": ["large", "tall", "big", "hefty", "stout"],
+  "difficulty": "easy",
+  "date": "2026-07-18"
+},
+{
+  "id": 357,
+  "word": "impromptu",
+  "meaning": "Done without being planned or prepared in advance",
+  "example": "He gave an impromptu speech after receiving the award.",
+  "synonyms": ["spontaneous", "unplanned", "offhand", "extempore", "unrehearsed"],
+  "antonyms": ["planned", "prepared", "rehearsed", "premeditated", "deliberate"],
+  "difficulty": "medium",
+  "date": "2026-07-18"
+},
+{
+  "id": 358,
+  "word": "exfiltrated",
+  "meaning": "Secretly removed a person or information from a place, especially from enemy territory",
+  "example": "The agent successfully exfiltrated the confidential documents.",
+  "synonyms": ["smuggled", "extracted", "removed", "evacuated", "rescued"],
+  "antonyms": ["infiltrated", "inserted", "introduced", "deployed", "implanted"],
+  "difficulty": "hard",
+  "date": "2026-07-18"
+},
+{
+  "id": 359,
+  "word": "spiralling",
+  "meaning": "Increasing, decreasing, or moving rapidly in a continuous upward or downward trend",
+  "example": "Food prices have been spiralling over the past few months.",
+  "synonyms": ["escalating", "soaring", "surging", "climbing", "mounting"],
+  "antonyms": ["declining", "falling", "dropping", "decreasing", "stabilizing"],
+  "difficulty": "medium",
+  "date": "2026-07-18"
+},
+{
+  "id": 360,
+  "word": "restive",
+  "meaning": "Unable to remain still, impatient, or difficult to control",
+  "example": "The crowd grew restive after waiting for several hours.",
+  "synonyms": ["restless", "impatient", "uneasy", "fidgety", "rebellious"],
+  "antonyms": ["calm", "patient", "composed", "content", "obedient"],
+  "difficulty": "hard",
+  "date": "2026-07-18"
+},
+{
+  "id": 361,
+  "word": "desultory",
+  "meaning": "Lacking a clear plan, purpose, or enthusiasm",
+  "example": "His desultory attempts at studying produced poor results.",
+  "synonyms": ["aimless", "random", "haphazard", "unfocused", "disorganized"],
+  "antonyms": ["systematic", "organized", "purposeful", "methodical", "focused"],
+  "difficulty": "hard",
+  "date": "2026-07-18"
+},
+{
+  "id": 362,
+  "word": "tantalize",
+  "meaning": "To tease or tempt someone with the promise of something unattainable",
+  "example": "The advertisement tantalized customers with exclusive offers.",
+  "synonyms": ["tease", "tempt", "entice", "lure", "allure"],
+  "antonyms": ["discourage", "repel", "deter", "disappoint", "disillusion"],
+  "difficulty": "hard",
+  "date": "2026-07-18"
+},
+{
+  "id": 363,
+  "word": "logy",
+  "meaning": "Feeling sluggish, drowsy, or lacking energy",
+  "example": "After the long journey, I felt logy all afternoon.",
+  "synonyms": ["sluggish", "lethargic", "drowsy", "listless", "torpid"],
+  "antonyms": ["energetic", "alert", "active", "lively", "vigorous"],
+  "difficulty": "hard",
+  "date": "2026-07-18"
+},
+{
+  "id": 364,
+  "word": "banal",
+  "meaning": "So ordinary or common that it lacks originality or interest",
+  "example": "The movie was criticized for its banal storyline.",
+  "synonyms": ["trite", "commonplace", "hackneyed", "predictable", "cliched"],
+  "antonyms": ["original", "fresh", "innovative", "unique", "novel"],
+  "difficulty": "medium",
+  "date": "2026-07-20"
+},
+{
+  "id": 365,
+  "word": "tantalising",
+  "meaning": "Arousing desire or interest while keeping fulfillment out of reach",
+  "example": "The trailer offered a tantalising preview of the upcoming series.",
+  "synonyms": ["tempting", "enticing", "alluring", "intriguing", "seductive"],
+  "antonyms": ["unappealing", "repulsive", "discouraging", "boring", "off-putting"],
+  "difficulty": "hard",
+  "date": "2026-07-20"
+},
+{
+  "id": 366,
+  "word": "haphazard",
+  "meaning": "Lacking any obvious principle of organization; random",
+  "example": "The files were arranged in a haphazard manner.",
+  "synonyms": ["random", "disorganized", "chaotic", "unsystematic", "careless"],
+  "antonyms": ["organized", "systematic", "orderly", "methodical", "structured"],
+  "difficulty": "medium",
+  "date": "2026-07-20"
+},
+{
+  "id": 367,
+  "word": "festering",
+  "meaning": "Becoming worse over time due to neglect; causing increasing resentment or decay",
+  "example": "The unresolved dispute became a festering problem.",
+  "synonyms": ["worsening", "decaying", "rankling", "putrefying", "deteriorating"],
+  "antonyms": ["healing", "improving", "recovering", "mending", "resolving"],
+  "difficulty": "hard",
+  "date": "2026-07-20"
+},
+{
+  "id": 368,
+  "word": "tramp",
+  "meaning": "To walk heavily or for a long distance, often with determination",
+  "example": "They tramped through the forest despite the heavy rain.",
+  "synonyms": ["trudge", "plod", "stomp", "march", "trek"],
+  "antonyms": ["tiptoe", "glide", "saunter", "stroll", "skip"],
+  "difficulty": "medium",
+  "date": "2026-07-20"
+},
+{
+  "id": 369,
+  "word": "teetering",
+  "meaning": "Moving unsteadily or being on the verge of collapse",
+  "example": "The old building was teetering on the edge of collapse.",
+  "synonyms": ["wobbling", "swaying", "tottering", "staggering", "balancing"],
+  "antonyms": ["steady", "stable", "firm", "secure", "balanced"],
+  "difficulty": "medium",
+  "date": "2026-07-20"
+},
+{
+  "id": 370,
+  "word": "innuendo",
+  "meaning": "An indirect or subtle remark, often suggesting something negative or improper",
+  "example": "The politician denied the innuendo made by his opponents.",
+  "synonyms": ["insinuation", "hint", "implication", "allusion", "suggestion"],
+  "antonyms": ["statement", "assertion", "fact", "declaration", "confirmation"],
+  "difficulty": "hard",
+  "date": "2026-07-20"
+},
+{
+  "id": 371,
+  "word": "perilous",
+  "meaning": "Full of danger or risk",
+  "example": "The climbers faced a perilous journey to the summit.",
+  "synonyms": ["dangerous", "hazardous", "risky", "treacherous", "unsafe"],
+  "antonyms": ["safe", "secure", "harmless", "protected", "benign"],
+  "difficulty": "medium",
+  "date": "2026-07-20"
+},
+{
+  "id": 372,
+  "word": "botch",
+  "meaning": "To carry out a task badly or carelessly",
+  "example": "The contractor botched the repair work.",
+  "synonyms": ["bungle", "mishandle", "fumble", "blunder", "spoil"],
+  "antonyms": ["perfect", "excel", "master", "accomplish", "execute"],
+  "difficulty": "medium",
+  "date": "2026-07-20"
+},
+{
+  "id": 373,
+  "word": "acme",
+  "meaning": "The highest point of achievement or excellence",
+  "example": "Winning the championship was the acme of her career.",
+  "synonyms": ["peak", "pinnacle", "zenith", "summit", "apex"],
+  "antonyms": ["bottom", "nadir", "base", "low", "decline"],
+  "difficulty": "hard",
+  "date": "2026-07-20"
+},
+{
+  "id": 374,
+  "word": "meddled",
+  "meaning": "Interfered in someone else's affairs without being asked",
+  "example": "He meddled in the dispute and only made matters worse.",
+  "synonyms": ["interfered", "intruded", "intervened", "tampered", "interposed"],
+  "antonyms": ["ignored", "avoided", "abstained", "withdrew", "refrained"],
+  "difficulty": "medium",
+  "date": "2026-07-21"
+},
+{
+  "id": 375,
+  "word": "cumbersome",
+  "meaning": "Large, heavy, or complicated and therefore difficult to handle",
+  "example": "The old software was cumbersome and slow to use.",
+  "synonyms": ["bulky", "awkward", "unwieldy", "clumsy", "burdensome"],
+  "antonyms": ["compact", "light", "manageable", "convenient", "streamlined"],
+  "difficulty": "medium",
+  "date": "2026-07-21"
+},
+{
+  "id": 376,
+  "word": "lumpen",
+  "meaning": "Lacking culture, education, or refinement",
+  "example": "The novel portrayed a lumpen underclass struggling to survive.",
+  "synonyms": ["uncultured", "unrefined", "boorish", "coarse", "ignorant"],
+  "antonyms": ["cultured", "refined", "educated", "sophisticated", "polished"],
+  "difficulty": "hard",
+  "date": "2026-07-21"
+},
+{
+  "id": 377,
+  "word": "lax",
+  "meaning": "Not strict, careful, or thorough enough",
+  "example": "Lax security allowed the thieves to enter unnoticed.",
+  "synonyms": ["careless", "negligent", "slack", "lenient", "loose"],
+  "antonyms": ["strict", "careful", "rigorous", "vigilant", "stringent"],
+  "difficulty": "medium",
+  "date": "2026-07-21"
+},
+{
+  "id": 378,
+  "word": "maul",
+  "meaning": "To injure or handle someone or something roughly",
+  "example": "The bear mauled the camper before running back into the forest.",
+  "synonyms": ["mangle", "attack", "tear", "bruise", "assault"],
+  "antonyms": ["protect", "heal", "preserve", "comfort", "assist"],
+  "difficulty": "medium",
+  "date": "2026-07-21"
+},
+{
+  "id": 379,
+  "word": "spiteful",
+  "meaning": "Showing a desire to hurt, annoy, or offend someone",
+  "example": "She made a spiteful remark out of jealousy.",
+  "synonyms": ["malicious", "vindictive", "mean", "nasty", "malevolent"],
+  "antonyms": ["kind", "benevolent", "generous", "compassionate", "forgiving"],
+  "difficulty": "medium",
+  "date": "2026-07-21"
+},
+{
+  "id": 380,
+  "word": "farce",
+  "meaning": "A ridiculous or absurd situation; also a humorous play with exaggerated comedy",
+  "example": "The meeting turned into a complete farce after repeated interruptions.",
+  "synonyms": ["mockery", "travesty", "charade", "parody", "burlesque"],
+  "antonyms": ["seriousness", "reality", "dignity", "authenticity", "gravity"],
+  "difficulty": "medium",
+  "date": "2026-07-21"
+},
+{
+  "id": 381,
+  "word": "thumping",
+  "meaning": "Very large, forceful, or overwhelming",
+  "example": "The team secured a thumping victory in the finals.",
+  "synonyms": ["resounding", "overwhelming", "massive", "decisive", "hefty"],
+  "antonyms": ["narrow", "slight", "minor", "modest", "insignificant"],
+  "difficulty": "medium",
+  "date": "2026-07-21"
+},
+{
+  "id": 382,
+  "word": "winsome",
+  "meaning": "Charming and attractive in an innocent or delightful way",
+  "example": "Her winsome smile instantly put everyone at ease.",
+  "synonyms": ["charming", "engaging", "endearing", "appealing", "lovely"],
+  "antonyms": ["unpleasant", "repulsive", "offensive", "disagreeable", "unattractive"],
+  "difficulty": "hard",
+  "date": "2026-07-21"
+},
+{
+  "id": 383,
+  "word": "confuting",
+  "meaning": "Proving a statement or argument to be false or incorrect",
+  "example": "The scientist presented evidence confuting the old theory.",
+  "synonyms": ["refuting", "disproving", "rebutting", "contradicting", "debunking"],
+  "antonyms": ["confirming", "proving", "supporting", "validating", "substantiating"],
+  "difficulty": "hard",
+  "date": "2026-07-21"
+},
+{
+  "id": 384,
+  "word": "spate",
+  "meaning": "A large number or sudden flood of similar things occurring at once",
+  "example": "A spate of complaints forced the company to review its policy.",
+  "synonyms": ["flood", "surge", "outburst", "wave", "deluge"],
+  "antonyms": ["scarcity", "drought", "dearth", "shortage", "lack"],
+  "difficulty": "hard",
+  "date": "2026-07-22"
+},
+{
+  "id": 385,
+  "word": "buttressing",
+  "meaning": "Supporting or strengthening something",
+  "example": "The new evidence was buttressing the prosecution's case.",
+  "synonyms": ["supporting", "reinforcing", "strengthening", "bolstering", "upholding"],
+  "antonyms": ["weakening", "undermining", "damaging", "eroding", "impairing"],
+  "difficulty": "hard",
+  "date": "2026-07-22"
+},
+{
+  "id": 386,
+  "word": "shambles",
+  "meaning": "A state of complete disorder or chaos",
+  "example": "After the storm, the town was in shambles.",
+  "synonyms": ["chaos", "mess", "disorder", "ruin", "confusion"],
+  "antonyms": ["order", "organization", "neatness", "harmony", "stability"],
+  "difficulty": "medium",
+  "date": "2026-07-22"
+},
+{
+  "id": 387,
+  "word": "debacle",
+  "meaning": "A complete failure or disastrous event",
+  "example": "The poorly planned launch turned into a financial debacle.",
+  "synonyms": ["disaster", "catastrophe", "fiasco", "failure", "collapse"],
+  "antonyms": ["success", "triumph", "achievement", "victory", "accomplishment"],
+  "difficulty": "hard",
+  "date": "2026-07-22"
+},
+{
+  "id": 388,
+  "word": "guise",
+  "meaning": "An external appearance intended to conceal the true nature of someone or something",
+  "example": "He entered the building under the guise of a delivery worker.",
+  "synonyms": ["disguise", "appearance", "cloak", "mask", "pretense"],
+  "antonyms": ["reality", "truth", "identity", "authenticity", "openness"],
+  "difficulty": "hard",
+  "date": "2026-07-22"
+},
+{
+  "id": 389,
+  "word": "sagaciously",
+  "meaning": "In a wise, intelligent, and perceptive manner",
+  "example": "She sagaciously advised the team to avoid unnecessary risks.",
+  "synonyms": ["wisely", "prudently", "shrewdly", "judiciously", "astutely"],
+  "antonyms": ["foolishly", "recklessly", "carelessly", "imprudently", "rashly"],
+  "difficulty": "hard",
+  "date": "2026-07-22"
+},
+{
+  "id": 390,
+  "word": "angst",
+  "meaning": "A feeling of deep anxiety, worry, or dread",
+  "example": "Many students experience angst before major examinations.",
+  "synonyms": ["anxiety", "dread", "anguish", "worry", "distress"],
+  "antonyms": ["calm", "peace", "confidence", "comfort", "serenity"],
+  "difficulty": "medium",
+  "date": "2026-07-22"
+},
+{
+  "id": 391,
+  "word": "conspicuously",
+  "meaning": "In a way that is clearly visible or noticeable",
+  "example": "His name was conspicuously absent from the guest list.",
+  "synonyms": ["noticeably", "prominently", "obviously", "plainly", "markedly"],
+  "antonyms": ["inconspicuously", "subtly", "secretly", "quietly", "unobtrusively"],
+  "difficulty": "medium",
+  "date": "2026-07-22"
+},
+{
+  "id": 392,
+  "word": "bogus",
+  "meaning": "False or fake; not genuine",
+  "example": "The police uncovered a bogus investment scheme.",
+  "synonyms": ["fake", "fraudulent", "counterfeit", "phony", "sham"],
+  "antonyms": ["genuine", "authentic", "real", "legitimate", "valid"],
+  "difficulty": "medium",
+  "date": "2026-07-22"
+},
+{
+  "id": 393,
+  "word": "subjugated",
+  "meaning": "Brought under control or domination by force",
+  "example": "The invading army subjugated the neighboring kingdom.",
+  "synonyms": ["conquered", "dominated", "suppressed", "subdued", "overpowered"],
+  "antonyms": ["liberated", "freed", "released", "emancipated", "independent"],
+  "difficulty": "hard",
+  "date": "2026-07-22"
 }
+
 
   
 
