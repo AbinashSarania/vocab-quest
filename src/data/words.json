@@ -4951,7 +4951,308 @@
   "antonyms": ["honestly", "truthfully", "accurately", "openly", "plainly"],
   "difficulty": "medium",
   "date": "2026-07-14"
+},
+{
+  "id": 324,
+  "word": "amicus",
+  "meaning": "A friend of the court who offers information or expertise in a legal case",
+  "example": "The Supreme Court accepted the amicus brief submitted by the legal scholars.",
+  "synonyms": ["advisor", "supporter", "ally", "counsel", "advocate"],
+  "antonyms": ["opponent", "adversary", "enemy", "critic", "foe"],
+  "difficulty": "hard",
+  "date": "2026-07-15"
+},
+{
+  "id": 325,
+  "word": "humdinger",
+  "meaning": "A remarkable or outstanding person or thing",
+  "example": "The final match turned out to be a real humdinger.",
+  "synonyms": ["masterpiece", "wonder", "gem", "cracker", "stunner"],
+  "antonyms": ["failure", "disappointment", "mediocrity", "letdown", "dud"],
+  "difficulty": "hard",
+  "date": "2026-07-15"
+},
+{
+  "id": 326,
+  "word": "banish",
+  "meaning": "To send someone away permanently or get rid of something completely",
+  "example": "The king decided to banish the traitor from the kingdom.",
+  "synonyms": ["expel", "exile", "oust", "remove", "dismiss"],
+  "antonyms": ["welcome", "admit", "accept", "retain", "keep"],
+  "difficulty": "medium",
+  "date": "2026-07-15"
+},
+{
+  "id": 327,
+  "word": "affray",
+  "meaning": "A noisy public fight or disturbance",
+  "example": "Several people were arrested after the affray outside the stadium.",
+  "synonyms": ["brawl", "fracas", "melee", "clash", "scuffle"],
+  "antonyms": ["peace", "calm", "harmony", "order", "truce"],
+  "difficulty": "hard",
+  "date": "2026-07-15"
+},
+{
+  "id": 328,
+  "word": "collegium",
+  "meaning": "A group of colleagues or scholars working together for a common purpose",
+  "example": "The collegium met to discuss the appointment of new judges.",
+  "synonyms": ["council", "committee", "board", "panel", "assembly"],
+  "antonyms": ["individual", "outsider", "opponent", "adversary", "loner"],
+  "difficulty": "hard",
+  "date": "2026-07-15"
+},
+{
+  "id": 329,
+  "word": "penitence",
+  "meaning": "The feeling of regret or remorse for wrongdoing",
+  "example": "He expressed genuine penitence for his actions.",
+  "synonyms": ["remorse", "repentance", "contrition", "regret", "atonement"],
+  "antonyms": ["impenitence", "defiance", "indifference", "pride", "remorselessness"],
+  "difficulty": "medium",
+  "date": "2026-07-15"
+},
+{
+  "id": 330,
+  "word": "dictum",
+  "meaning": "A formal statement, principle, or authoritative saying",
+  "example": "The judge's dictum has often been cited in later cases.",
+  "synonyms": ["maxim", "principle", "adage", "proverb", "axiom"],
+  "antonyms": ["fallacy", "falsehood", "misconception", "error", "fiction"],
+  "difficulty": "hard",
+  "date": "2026-07-15"
+},
+{
+  "id": 331,
+  "word": "tribulation",
+  "meaning": "A state of great suffering, distress, or difficulty",
+  "example": "Despite years of tribulation, she never lost hope.",
+  "synonyms": ["hardship", "adversity", "distress", "suffering", "misery"],
+  "antonyms": ["comfort", "prosperity", "ease", "happiness", "fortune"],
+  "difficulty": "hard",
+  "date": "2026-07-15"
+},
+{
+  "id": 332,
+  "word": "errant",
+  "meaning": "Straying from the proper course or behaving wrongly",
+  "example": "The police quickly located the errant driver.",
+  "synonyms": ["wayward", "wandering", "misguided", "deviating", "roving"],
+  "antonyms": ["obedient", "dutiful", "faithful", "correct", "disciplined"],
+  "difficulty": "hard",
+  "date": "2026-07-15"
+},
+{
+  "id": 333,
+  "word": "mesmerising",
+  "meaning": "Capturing one's complete attention; fascinating",
+  "example": "The dancer gave a mesmerising performance that captivated the audience.",
+  "synonyms": ["captivating", "spellbinding", "hypnotic", "enthralling", "fascinating"],
+  "antonyms": ["boring", "dull", "uninteresting", "tedious", "repellent"],
+  "difficulty": "medium",
+  "date": "2026-07-15"
+},
+{
+  "id": 334,
+  "word": "milieu",
+  "meaning": "A person's social, cultural, or physical environment",
+  "example": "She grew up in an artistic milieu that encouraged creativity.",
+  "synonyms": ["environment", "surroundings", "setting", "atmosphere", "context"],
+  "antonyms": ["isolation", "seclusion", "detachment", "solitude", "vacuum"],
+  "difficulty": "hard",
+  "date": "2026-07-16"
+},
+{
+  "id": 335,
+  "word": "ailing",
+  "meaning": "Suffering from illness or poor health",
+  "example": "He stayed home to care for his ailing grandmother.",
+  "synonyms": ["ill", "sick", "unwell", "infirm", "indisposed"],
+  "antonyms": ["healthy", "fit", "well", "robust", "strong"],
+  "difficulty": "easy",
+  "date": "2026-07-16"
+},
+{
+  "id": 336,
+  "word": "moiety",
+  "meaning": "One of two equal parts of something",
+  "example": "Each sibling inherited a moiety of the family property.",
+  "synonyms": ["half", "portion", "share", "division", "part"],
+  "antonyms": ["whole", "entirety", "total", "unity", "aggregate"],
+  "difficulty": "hard",
+  "date": "2026-07-16"
+},
+{
+  "id": 337,
+  "word": "melee",
+  "meaning": "A confused fight or noisy struggle involving many people",
+  "example": "A melee erupted after the controversial decision.",
+  "synonyms": ["brawl", "fracas", "clash", "scuffle", "free-for-all"],
+  "antonyms": ["peace", "calm", "harmony", "order", "truce"],
+  "difficulty": "medium",
+  "date": "2026-07-16"
+},
+{
+  "id": 338,
+  "word": "snub",
+  "meaning": "To deliberately ignore or insult someone",
+  "example": "She felt hurt when her colleagues snubbed her invitation.",
+  "synonyms": ["slight", "ignore", "rebuff", "reject", "dismiss"],
+  "antonyms": ["welcome", "acknowledge", "accept", "embrace", "honor"],
+  "difficulty": "medium",
+  "date": "2026-07-16"
+},
+{
+  "id": 339,
+  "word": "sanctimonious",
+  "meaning": "Pretending to be morally superior or more virtuous than others",
+  "example": "His sanctimonious attitude annoyed everyone in the meeting.",
+  "synonyms": ["self-righteous", "hypocritical", "holier-than-thou", "pious", "smug"],
+  "antonyms": ["humble", "modest", "sincere", "genuine", "unpretentious"],
+  "difficulty": "hard",
+  "date": "2026-07-16"
+},
+{
+  "id": 340,
+  "word": "verbatim",
+  "meaning": "In exactly the same words as originally spoken or written",
+  "example": "The witness repeated the statement verbatim.",
+  "synonyms": ["word-for-word", "exactly", "literally", "precisely", "identically"],
+  "antonyms": ["paraphrased", "summarized", "loosely", "approximately", "inexactly"],
+  "difficulty": "medium",
+  "date": "2026-07-16"
+},
+{
+  "id": 341,
+  "word": "wary",
+  "meaning": "Feeling cautious about possible dangers or problems",
+  "example": "Investors remained wary of the volatile market.",
+  "synonyms": ["cautious", "careful", "vigilant", "watchful", "alert"],
+  "antonyms": ["careless", "reckless", "trusting", "incautious", "heedless"],
+  "difficulty": "medium",
+  "date": "2026-07-16"
+},
+{
+  "id": 342,
+  "word": "chicanery",
+  "meaning": "The use of deception or trickery to achieve a goal",
+  "example": "The investigation uncovered financial chicanery within the company.",
+  "synonyms": ["deception", "trickery", "fraud", "duplicity", "dishonesty"],
+  "antonyms": ["honesty", "integrity", "fairness", "truthfulness", "sincerity"],
+  "difficulty": "hard",
+  "date": "2026-07-16"
+},
+{
+  "id": 343,
+  "word": "xenial",
+  "meaning": "Friendly and hospitable, especially toward guests or strangers",
+  "example": "The villagers were xenial and welcomed every visitor warmly.",
+  "synonyms": ["hospitable", "friendly", "welcoming", "cordial", "gracious"],
+  "antonyms": ["hostile", "unfriendly", "inhospitable", "cold", "aloof"],
+  "difficulty": "hard",
+  "date": "2026-07-16"
+},
+{
+  "id": 344,
+  "word": "craven",
+  "meaning": "Lacking courage; cowardly",
+  "example": "The craven soldier fled the battlefield at the first sign of danger.",
+  "synonyms": ["cowardly", "timid", "fearful", "spineless", "pusillanimous"],
+  "antonyms": ["brave", "courageous", "valiant", "fearless", "bold"],
+  "difficulty": "hard",
+  "date": "2026-07-17"
+},
+{
+  "id": 345,
+  "word": "propitiate",
+  "meaning": "To win or regain the favor of someone through gifts, apologies, or other means",
+  "example": "He tried to propitiate his manager with a sincere apology.",
+  "synonyms": ["appease", "conciliate", "pacify", "placate", "mollify"],
+  "antonyms": ["provoke", "offend", "anger", "alienate", "aggravate"],
+  "difficulty": "hard",
+  "date": "2026-07-17"
+},
+{
+  "id": 346,
+  "word": "bustle",
+  "meaning": "To move or act in a busy, energetic manner",
+  "example": "The marketplace bustled with shoppers before the festival.",
+  "synonyms": ["hustle", "scurry", "rush", "hurry", "flurry"],
+  "antonyms": ["idle", "laze", "dawdle", "linger", "loiter"],
+  "difficulty": "medium",
+  "date": "2026-07-17"
+},
+{
+  "id": 347,
+  "word": "glint",
+  "meaning": "A small flash or sparkle of light",
+  "example": "A glint of sunlight reflected off the lake.",
+  "synonyms": ["sparkle", "gleam", "flash", "shimmer", "twinkle"],
+  "antonyms": ["dullness", "dimness", "darkness", "gloom", "shadow"],
+  "difficulty": "easy",
+  "date": "2026-07-17"
+},
+{
+  "id": 348,
+  "word": "suffrage",
+  "meaning": "The right to vote in political elections",
+  "example": "The movement fought for universal suffrage.",
+  "synonyms": ["franchise", "voting rights", "ballot", "electoral right", "vote"],
+  "antonyms": ["disenfranchisement", "exclusion", "disqualification", "suppression", "deprivation"],
+  "difficulty": "hard",
+  "date": "2026-07-17"
+},
+{
+  "id": 349,
+  "word": "disrelish",
+  "meaning": "A feeling of dislike or distaste",
+  "example": "She accepted the assignment with obvious disrelish.",
+  "synonyms": ["dislike", "distaste", "aversion", "antipathy", "displeasure"],
+  "antonyms": ["liking", "fondness", "enjoyment", "delight", "preference"],
+  "difficulty": "hard",
+  "date": "2026-07-17"
+},
+{
+  "id": 350,
+  "word": "denigrate",
+  "meaning": "To unfairly criticize or belittle someone or something",
+  "example": "It is wrong to denigrate others to make yourself look better.",
+  "synonyms": ["belittle", "disparage", "defame", "criticize", "demean"],
+  "antonyms": ["praise", "commend", "honor", "extol", "glorify"],
+  "difficulty": "hard",
+  "date": "2026-07-17"
+},
+{
+  "id": 351,
+  "word": "dunce",
+  "meaning": "A person who is slow to learn or considered unintelligent",
+  "example": "He was unfairly labeled a dunce despite his creativity.",
+  "synonyms": ["fool", "idiot", "simpleton", "blockhead", "imbecile"],
+  "antonyms": ["genius", "scholar", "intellectual", "prodigy", "sage"],
+  "difficulty": "medium",
+  "date": "2026-07-17"
+},
+{
+  "id": 352,
+  "word": "saturnine",
+  "meaning": "Gloomy, serious, or slow to smile",
+  "example": "His saturnine expression made him seem unapproachable.",
+  "synonyms": ["gloomy", "morose", "sullen", "somber", "melancholic"],
+  "antonyms": ["cheerful", "jovial", "merry", "optimistic", "buoyant"],
+  "difficulty": "hard",
+  "date": "2026-07-17"
+},
+{
+  "id": 353,
+  "word": "trouncing",
+  "meaning": "A decisive defeat or severe beating",
+  "example": "The home team gave their rivals a trouncing in the final.",
+  "synonyms": ["thrashing", "drubbing", "rout", "hammering", "defeat"],
+  "antonyms": ["victory", "triumph", "win", "success", "conquest"],
+  "difficulty": "medium",
+  "date": "2026-07-17"
 }
+
   
 
 ]
