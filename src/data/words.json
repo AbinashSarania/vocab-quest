@@ -6483,5 +6483,606 @@
     ],
     "difficulty": "hard",
     "date": "2026-07-22"
-  }
+  },
+  {
+  "id": 394,
+  "word": "brazen",
+  "meaning": "Bold and shameless, often in a way that is considered disrespectful",
+  "example": "His brazen disregard for the rules surprised everyone.",
+  "synonyms": ["bold", "shameless", "audacious", "impudent", "insolent"],
+  "antonyms": ["modest", "timid", "shy", "reserved", "respectful"],
+  "difficulty": "medium",
+  "date": "2026-07-23"
+},
+{
+  "id": 395,
+  "word": "furore",
+  "meaning": "A state of intense public excitement, anger, or controversy",
+  "example": "The controversial decision caused a furore among the public.",
+  "synonyms": ["uproar", "commotion", "outcry", "turmoil", "hubbub"],
+  "antonyms": ["calm", "peace", "silence", "tranquility", "serenity"],
+  "difficulty": "hard",
+  "date": "2026-07-23"
+},
+{
+  "id": 396,
+  "word": "obnoxious",
+  "meaning": "Extremely unpleasant, offensive, or annoying",
+  "example": "His obnoxious behavior quickly irritated everyone in the room.",
+  "synonyms": ["offensive", "annoying", "irritating", "repulsive", "disagreeable"],
+  "antonyms": ["pleasant", "agreeable", "amiable", "delightful", "courteous"],
+  "difficulty": "medium",
+  "date": "2026-07-23"
+},
+{
+  "id": 397,
+  "word": "nimbly",
+  "meaning": "In a quick, light, and agile manner",
+  "example": "The cat nimbly jumped over the fence.",
+  "synonyms": ["agilely", "swiftly", "quickly", "briskly", "deftly"],
+  "antonyms": ["clumsily", "awkwardly", "slowly", "heavily", "sluggishly"],
+  "difficulty": "medium",
+  "date": "2026-07-23"
+},
+{
+  "id": 398,
+  "word": "bounty",
+  "meaning": "A generous amount of something; a reward offered for achieving a specific task",
+  "example": "The farmers celebrated the year's rich bounty of crops.",
+  "synonyms": ["abundance", "plenty", "profusion", "reward", "generosity"],
+  "antonyms": ["scarcity", "shortage", "dearth", "lack", "poverty"],
+  "difficulty": "medium",
+  "date": "2026-07-23"
+},
+{
+  "id": 399,
+  "word": "transient",
+  "meaning": "Lasting only for a short time; temporary",
+  "example": "The excitement of fame can be transient.",
+  "synonyms": ["temporary", "fleeting", "brief", "short-lived", "ephemeral"],
+  "antonyms": ["permanent", "lasting", "enduring", "eternal", "persistent"],
+  "difficulty": "medium",
+  "date": "2026-07-23"
+},
+{
+  "id": 400,
+  "word": "bastion",
+  "meaning": "A stronghold or place that strongly supports or protects a particular idea, group, or tradition",
+  "example": "The university has long been a bastion of academic freedom.",
+  "synonyms": ["stronghold", "fortress", "bulwark", "rampart", "citadel"],
+  "antonyms": ["weakness", "vulnerability", "exposure", "insecurity", "liability"],
+  "difficulty": "hard",
+  "date": "2026-07-23"
+},
+{
+  "id": 401,
+  "word": "abnegate",
+  "meaning": "To renounce, reject, or give up something, especially a desire or right",
+  "example": "She chose to abnegate her personal ambitions for the sake of her family.",
+  "synonyms": ["renounce", "relinquish", "sacrifice", "surrender", "forgo"],
+  "antonyms": ["accept", "claim", "retain", "embrace", "assert"],
+  "difficulty": "hard",
+  "date": "2026-07-23"
+},
+{
+  "id": 402,
+  "word": "cataclysmic",
+  "meaning": "Causing or involving a violent and destructive change or disaster",
+  "example": "The earthquake had cataclysmic consequences for the region.",
+  "synonyms": ["disastrous", "catastrophic", "devastating", "calamitous", "destructive"],
+  "antonyms": ["peaceful", "beneficial", "harmless", "constructive", "favorable"],
+  "difficulty": "hard",
+  "date": "2026-07-23"
+},
+{
+  "id": 403,
+  "word": "inimical",
+  "meaning": "Harmful or hostile to someone or something",
+  "example": "Such policies are inimical to the interests of ordinary citizens.",
+  "synonyms": ["hostile", "harmful", "adverse", "antagonistic", "detrimental"],
+  "antonyms": ["friendly", "beneficial", "favorable", "helpful", "supportive"],
+  "difficulty": "hard",
+  "date": "2026-07-23"
+},
+{
+  "id": 404,
+  "word": "zealous",
+  "meaning": "Showing great energy, enthusiasm, or devotion toward a cause or goal",
+  "example": "She is a zealous advocate for environmental protection.",
+  "synonyms": ["enthusiastic", "passionate", "ardent", "fervent", "devoted"],
+  "antonyms": ["apathetic", "indifferent", "unenthusiastic", "apathetic", "dispassionate"],
+  "difficulty": "medium",
+  "date": "2026-07-27"
+},
+{
+  "id": 405,
+  "word": "skimpy",
+  "meaning": "Too small, inadequate, or insufficient in amount or size",
+  "example": "The workers were unhappy with their skimpy wages.",
+  "synonyms": ["scanty", "meager", "sparse", "insufficient", "paltry"],
+  "antonyms": ["abundant", "ample", "generous", "plentiful", "substantial"],
+  "difficulty": "medium",
+  "date": "2026-07-27"
+},
+{
+  "id": 406,
+  "word": "sleek",
+  "meaning": "Smooth, elegant, and attractive in appearance",
+  "example": "The new car has a sleek and modern design.",
+  "synonyms": ["smooth", "stylish", "elegant", "polished", "streamlined"],
+  "antonyms": ["rough", "untidy", "shabby", "coarse", "unattractive"],
+  "difficulty": "medium",
+  "date": "2026-07-27"
+},
+{
+  "id": 407,
+  "word": "velleity",
+  "meaning": "A weak or slight desire that is not strong enough to lead to action",
+  "example": "He had only a velleity to learn the piano, but never actually began practicing.",
+  "synonyms": ["wish", "desire", "inclination", "impulse", "longing"],
+  "antonyms": ["determination", "resolve", "commitment", "intention", "purpose"],
+  "difficulty": "hard",
+  "date": "2026-07-27"
+},
+{
+  "id": 408,
+  "word": "potent",
+  "meaning": "Having great power, influence, or effectiveness",
+  "example": "The new drug proved highly potent against the infection.",
+  "synonyms": ["powerful", "effective", "forceful", "strong", "influential"],
+  "antonyms": ["weak", "ineffective", "powerless", "impotent", "ineffectual"],
+  "difficulty": "medium",
+  "date": "2026-07-27"
+},
+{
+  "id": 409,
+  "word": "inchoate",
+  "meaning": "Not yet fully developed, organized, or formed",
+  "example": "The proposal was still inchoate and required further discussion.",
+  "synonyms": ["undeveloped", "formless", "embryonic", "nascent", "incipient"],
+  "antonyms": ["developed", "complete", "mature", "organized", "established"],
+  "difficulty": "hard",
+  "date": "2026-07-27"
+},
+{
+  "id": 410,
+  "word": "suave",
+  "meaning": "Charming, confident, and sophisticated in manner",
+  "example": "The suave gentleman impressed everyone with his polished manners.",
+  "synonyms": ["charming", "polished", "sophisticated", "urbane", "debonair"],
+  "antonyms": ["awkward", "clumsy", "uncouth", "rude", "unpolished"],
+  "difficulty": "medium",
+  "date": "2026-07-27"
+},
+{
+  "id": 411,
+  "word": "anfractuous",
+  "meaning": "Full of twists, turns, or winding passages; complicated",
+  "example": "The hikers followed an anfractuous trail through the mountains.",
+  "synonyms": ["winding", "tortuous", "meandering", "twisting", "intricate"],
+  "antonyms": ["straight", "direct", "linear", "simple", "uncomplicated"],
+  "difficulty": "hard",
+  "date": "2026-07-27"
+},
+{
+  "id": 412,
+  "word": "coveted",
+  "meaning": "Greatly desired or wished for by many people",
+  "example": "She finally won the coveted scholarship.",
+  "synonyms": ["desired", "sought-after", "cherished", "wanted", "prized"],
+  "antonyms": ["unwanted", "undesired", "disliked", "rejected", "unvalued"],
+  "difficulty": "medium",
+  "date": "2026-07-27"
+},
+{
+  "id": 413,
+  "word": "crass",
+  "meaning": "Lacking sensitivity, refinement, or good manners",
+  "example": "His crass remarks offended everyone at the dinner.",
+  "synonyms": ["vulgar", "粗俗", "insensitive", "boorish", "uncouth"],
+  "antonyms": ["refined", "sensitive", "polite", "cultured", "courteous"],
+  "difficulty": "medium",
+  "date": "2026-07-27"
+},
+{
+  "id": 414,
+  "word": "squeak",
+  "meaning": "A short, high-pitched sound or to make such a sound",
+  "example": "The old door gave a loud squeak when he opened it.",
+  "synonyms": ["creak", "chirp", "peep", "squeal", "shriek"],
+  "antonyms": ["silence", "quiet", "stillness", "hush", "muteness"],
+  "difficulty": "easy",
+  "date": "2026-07-28"
+},
+{
+  "id": 415,
+  "word": "mellifluous",
+  "meaning": "Pleasantly smooth and musical to hear",
+  "example": "The singer's mellifluous voice captivated the audience.",
+  "synonyms": ["melodious", "harmonious", "musical", "sweet", "dulcet"],
+  "antonyms": ["harsh", "discordant", "grating", "cacophonous", "jarring"],
+  "difficulty": "hard",
+  "date": "2026-07-28"
+},
+{
+  "id": 416,
+  "word": "bolster",
+  "meaning": "To support or strengthen something",
+  "example": "The new evidence helped bolster his argument.",
+  "synonyms": ["support", "reinforce", "strengthen", "fortify", "boost"],
+  "antonyms": ["weaken", "undermine", "damage", "impair", "diminish"],
+  "difficulty": "medium",
+  "date": "2026-07-28"
+},
+{
+  "id": 417,
+  "word": "slovenly",
+  "meaning": "Untidy, careless, or lacking cleanliness and neatness",
+  "example": "His slovenly appearance made a poor impression at the interview.",
+  "synonyms": ["untidy", "messy", "careless", "unkempt", "scruffy"],
+  "antonyms": ["neat", "tidy", "clean", "orderly", "meticulous"],
+  "difficulty": "medium",
+  "date": "2026-07-28"
+},
+{
+  "id": 418,
+  "word": "quest",
+  "meaning": "A long or determined search for something",
+  "example": "His quest for knowledge took him to several universities.",
+  "synonyms": ["search", "pursuit", "hunt", "mission", "endeavor"],
+  "antonyms": ["avoidance", "neglect", "disinterest", "abandonment", "inaction"],
+  "difficulty": "easy",
+  "date": "2026-07-28"
+},
+{
+  "id": 419,
+  "word": "consonance",
+  "meaning": "Agreement, harmony, or compatibility between things",
+  "example": "The new policy is in consonance with the organization's values.",
+  "synonyms": ["harmony", "agreement", "accord", "conformity", "compatibility"],
+  "antonyms": ["discord", "disagreement", "conflict", "disharmony", "incompatibility"],
+  "difficulty": "hard",
+  "date": "2026-07-28"
+},
+{
+  "id": 420,
+  "word": "behest",
+  "meaning": "A person's order, request, or command",
+  "example": "The investigation was launched at the behest of the minister.",
+  "synonyms": ["command", "order", "request", "instruction", "directive"],
+  "antonyms": ["refusal", "disobedience", "rejection", "defiance", "prohibition"],
+  "difficulty": "hard",
+  "date": "2026-07-28"
+},
+{
+  "id": 421,
+  "word": "fanatical",
+  "meaning": "Showing extreme and unquestioning enthusiasm or devotion",
+  "example": "He is fanatical about maintaining his fitness routine.",
+  "synonyms": ["zealous", "fervent", "passionate", "extreme", "obsessive"],
+  "antonyms": ["apathetic", "indifferent", "moderate", "unenthusiastic", "dispassionate"],
+  "difficulty": "medium",
+  "date": "2026-07-28"
+},
+{
+  "id": 422,
+  "word": "extirpated",
+  "meaning": "Completely destroyed, removed, or eliminated",
+  "example": "The invasive species was successfully extirpated from the region.",
+  "synonyms": ["eradicated", "eliminated", "destroyed", "rooted out", "abolished"],
+  "antonyms": ["preserved", "protected", "retained", "established", "maintained"],
+  "difficulty": "hard",
+  "date": "2026-07-28"
+},
+{
+  "id": 423,
+  "word": "jubilation",
+  "meaning": "A feeling or expression of great joy and celebration",
+  "example": "The team's victory was greeted with jubilation by the fans.",
+  "synonyms": ["joy", "elation", "delight", "celebration", "exultation"],
+  "antonyms": ["sorrow", "despair", "gloom", "sadness", "misery"],
+  "difficulty": "medium",
+  "date": "2026-07-28"
+},
+{
+  "id": 424,
+  "word": "attune",
+  "meaning": "To make someone or something aware of or responsive to a particular situation or environment",
+  "example": "Regular reading helps attune the mind to subtle differences in language.",
+  "synonyms": ["accustom", "adapt", "adjust", "align", "sensitize"],
+  "antonyms": ["alienate", "disregard", "ignore", "desensitize", "disconnect"],
+  "difficulty": "hard",
+  "date": "2026-07-29"
+},
+{
+  "id": 425,
+  "word": "reclusive",
+  "meaning": "Avoiding the company of other people and living in seclusion",
+  "example": "The reclusive author rarely appeared in public.",
+  "synonyms": ["secluded", "solitary", "isolated", "withdrawn", "hermit-like"],
+  "antonyms": ["sociable", "outgoing", "gregarious", "friendly", "extroverted"],
+  "difficulty": "medium",
+  "date": "2026-07-29"
+},
+{
+  "id": 426,
+  "word": "denizen",
+  "meaning": "A person, animal, or plant that lives in a particular place",
+  "example": "The polar bear is a well-known denizen of the Arctic.",
+  "synonyms": ["inhabitant", "resident", "dweller", "occupant", "native"],
+  "antonyms": ["outsider", "foreigner", "visitor", "stranger", "nonresident"],
+  "difficulty": "hard",
+  "date": "2026-07-29"
+},
+{
+  "id": 427,
+  "word": "perdurable",
+  "meaning": "Able to last for a very long time; enduring",
+  "example": "The monument was built as a perdurable symbol of the nation's history.",
+  "synonyms": ["enduring", "lasting", "durable", "permanent", "persistent"],
+  "antonyms": ["temporary", "transient", "fleeting", "ephemeral", "short-lived"],
+  "difficulty": "hard",
+  "date": "2026-07-29"
+},
+{
+  "id": 428,
+  "word": "glib",
+  "meaning": "Speaking or writing smoothly and confidently but without serious thought or sincerity",
+  "example": "His glib response failed to address the seriousness of the issue.",
+  "synonyms": ["superficial", "smooth", "facile", "insincere", "flippant"],
+  "antonyms": ["sincere", "thoughtful", "earnest", "serious", "deliberate"],
+  "difficulty": "hard",
+  "date": "2026-07-29"
+},
+{
+  "id": 429,
+  "word": "sclerotic",
+  "meaning": "Rigid, resistant to change, or lacking flexibility and vitality",
+  "example": "The company's sclerotic bureaucracy prevented it from adapting to new technology.",
+  "synonyms": ["rigid", "inflexible", "stagnant", "ossified", "unresponsive"],
+  "antonyms": ["flexible", "adaptable", "dynamic", "progressive", "responsive"],
+  "difficulty": "hard",
+  "date": "2026-07-29"
+},
+{
+  "id": 430,
+  "word": "gospel",
+  "meaning": "A principle or belief regarded as unquestionably true or authoritative",
+  "example": "The coach treated discipline as gospel and expected everyone to follow it.",
+  "synonyms": ["doctrine", "creed", "principle", "teaching", "tenet"],
+  "antonyms": ["falsehood", "disbelief", "doubt", "heresy", "fallacy"],
+  "difficulty": "medium",
+  "date": "2026-07-29"
+},
+{
+  "id": 431,
+  "word": "trammel",
+  "meaning": "To restrict, hinder, or prevent someone or something from progressing freely",
+  "example": "Excessive regulations can trammel innovation and economic growth.",
+  "synonyms": ["restrict", "hamper", "hinder", "impede", "constrain"],
+  "antonyms": ["free", "liberate", "facilitate", "encourage", "unleash"],
+  "difficulty": "hard",
+  "date": "2026-07-29"
+},
+{
+  "id": 432,
+  "word": "fraternise",
+  "meaning": "To associate or socialize with others in a friendly manner",
+  "example": "The soldiers were forbidden to fraternise with the enemy.",
+  "synonyms": ["socialize", "mingle", "associate", "befriend", "mix"],
+  "antonyms": ["avoid", "isolate", "shun", "alienate", "withdraw"],
+  "difficulty": "hard",
+  "date": "2026-07-29"
+},
+{
+  "id": 433,
+  "word": "iffy",
+  "meaning": "Uncertain, doubtful, or unreliable",
+  "example": "The weather forecast looks iffy, so we may postpone the trip.",
+  "synonyms": ["uncertain", "doubtful", "questionable", "dubious", "unreliable"],
+  "antonyms": ["certain", "reliable", "definite", "assured", "dependable"],
+  "difficulty": "medium",
+  "date": "2026-07-29"
+},
+{
+  "id": 434,
+  "word": "extravaganza",
+  "meaning": "A large, elaborate, and impressive event or production",
+  "example": "The annual cultural extravaganza attracted thousands of visitors.",
+  "synonyms": ["spectacle", "gala", "celebration", "show", "festivity"],
+  "antonyms": ["simplicity", "modesty", "restraint", "sobriety", "plainness"],
+  "difficulty": "hard",
+  "date": "2026-07-30"
+},
+{
+  "id": 435,
+  "word": "exigent",
+  "meaning": "Requiring immediate attention or action because of urgency",
+  "example": "The hospital must respond quickly to exigent circumstances.",
+  "synonyms": ["urgent", "pressing", "critical", "imperative", "demanding"],
+  "antonyms": ["unimportant", "nonurgent", "optional", "trivial", "unpressing"],
+  "difficulty": "hard",
+  "date": "2026-07-30"
+},
+{
+  "id": 436,
+  "word": "facade",
+  "meaning": "The front of a building; also an outward appearance that hides the true nature of something",
+  "example": "Behind his friendly facade, he was deeply dissatisfied.",
+  "synonyms": ["front", "exterior", "appearance", "mask", "guise"],
+  "antonyms": ["reality", "truth", "interior", "substance", "authenticity"],
+  "difficulty": "medium",
+  "date": "2026-07-30"
+},
+{
+  "id": 437,
+  "word": "genial",
+  "meaning": "Friendly, cheerful, and pleasant",
+  "example": "The genial host made everyone feel welcome.",
+  "synonyms": ["friendly", "amiable", "cordial", "affable", "warm"],
+  "antonyms": ["hostile", "unfriendly", "surly", "cold", "unpleasant"],
+  "difficulty": "medium",
+  "date": "2026-07-30"
+},
+{
+  "id": 438,
+  "word": "fag",
+  "meaning": "To become tired or exhausted; to work hard at something",
+  "example": "After hours of hiking, the steep climb began to fag the travelers.",
+  "synonyms": ["tire", "exhaust", "weary", "fatigue", "drain"],
+  "antonyms": ["energize", "refresh", "revive", "invigorate", "rejuvenate"],
+  "difficulty": "medium",
+  "date": "2026-07-30"
+},
+{
+  "id": 439,
+  "word": "truncated",
+  "meaning": "Shortened by cutting off part of something",
+  "example": "The report was truncated to fit within the required word limit.",
+  "synonyms": ["shortened", "abridged", "curtailed", "condensed", "reduced"],
+  "antonyms": ["extended", "expanded", "lengthened", "prolonged", "enlarged"],
+  "difficulty": "medium",
+  "date": "2026-07-30"
+},
+{
+  "id": 440,
+  "word": "ghettos",
+  "meaning": "Areas where a particular group of people live, often because of social or economic segregation",
+  "example": "The city worked to improve living conditions in its poorest ghettos.",
+  "synonyms": ["enclaves", "quarters", "districts", "settlements", "neighborhoods"],
+  "antonyms": ["integration", "inclusion", "mainstream", "mixing", "assimilation"],
+  "difficulty": "medium",
+  "date": "2026-07-30"
+},
+{
+  "id": 441,
+  "word": "utilitarian",
+  "meaning": "Designed to be useful or practical rather than attractive or luxurious",
+  "example": "The building has a simple, utilitarian design focused on functionality.",
+  "synonyms": ["practical", "functional", "useful", "efficient", "pragmatic"],
+  "antonyms": ["ornamental", "decorative", "luxurious", "aesthetic", "extravagant"],
+  "difficulty": "medium",
+  "date": "2026-07-30"
+},
+{
+  "id": 442,
+  "word": "incongruous",
+  "meaning": "Not matching or fitting well with something else; out of place",
+  "example": "His casual clothes looked incongruous at the formal ceremony.",
+  "synonyms": ["inconsistent", "incompatible", "unsuitable", "mismatched", "discordant"],
+  "antonyms": ["congruous", "compatible", "consistent", "suitable", "harmonious"],
+  "difficulty": "hard",
+  "date": "2026-07-30"
+},
+{
+  "id": 443,
+  "word": "fickle",
+  "meaning": "Changing opinions, loyalties, or feelings frequently and unpredictably",
+  "example": "The fickle weather made it difficult to plan the outdoor event.",
+  "synonyms": ["changeable", "inconstant", "unstable", "capricious", "unpredictable"],
+  "antonyms": ["constant", "steadfast", "loyal", "stable", "reliable"],
+  "difficulty": "medium",
+  "date": "2026-07-30"
+},
+{
+  "id": 444,
+  "word": "putative",
+  "meaning": "Generally considered or believed to be the case, although not proven",
+  "example": "He was the putative leader of the group, though no formal decision had been made.",
+  "synonyms": ["supposed", "presumed", "assumed", "alleged", "ostensible"],
+  "antonyms": ["proven", "confirmed", "certain", "established", "verified"],
+  "difficulty": "hard",
+  "date": "2026-07-31"
+},
+{
+  "id": 445,
+  "word": "contentious",
+  "meaning": "Causing or likely to cause disagreement or argument",
+  "example": "The proposed law remains a contentious issue among lawmakers.",
+  "synonyms": ["controversial", "disputed", "argumentative", "debatable", "divisive"],
+  "antonyms": ["agreeable", "undisputed", "harmonious", "uncontroversial", "conciliatory"],
+  "difficulty": "hard",
+  "date": "2026-07-31"
+},
+{
+  "id": 446,
+  "word": "quagmire",
+  "meaning": "A difficult, complicated, or unpleasant situation from which it is hard to escape",
+  "example": "The company found itself in a legal quagmire after years of disputes.",
+  "synonyms": ["predicament", "dilemma", "mess", "entanglement", "morass"],
+  "antonyms": ["solution", "clarity", "resolution", "escape", "simplicity"],
+  "difficulty": "hard",
+  "date": "2026-07-31"
+},
+{
+  "id": 447,
+  "word": "odious",
+  "meaning": "Extremely unpleasant, hateful, or offensive",
+  "example": "The dictator was responsible for many odious acts against civilians.",
+  "synonyms": ["hateful", "abhorrent", "offensive", "repulsive", "detestable"],
+  "antonyms": ["pleasant", "admirable", "lovable", "agreeable", "delightful"],
+  "difficulty": "hard",
+  "date": "2026-07-31"
+},
+{
+  "id": 448,
+  "word": "ransack",
+  "meaning": "To search a place thoroughly and often violently, causing disorder",
+  "example": "The burglars ransacked the house looking for valuables.",
+  "synonyms": ["search", "plunder", "ransack", "loot", "rifle"],
+  "antonyms": ["organize", "tidy", "protect", "preserve", "restore"],
+  "difficulty": "medium",
+  "date": "2026-07-31"
+},
+{
+  "id": 449,
+  "word": "mingling",
+  "meaning": "Mixing or associating with other people or things",
+  "example": "Guests spent the evening mingling and exchanging ideas.",
+  "synonyms": ["mixing", "blending", "socializing", "interacting", "associating"],
+  "antonyms": ["separating", "isolating", "dividing", "withdrawing", "segregating"],
+  "difficulty": "easy",
+  "date": "2026-07-31"
+},
+{
+  "id": 450,
+  "word": "proclivity",
+  "meaning": "A natural tendency or strong preference for something",
+  "example": "He has a proclivity for taking unnecessary risks.",
+  "synonyms": ["tendency", "inclination", "predisposition", "propensity", "bent"],
+  "antonyms": ["aversion", "disinclination", "reluctance", "dislike", "opposition"],
+  "difficulty": "hard",
+  "date": "2026-07-31"
+},
+{
+  "id": 451,
+  "word": "drape",
+  "meaning": "To cover or hang something loosely over or around another thing",
+  "example": "She draped a shawl over her shoulders.",
+  "synonyms": ["hang", "cover", "cloak", "wrap", "adorn"],
+  "antonyms": ["uncover", "remove", "expose", "strip", "bare"],
+  "difficulty": "easy",
+  "date": "2026-07-31"
+},
+{
+  "id": 452,
+  "word": "mulling",
+  "meaning": "Thinking carefully and deeply about something",
+  "example": "She spent the evening mulling over the difficult decision.",
+  "synonyms": ["considering", "pondering", "contemplating", "reflecting", "deliberating"],
+  "antonyms": ["ignoring", "disregarding", "neglecting", "forgetting", "dismissing"],
+  "difficulty": "medium",
+  "date": "2026-07-31"
+},
+{
+  "id": 453,
+  "word": "posthaste",
+  "meaning": "With great speed or urgency",
+  "example": "The message instructed him to return posthaste.",
+  "synonyms": ["immediately", "swiftly", "rapidly", "hastily", "promptly"],
+  "antonyms": ["slowly", "gradually", "leisurely", "eventually", "belatedly"],
+  "difficulty": "hard",
+  "date": "2026-07-31"
+}
+
 ]
